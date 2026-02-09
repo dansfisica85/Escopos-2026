@@ -623,7 +623,7 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   titulo: 'Introdução à IoT',
                   objetivos: 'Compreender o conceito de IoT. Identificar aplicações de IoT no cotidiano.',
                   conteudos: 'Internet das Coisas. Sensores conectados. Automação.',
-                  materialLink: 'https://acervocmsp.educacao.sp.gov.br/143691/1520656.pdf'
+                  materialLink: 'materiais/1520656.pdf'
                 }
               ]
             },
@@ -635,7 +635,8 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aulas 3 e 4',
                   titulo: 'Comunicação entre micro:bits',
                   objetivos: 'Compreender comunicação sem fio entre micro:bits. Configurar grupos de rádio.',
-                  conteudos: 'Rádio. Comunicação sem fio. Grupos de rádio.'
+                  conteudos: 'Rádio. Comunicação sem fio. Grupos de rádio.',
+                  materialLink: 'materiais/1520683.pdf'
                 }
               ]
             },
@@ -647,7 +648,8 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aulas 5 e 6',
                   titulo: 'Enviando e recebendo dados',
                   objetivos: 'Enviar e receber dados entre micro:bits. Implementar comunicação.',
-                  conteudos: 'Enviar e receber strings. Enviar e receber números. Comunicação digital.'
+                  conteudos: 'Enviar e receber strings. Enviar e receber números. Comunicação digital.',
+                  materialLink: 'materiais/1519412.pdf'
                 }
               ]
             },
@@ -659,7 +661,8 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aulas 7 e 8',
                   titulo: 'Sistema de alarme remoto',
                   objetivos: 'Criar sistema de alarme remoto usando micro:bits. Integrar sensores e rádio.',
-                  conteudos: 'Sensor de movimento. Alarme remoto. Comunicação via rádio.'
+                  conteudos: 'Sensor de movimento. Alarme remoto. Comunicação via rádio.',
+                  materialLink: 'materiais/1493983.pdf'
                 }
               ]
             },
@@ -671,7 +674,8 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aulas 9 e 10',
                   titulo: 'Projeto IoT: estação meteorológica',
                   objetivos: 'Construir estação meteorológica. Coletar e exibir dados ambientais.',
-                  conteudos: 'Sensores de temperatura e luz. Coleta de dados. Monitoramento.'
+                  conteudos: 'Sensores de temperatura e luz. Coleta de dados. Monitoramento.',
+                  materialLink: 'materiais/1519114.pdf'
                 }
               ]
             },
@@ -683,7 +687,8 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aulas 11 e 12',
                   titulo: 'Aprimorando a estação meteorológica',
                   objetivos: 'Transmitir dados da estação meteorológica. Aprimorar interface.',
-                  conteudos: 'Transmissão de dados. Interface. Visualização de dados.'
+                  conteudos: 'Transmissão de dados. Interface. Visualização de dados.',
+                  materialLink: 'materiais/1508935.pdf'
                 }
               ]
             },
@@ -696,6 +701,7 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   titulo: 'Apresentação IoT',
                   objetivos: 'Apresentar projeto de IoT.',
                   conteudos: 'Apresentação do projeto. Competição.',
+                  materialLink: 'materiais/1475989.pdf',
                   entregaProjeto: true
                 }
               ]
