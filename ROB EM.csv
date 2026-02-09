@@ -1,0 +1,185 @@
+AULA COMPLEMENTAR;CICLO;SêIRE;BIMESTRE;SEMANA;AULAS;HABILIDADES - BNCC COMPUTAÄ«O (C‡DIGO);HABILIDADES - BNCC COMPUTAÄ«O (TEXTO);OBJETO DE CONHECIMENTO;T÷TULO;CONTEÈDO;OBJETIVOS
+;Ensino MÇdio;1¶;1ß;1;1 e 2;"EF15CO06
+EF15CO07";"? Conhecer os componentes b†sicos de dispositivos computacionais, entendendo os princ°pios de seu funcionamento.
+? Conhecer o conceito de Sistema Operacional e sua importÉncia na integraá∆o entre software e hardware.";Sala de aula invertida ? Micro:bit componentes.;Pequenos dispositivos, Grandes ideias ? Invertendo a aula com o micro:bit;"? Computadores, aparelhos e micro:bit.
+? Pitch.
+? Sala de aula invertida.";"? Comparar computadores com videogames, celulares e microcontroladores;
+? Identificar quais s∆o os recursos embarcados no micro:bit por meio da utilizaá∆o de pitches e da sala de aula invertida."
+;Ensino MÇdio;1¶;1ß;2;3 e 4;EF03CO06;? Reconhecer que, para um computador realizar tarefas, ele se comunica com o mundo exterior com o uso de interfaces f°sicas (dispositivos de entrada e sa°da).;Sala de aula invertida ? Micro:bit componentes.;Apresentando o micro:bit com as nossas palavras;"? Sala de aula invertida.
+? Pitch ? Recursos da placa micro:bit.";Compreender o papel dos microcontroladores, reconhecendo os recursos embarcados na placa micro:bit, sua origem e suas aplicaá‰es em computaá∆o f°sica e rob¢tica educacional, por meio de atividades investigativas e colaborativas com uso de metodologias ativas.
+;Ensino MÇdio;1¶;1ß;3;5 e 6;"EF03CO06
+EI03CO09";"? Reconhecer que, para um computador realizar tarefas, ele se comunica com o mundo exterior com o uso de interfaces f°sicas (dispositivos de entrada e sa°da).
+? Identificar dispositivos computacionais e as diferentes formas de interaá∆o.";Interface, eficiància e acessibilidade.;Onde se criam os programas;"? IDE e sua relaá∆o com a programaá∆o e a rob¢tica.
+? Resoluá∆o de problemas e aplicaá‰es na vida real.
+? Recursos da programaá∆o em blocos.";Compreender o papel e a funcionalidade das IDEs (Ambientes de Desenvolvimento Integrado) no processo de programaá∆o, reconhecendo a versatilidade do MakeCode como ferramenta educacional para desenvolvimento de projetos com o micro:bit.
+;Ensino MÇdio;1¶;1ß;4;7 e 8;EI03CO03;Experienciar a execuá∆o de algoritmos brincando com objetos (des)plugados.;Atividades Plugadas e Desplugadas.;Atividade desplugada ? Um outro jeito de aprender;"? Tecnologia e sa£de.
+? Atividades plugadas e desplugadas.
+? Brincadeiras, matem†tica e interaá∆o.
+? Input/output.";"? Compreender que tudo em excesso faz mal.
+? Experimentar e vivenciar aprendizagem com atividades desplugadas.
+? Identificar a matem†tica presente nas brincadeiras tradicionais."
+;Ensino MÇdio;1¶;1ß;5;9 e 10;"EF03CO06
+EI03CO09";"? Reconhecer que, para um computador realizar tarefas, ele se comunica com o mundo exterior com o uso de interfaces f°sicas (dispositivos de entrada e sa°da).
+? Identificar dispositivos computacionais e as diferentes formas de interaá∆o.";Output/Input e Sensores.;Olhos digitais: sentidos Ö la micro:bit;"? Sensores ? Input/Output (analogia com o corpo humano).
+? Sensores anal¢gicos de digitais.
+? Sensor PIR (Passive Infrared Sensor).";"? Estabelecer analogias entre os 5 sentidos e os sensores
+? Compreender a diferenáa entre sensores anal¢gicos e digitais e como isso interfere na sua programaá∆o.
+? Entender como criar sistemas de vigilÉncia com o sensor PIR."
+;Ensino MÇdio;1¶;1ß;6;11 e 12;"EM13CO18
+EF03CO06";"? Planejar e gerenciar projetos integrados Ös †reas de conhecimento de forma colaborativa, solucionando problemas, usando diversos artefatos computacionais.
+? Reconhecer que, para um computador realizar tarefas, ele se comunica com o mundo exterior com o uso de interfaces f°sicas (dispositivos de entrada e sa°da).";Aplicaá∆o pr†tica de Sensores.;Olhos digitais: sentidos Ö la micro:bit ? Limitaá‰es;"? Limitaá‰es tÇcnicas.
+? Adaptaá‰es/Redesign.";"? Investigar os comportamentos inesperados do sensor PIR e suas causas.
+? Julgar a adequaá∆o do sensor PIR ao contexto da brincadeira.
+? Criar uma proposta de redesign do jogo ou do sistema com base nas limitaá‰es encontradas."
+;Ensino MÇdio;1¶;1ß;7;13 e 14;EF03CO06;? Reconhecer que, para um computador realizar tarefas, ele se comunica com o mundo exterior com o uso de interfaces f°sicas (dispositivos de entrada e sa°da).;Aplicaá∆o pr†tica de Sensores ? acelerìmetro.;Quando um sensor n∆o basta, o pensamento computacional prevalece;"? Eixos X, Y e Z (movimento lateral, frontal e vertical).
+? Representaá∆o visual simplificada na matriz de LEDs.
+? Pensamento computacional aplicado Ö interpretaá∆o de sensores ? mapeamento.";"? Identificar os tràs eixos do acelerìmetro (X, Y, Z).
+? Explicar a diferenáa entre ?evento de chacoalhar? e leitura direta dos eixos.
+? Usar os valores de X e Y para controlar a posiá∆o de um LED na matriz.
+? Comparar como dados brutos de aceleraá∆o podem ser transformados em algo visual (n°vel digital)."
+;Ensino MÇdio;1¶;2ß;1;1 e 2;EF09CO03;? Usar autìmatos para descrever comportamentos de forma abstrata automatizando-os atravÇs de uma linguagem de programaá∆o baseada em eventos.;Hist¢ria e evoluá∆o da tecnologia dos autìmatos.;Do vapor ao chip: autìmatos;"? Robìs, androides e autìmatos.
+? Os grandes rel¢gios medievais e o surgimento da automaá∆o mecÉnica.
+? As guildas de relojoeiros e a evoluá∆o da precis∆o mecÉnica.
+? Dos Cames aos cart‰es perfurados.
+? Mecanizaá∆o das ind£strias.
+? Reflexos da automaá∆o na computaá∆o moderna.";"? Diferenciar robìs, androides e autìmatos.
+? Identificar e explicar o papel dos grandes rel¢gios medievais como precursores da automaá∆o mecÉnica.
+? Analisar como a evoluá∆o dos mecanismos relojoeiros levou ao desenvolvimento dos autìmatos e Ö miniaturizaá∆o tecnol¢gica.
+? Explicar como os princ°pios dos autìmatos foram incorporados Ös ind£strias na Primeira Revoluá∆o Industrial.
+? Relacionar as tecnologias da Primeira Revoluá∆o Industrial Ö base dos sistemas automatizados modernos."
+;Ensino MÇdio;1¶;2ß;2;3 e 4;EF09CO03;? Usar autìmatos para descrever comportamentos de forma abstrata automatizando-os atravÇs de uma linguagem de programaá∆o baseada em eventos.;Como controlar o movimento usando a mecÉnica.;[Competiá∆o de Rob¢tica] Autìmato Maker: Ideias em Movimento ? Parte 1;"? Conceitos b†sicos que regem o funcionamento de um autìmato.
+? Partes que comp‰em um autìmato.
+? Alavancas, conceito e tipificaá∆o.
+? Formato do came e controle de movimento.
+? Competiá∆o de rob¢tica
+? OBR art°stica";"? Distinguir as diferenáas entre um autìmato e um robì moderno.
+? Relacionar o controle de movimento com os mecanismos que utilizam alavancas.
+? Descrever as partes que comp‰em um autìmato e como elas interagem entre si.
+? Conhecer a proposta de competiá∆o, baseada na OBR Art°stica, e os critÇrios de avaliaá∆o"
+;Ensino MÇdio;1¶;2ß;3;5 e 6;EF09CO03;? Usar autìmatos para descrever comportamentos de forma abstrata automatizando-os atravÇs de uma linguagem de programaá∆o baseada em eventos.;Como controlar o movimento usando a mecÉnica.;[Competiá∆o de Rob¢tica] Autìmato Maker: Ideias em Movimento ? Parte 2;"? Desafios do processo criativo.
+? Remix de ideias.
+? Cames e controle de movimento.
+? Montar a caixa de exposiá∆o, com eixos e cames.";"? Refletir criticamente sobre os desafios envolvidos no processo de criaá∆o.
+? Analisar como o remix de ideias contribui para a criaá∆o de projetos originais.
+? Investigar como a pesquisa e a observaá∆o de referàncias influenciam o processo criativo.
+? Aplicar os princ°pios da cultura maker para planejar e construir uma caixa expositora que integre um autìmato simples."
+;Ensino MÇdio;1¶;2ß;4;7 e 8;EF09CO03;? Usar autìmatos para descrever comportamentos de forma abstrata automatizando-os atravÇs de uma linguagem de programaá∆o baseada em eventos.;Como controlar o movimento usando a mecÉnica.;[Competiá∆o de Rob¢tica] Autìmato Maker: Ideias em Movimento ? Parte 3;"? O came o programa do autìmato.
+? Alavancas e sua relaá∆o com esforáo f°sico e mecÉnico.
+? Engates para eixos de motores com materiais simples.
+? Finalizar a montagem do prot¢tipo.";"? Entender como funcionam as relaá‰es entre alavancas e cames para controlar movimentos.
+? Aplicar os princ°pios da cultura maker para construir o autìmato que ir† interagir com os movimentos promovidos pelo came e pelos eixos que integram o projeto de autìmato simples.
+? Aplicar um motor DC controlado pelo micro:bit conectado Ö shield para automatizar o funcionamento do autìmato."
+;Ensino MÇdio;1¶;2ß;5;9 e 10;EF09CO03;? Usar autìmatos para descrever comportamentos de forma abstrata automatizando-os atravÇs de uma linguagem de programaá∆o baseada em eventos.;Tecnologia dos autìmatos no Brasil.;[Competiá∆o de Rob¢tica] Autìmato Maker: Desafio ? Parte 1;"? Escolas de samba e Festival Folcl¢rico de Parintins.
+? LED endereá†vel RGB.
+? Com LEDs RGB usando a extens∆o da shield.";"? Entender como os princ°pios e mecanismos que regem o funcionamento dos autìmatos foi utilizado no Carnaval aqui no Brasil.
+? Identificar as diferenáas entre um LED comum e um LED endereá†vel.
+? Entender como controlar os LEDs da shield usando a extens∆o Robotbit ? seá∆o Neopixel."
+;Ensino MÇdio;1¶;2ß;6;11 e 12;EF09CO03;? Usar autìmatos para descrever comportamentos de forma abstrata automatizando-os atravÇs de uma linguagem de programaá∆o baseada em eventos.;Transferància de aprendizagem.;[Competiá∆o de Rob¢tica] Autìmato Maker: Desafio ? Parte 2;"? Diferentes cames, diferentes movimentos.
+? Transferància de aprendizagem ? modificar o autìmato.";"? Prototipar e construir um segundo came para adicionar movimento a outra peáas do autìmato.
+? Prototipar e construir um segundo braáo m¢vel para o autìmato, remixando o projeto do braáo anterior.
+? Aplicar os novos componentes no projeto anteriormente desenvolvido.
+? Personalizar o projeto para a competiá∆o"
+;Ensino MÇdio;1¶;2ß;7;13 e 14;EF09CO03;? Usar autìmatos para descrever comportamentos de forma abstrata automatizando-os atravÇs de uma linguagem de programaá∆o baseada em eventos.;Transferància de aprendizagem.;[Competiá∆o de Rob¢tica] Autìmato Maker: Desafio ? Hora da competiá∆o;"? Diferentes cames, diferentes movimentos.
+? Transferància de aprendizagem ? modificar o autìmato.
+? Apresentaá∆o da competiá∆o";"? Finalizar os prot¢tipos, considerando os acabamentos e personalizaá‰es
+? Apresentar os prot¢tipos da competiá∆o
+? Avaliar os prot¢tipos de acordo com critÇrios preestabelecidos."
+;Ensino MÇdio;2¶/3¶;1ß;1;1 e 2;"EF09CO07
+EM13CO07";"? Avaliar aplicaá‰es e implicaá‰es pol°ticas, socioambientais e culturais das tecnologias digitais para propor alternativas aos desafios do mundo contemporÉneo, incluindo aqueles relativos ao mundo do trabalho.
+? Compreender as diferentes tecnologias, bem como equipamentos, protocolos e serviáos envolvidos no funcionamento de redes de computadores, identificando suas possibilidades de escala e confiabilidade.";Automaá∆o, comunicaá∆o e controle.;[Competiá∆o de Rob¢tica] Rob¢tica sustent†vel: Materializando ideias;"? Rob¢tica sustent†vel.
+? Objetivos de Desenvolvimento Sustent†vel (ODS) da ONU.
+? Economia circular.
+? Conex∆o com o cotidiano e com o projeto do carrinho.
+? Competiá∆o de rob¢tica";"? Compreender o papel da rob¢tica sustent†vel na formaá∆o cidad∆.
+? Relacionar o ciclo de produá∆o das revoluá‰es industriais com ODS e economia circular.
+? Estimular o protagonismo juvenil em aá‰es de car†ter ambiental.
+? Conhecer as etapas e critÇrios da competiá∆o de rob¢tica."
+;Ensino MÇdio;2¶/3¶;1ß;2;3 e 4;"EF06CO02
+EM13CO15";"? Elaborar algoritmos que envolvam instruá‰es sequenciais, de repetiá∆o e de seleá∆o usando uma linguagem de programaá∆o.
+? Analisar a interaá∆o entre usu†rios e artefatos computacionais, abordando aspectos da experiància do usu†rio e promovendo reflex∆o sobre a qualidade do uso dos artefatos nas esferas do trabalho, do lazer e do estudo.";Pr†tica de soluá‰es com tecnologia.;[Competiá∆o de Rob¢tica] Rob¢tica sustent†vel: Direá∆o diferencial;"? Ambiente de testes.
+? Direá∆o diferencial.
+? Programaá∆o e teste de funcionamento.";"? Compreender a importÉncia da ambientes de testes na execuá∆o de projetos.
+? Analisar o uso da direá∆o diferencial em situaá‰es do mundo real e como este conceito vai ser aplicado ao projeto.
+? Aplicar a direá∆o diferencial na l¢gica de funcionamento dos motores."
+;Ensino MÇdio;2¶/3¶;1ß;3;5 e 6;"EF06CO02
+EM13CO15";"? Elaborar algoritmos que envolvam instruá‰es sequenciais, de repetiá∆o e de seleá∆o usando uma linguagem de programaá∆o.
+? Analisar a interaá∆o entre usu†rios e artefatos computacionais, abordando aspectos da experiància do usu†rio e promovendo reflex∆o sobre a qualidade do uso dos artefatos nas esferas do trabalho, do lazer e do estudo.";Novos blocos.;[Competiá∆o de Rob¢tica] Rob¢tica sustent†vel: Indo a fundo no controle por r†dio ? Parte 1;"? Reaproveitamento de programas.
+? Princ°pios de mapeamento l¢gico (emissor/receptor).";"? Aplicar a l¢gica de controle pensado na £ltima aula Ös funá‰es para controle. 
+? Entender como funciona o projeto de um sistema de r†dio controle (emissor/ receptor) com micro:bits."
+;Ensino MÇdio;2¶/3¶;1ß;4;7 e 8;"EF06CO02
+EM13CO15
+EM13CO16";"? Elaborar algoritmos que envolvam instruá‰es sequenciais, de repetiá∆o e de seleá∆o usando uma linguagem de programaá∆o.
+? Analisar a interaá∆o entre usu†rios e artefatos computacionais, abordando aspectos da experiància do usu†rio e promovendo reflex∆o sobre a qualidade do uso dos artefatos nas esferas do trabalho, do lazer e do estudo.
+? Desenvolver projetos com rob¢tica, utilizando artefatos f°sicos ou simuladores.";Design e prototipagem.;[Competiá∆o de Rob¢tica] Rob¢tica sustent†vel: Indo a fundo no controle por r†dio ? Parte 2;"? Reaproveitamento de programas.
+? C¢digo do receptor.";"? Entender como reaproveitar a estrutura do primeiro projeto no sistema de r†dio controle (emissor/ receptor) com micro:bits.
+? Testar os programas usando os componentes e fazer ajustes."
+;Ensino MÇdio;2¶/3¶;1ß;5;9 e 10;"EF09CO07
+EM13CO07";"? Avaliar aplicaá‰es e implicaá‰es pol°ticas, socioambientais e culturais das tecnologias digitais para propor alternativas aos desafios do mundo contemporÉneo, incluindo aqueles relativos ao mundo do trabalho.
+? Compreender as diferentes tecnologias, bem como equipamentos, protocolos e serviáos envolvidos no funcionamento de redes de computadores, identificando suas possibilidades de escala e confiabilidade.";Design, ferramentas e prototipagem.;[Competiá∆o de Rob¢tica] Rob¢tica sustent†vel: Do Design ao Prot¢tipo ? Parte 1;"? Carro conceito.
+? Projetos feitos a m∆o e alternativas.";"? Compreender o que Ç um carro conceito.
+? Criar um chassi no estilo Tadpole.
+? Projetar encaixes para componentes, com destaque para a importÉncia da simetria.
+? Testar encaixes e a funcionalidade do prot¢tipo."
+;Ensino MÇdio;2¶/3¶;1ß;6;11 e 12;"EF09CO07
+EM13CO07";"? Avaliar aplicaá‰es e implicaá‰es pol°ticas, socioambientais e culturais das tecnologias digitais para propor alternativas aos desafios do mundo contemporÉneo, incluindo aqueles relativos ao mundo do trabalho.
+? Compreender as diferentes tecnologias, bem como equipamentos, protocolos e serviáos envolvidos no funcionamento de redes de computadores, identificando suas possibilidades de escala e confiabilidade.";Design, ferramentas e prototipagem.;[Competiá∆o de Rob¢tica] Rob¢tica sustent†vel: Do Design ao Prot¢tipo ? Parte 2;"? Recorte das peáas.
+? Montagem e fixaá∆o da shield, motores e eixos.
+? Testar equil°brio estrutural e funcionalidade.
+? Testes finais e ajustes de c¢digo.";"? Entender como est∆o estruturadas as principais competiá‰es estudantis de rob¢tica no Brasil.
+? Ajustar o c¢digo para melhorar precis∆o e resposta.
+? Apresentar um prot¢tipo funcional em situaá∆o real de uso."
+;Ensino MÇdio;2¶/3¶;1ß;7;13 e 14;"EF09CO07
+EM13CO07";"? Avaliar aplicaá‰es e implicaá‰es pol°ticas, socioambientais e culturais das tecnologias digitais para propor alternativas aos desafios do mundo contemporÉneo, incluindo aqueles relativos ao mundo do trabalho.
+? Compreender as diferentes tecnologias, bem como equipamentos, protocolos e serviáos envolvidos no funcionamento de redes de computadores, identificando suas possibilidades de escala e confiabilidade.";Teste e Validaá∆o.;[Competiá∆o de Rob¢tica] Rob¢tica sustent†vel: Corrida final: obst†culos e precis∆o!;"? Olimp°ada Brasileira de Rob¢tica (OBR) ? Lego League & circuito de testes.
+? Corrida de obst†culos com avaliaá∆o de desempenho.";"? Testar a funcionalidade do prot¢tipo em uma situaá∆o real de competiá∆o.
+? Participar de uma competiá∆o de rob¢tica."
+;Ensino MÇdio;2¶/3¶;2ß;1;1 e 2;"EM13CO15
+EM13CO16";"? Analisar a interaá∆o entre usu†rios e artefatos computacionais, abordando aspectos da experiància do usu†rio e promovendo reflex∆o sobre a qualidade do uso dos artefatos nas esferas do trabalho, do lazer e do estudo.
+? Desenvolver projetos com rob¢tica, utilizando artefatos f°sicos ou simuladores.";Rob¢tica Art°stica.;[Competiá∆o de Rob¢tica] Jurassic Maker: O que Ç Rob¢tica Art°stica?;"? Introduá∆o Ö Modalidade de Rob¢tica Art°stica da OBR.
+? Conceitos de rob¢tica e arte integrados.
+? Exemplos inspiradores.";"? Identificar o que Ç rob¢tica art°stica.
+? Explicar como a rob¢tica pode se integrar Ö arte."
+;Ensino MÇdio;2¶/3¶;2ß;2;3 e 4;"EM13CO15
+EM13CO16";"? Analisar a interaá∆o entre usu†rios e artefatos computacionais, abordando aspectos da experiància do usu†rio e promovendo reflex∆o sobre a qualidade do uso dos artefatos nas esferas do trabalho, do lazer e do estudo.
+? Desenvolver projetos com rob¢tica, utilizando artefatos f°sicos ou simuladores.";Cultura Maker.;[Competiá∆o de Rob¢tica] Jurassic Maker: Transformando papel∆o em um dinossauro;"? Conceito de cultura maker e reaproveitamento de materiais.
+? Etapas de planejamento de projetos f°sicos.
+? Estruturaá∆o de formas tridimensionais com papel∆o.";"? Planejar um projeto de rob¢tica art°stica aplicando conhecimentos prÇvios.
+? Esquematizar ideias com base em referància visual e funcional.
+? Desenvolver estrutura b†sica com materiais recicl†veis."
+;Ensino MÇdio;2¶/3¶;2ß;3;5 e 6;"EM13CO15
+EM13CO16";"? Analisar a interaá∆o entre usu†rios e artefatos computacionais, abordando aspectos da experiància do usu†rio e promovendo reflex∆o sobre a qualidade do uso dos artefatos nas esferas do trabalho, do lazer e do estudo.
+? Desenvolver projetos com rob¢tica, utilizando artefatos f°sicos ou simuladores.";Pan Tilt as juntas de um robì.;[Competiá∆o de Rob¢tica] Jurassic Maker: Improvisar, Criar e Resolver;"? Pan Tilt (Bi articulados) de papel∆o.
+? Parafusos.
+? Encaixes sem cola: durabilidade e reutilizaá∆o.";"? Montar suportes articulados com materiais alternativos.
+? Avaliar a estabilidade dos mecanismos de articulaá∆o criados.
+? Projetar soluá‰es improvisadas para componentes."
+;Ensino MÇdio;2¶/3¶;2ß;4;7 e 8;"EM13CO15
+EM13CO16";"? Analisar a interaá∆o entre usu†rios e artefatos computacionais, abordando aspectos da experiància do usu†rio e promovendo reflex∆o sobre a qualidade do uso dos artefatos nas esferas do trabalho, do lazer e do estudo.
+? Desenvolver projetos com rob¢tica, utilizando artefatos f°sicos ou simuladores.";Modelagem e prototipagem.;[Competiá∆o de Rob¢tica] Jurassic Maker ? Modelando o T-Rex;"? Recorte de Gabaritos.
+? Montar e colar.
+? Teste dos encaixes.";"? Modelar as peáas estruturais do robì.
+? Usar tÇcnicas de corte e encaixe para modelar o T-Rex.
+? Avaliar os encaixes necess†rios para garantir estabilidade."
+;Ensino MÇdio;2¶/3¶;2ß;5;9 e 10;"EM13CO15
+EM13CO16";"? Analisar a interaá∆o entre usu†rios e artefatos computacionais, abordando aspectos da experiància do usu†rio e promovendo reflex∆o sobre a qualidade do uso dos artefatos nas esferas do trabalho, do lazer e do estudo.
+? Desenvolver projetos com rob¢tica, utilizando artefatos f°sicos ou simuladores.";Criando Funá‰es Extras no Makecode.;[Competiá∆o de Rob¢tica] Jurassic Maker ? Dando vida ao boneco;"? Controle de servomotores.
+? Laáos e blocos personalizados.
+? Funá‰es.";"? Programar movimentos simples com servos.
+? Relacionar comandos com os movimentos f°sicos.
+? Mapear os movimentos em funá‰es."
+;Ensino MÇdio;2¶/3¶;2ß;6;11 e 12;"EM13CO15
+EM13CO16";"? Analisar a interaá∆o entre usu†rios e artefatos computacionais, abordando aspectos da experiància do usu†rio e promovendo reflex∆o sobre a qualidade do uso dos artefatos nas esferas do trabalho, do lazer e do estudo.
+? Desenvolver projetos com rob¢tica, utilizando artefatos f°sicos ou simuladores.";Teste e Validaá∆o.;"[Competiá∆o de Rob¢tica] Jurassic Maker ? ""Ele est† vivo!!!""";"? Controle e precis∆o.
+? Criaá∆o de blocos personalizados no Makecode.
+? Otimizaá∆o de c¢digo.";"? Analisar: Avaliar como o laáo for melhora o controle de movimento.
+? Aplicar: Criar blocos personalizados para modular o c¢digo.
+? Criar: Escrever funá‰es para movimentos coordenados."
+;Ensino MÇdio;2¶/3¶;2ß;7;13 e 14;"EM13CO15
+EM13CO16";"? Analisar a interaá∆o entre usu†rios e artefatos computacionais, abordando aspectos da experiància do usu†rio e promovendo reflex∆o sobre a qualidade do uso dos artefatos nas esferas do trabalho, do lazer e do estudo.
+? Desenvolver projetos com rob¢tica, utilizando artefatos f°sicos ou simuladores.";Teste e Validaá∆o.;[Competiá∆o de Rob¢tica] Jurassic Maker ? Prototipagem criativa e avaliaá∆o final;"? Limitaá‰es dos servos.
+? Est°mulo Ö criaá∆o de prot¢tipos autorais.
+? OBR.
+? Apresentaá∆o da competiá∆o de rob¢tica";"? Integrar todas as partes e sistemas.
+? Testar e ajustar funcionalidades do robì.
+? Propor ideias de novos prot¢tipos.
+? Participar de uma competiá∆o baseada na OBR art°stica."

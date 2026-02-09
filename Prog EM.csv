@@ -1,0 +1,352 @@
+Ciclo;ANO/SêRIE;Bimestre;Semana;Data;Unidade;Aula Unidade;Aula Sala;T°tulo;Formato de Aula;Objetivo;Conte£dos;Entrega de projeto;Habilidade - BNCC Computaá∆o - c¢digo;Habilidade - BNCC Computaá∆o - texto;Habilidades - BNCC - c¢digo;Habilidades - BNCC - texto;Habilidades BNCC ParÉmetros IF (TEXTO)
+Ensino MÇdio;2¶ sÇrie;1ß;1;06/12/2026 02:00;Introduá∆o Ö computaá∆o: tecnologias na sociedade do futuro;1;1;Tecnologia no dia a dia;Material digital;"Identificar a presenáa e o uso de tecnologias digitais no trabalho.
+
+Compreender os impactos das tecnologias na evoluá∆o das profiss‰es.
+
+Analisar como a tecnologia pode promover um mundo mais justo.";"Transformaá‰es digitais no trabalho.
+
+Adaptaá∆o profissional e novas carreiras.
+
+Tecnologia e ODS (ONU).";n/a;EM13CO09;Identificar tecnologias digitais, sua presenáa e formas de uso, nas diferentes atividades no mundo do trabalho.;n/a;n/a;Avaliar o impacto das tecnologias digitais e das m°dias sociais nas dinÉmicas sociais, econìmicas e culturais, utilizando modelagem matem†tica para simular cen†rios e auxiliar na formulaá∆o de pol°ticas p£blicas e decis‰es que promovam a equidade, a inclus∆o digital e a sustentabilidade, com foco no bem-estar coletivo.
+Ensino MÇdio;2¶ sÇrie;1ß;;;;2;2;Vamos inspecionar;V°deo;"Utilizar a ferramenta ""Inspecionar"" para visualizar o c¢digo web.
+
+Analisar a estrutura de p†ginas web e modificar seu conte£do.
+
+Avaliar a autenticidade de informaá‰es para combater fake news.";"Ferramentas de desenvolvedor (F12).
+
+Tags HTML e estrutura web.
+
+Verificaá∆o de informaá‰es e Fake News.";n/a;EM13CO14;Avaliar a confiabilidade das informaá‰es encontradas em meio digital, investigando seus modos de construá∆o e considerando a autoria, a estrutura e o prop¢sito da mensagem.;n/a;n/a;"Examinar criticamente conte£dos digitais e midi†ticos, mobilizando abordagens cient°ficas e investigativas para avaliar aspectos de privacidade, representatividade e os impactos das redes sociais na construá∆o da identidade e das relaá‰es interpessoais, bem como seu papel no enfrentamento da desinformaá∆o e das Fake News;"
+Ensino MÇdio;2¶ sÇrie;1ß;2;13/02/2026 09:00;;3;3;O que veremos nas aulas?;Material digital;"Refletir sobre o uso de diferentes tecnologias para a construá∆o de soluá‰es computacionais.
+
+Relacionar tecnologias digitais com saberes escolares.
+
+Propor o uso respons†vel de IA em soluá‰es tecnol¢gicas, avaliando suas limitaá‰es.";"Ferramentas e linguagens de programaá∆o.
+
+Uso de tecnologia para solucionar problemas do cotidiano escolar.
+
+Reflex∆o sobre o uso respons†vel de IA e suas limitaá‰es.";n/a;EM13CO02 e EM13CO18;"Explorar e construir a soluá∆o de problemas por meio de refinamentos, utilizando diversos n°veis de abstraá∆o desde a especificaá∆o atÇ a implementaá∆o. 
+Planejar e gerenciar projetos integrados Ös †reas de conhecimento de forma colaborativa, solucionando problemas, usando diversos artefatos computacionais.";n/a;n/a;"Propor soluá‰es para desafios sociais aplicando algoritmos, linguagens de programaá∆o e princ°pios de Inteligància Artificial - IA para gerar impactos sociais positivos em †reas como sa£de, educaá∆o e meio ambiente; e ; Avaliar o impacto das tecnologias digitais e das m°dias sociais nas dinÉmicas sociais, econìmicas e culturais, utilizando modelagem matem†tica para simular cen†rios e auxiliar na formulaá∆o de pol°ticas p£blicas e decis‰es que promovam a equidade, a inclus∆o digital e a sustentabilidade, com foco no bem-estar coletivo."
+Ensino MÇdio;2¶ sÇrie;1ß;;;;4;4;Inteligància artificial;Material digital;"Compreender os fundamentos da Inteligància Artificial.
+
+Comparar a inteligància artificial com a inteligància humana.
+
+Analisar os riscos e benef°cios do uso da IA na sociedade.";"Fundamentos e tipos de IA.
+
+Comparativo IA vs. inteligància humana.
+
+Potenciais, riscos e limites da IA.";Sim;EM13CO10;Conhecer os fundamentos da Inteligància Artificial, comparando-a com a inteligància humana, analisando suas potencialidades, riscos e limites.;n/a;n/a;Explorar as tecnologias emergentes, como inteligància artificial e narrativas digitais e participar da criaá∆o de experiàncias interativas e na experimentaá∆o de novas formas de express∆o e produá∆o cultural, promovendo a democratizaá∆o do acesso aos bens culturais e Ö informaá∆o.
+Ensino MÇdio;2¶ sÇrie;1ß;3;16 a 20/02;Semana Carvanal (Feriados e Planejamento/Replanejamento);;;;;;;;;;;;
+Ensino MÇdio;2¶ sÇrie;1ß;4;23 a 27/02;L¢gica de programaá∆o: criando arte interativa com P5.js.;1;5;Iniciando nossa jornada;Vçdeo;"Compreender os conceitos b†sicos de funá‰es em JavaScript.
+
+Aplicar comandos b†sicos de desenho no P5.js, como createCanvas() e circle().
+
+Modificar parÉmetros de comandos em p5.js para ajustar a posiá∆o e o tamanho de formas geomÇtricas.";"Fundamentos de programaá∆o com JavaScript utilizando a biblioteca P5.js.
+
+Utilizaá∆o de funá‰es b†sicas como setup() e draw().
+
+Manipulaá∆o de coordenadas em formas geomÇtricas no p5.js.";n/a;EM13CO02;(EM13CO02) Explorar e construir a soluá∆o de problemas por meio de refinamentos, utilizando diversos n°veis de abstraá∆o desde a especificaá∆o atÇ a implementaá∆o.;EMIFMAT04;Reconhecer produtos e/ou processos criativos por meio de fruiá∆o, vivàncias e reflex∆o cr°tica na produá∆o do conhecimento matem†tico e sua aplicaá∆o no desenvolvimento de processos tecnol¢gicos diversos.;Investigar situaá‰es-problema, a partir da an†lise de vari†veis e hip¢teses relevantes, da integraá∆o de conhecimentos matem†ticos e de outras †reas, e da seleá∆o de estratÇgias adequadas, para a interpretaá∆o de dados e a soluá∆o de problemas em diferentes contextos.
+;;;;;;2;6;Adicionando outras formas;V°deo;"Aplicar comandos de desenho b†sicos como line() e triangle() no P5.js.
+
+Criar novas formas e elementos visuais (ex: boca, nariz, orelhas) no personagem utilizando as coordenadas do plano cartesiano.
+
+Relembrar o processo de login e recuperaá∆o de projetos anteriores no editor P5.js.";"Recuperaá∆o e gerenciamento de projetos no editor P5.js.
+
+Uso de comandos de desenho (line() e triangle()) para criar formas geomÇtricas espec°ficas.
+
+Manipulaá∆o de coordenadas X e Y para posicionar elementos em um plano cartesiano.";n/a;EM13CO02;(EM13CO02) Explorar e construir a soluá∆o de problemas por meio de refinamentos, utilizando diversos n°veis de abstraá∆o desde a especificaá∆o atÇ a implementaá∆o.;EMIFMAT04;Reconhecer produtos e/ou processos criativos por meio de fruiá∆o, vivàncias e reflex∆o cr°tica na produá∆o do conhecimento matem†tico e sua aplicaá∆o no desenvolvimento de processos tecnol¢gicos diversos.;Investigar situaá‰es-problema, a partir da an†lise de vari†veis e hip¢teses relevantes, da integraá∆o de conhecimentos matem†ticos e de outras †reas, e da seleá∆o de estratÇgias adequadas, para a interpretaá∆o de dados e a soluá∆o de problemas em diferentes contextos.
+Ensino MÇdio;2¶ sÇrie;1ß;5;06/03/2026 02:00;;3;7;Colorindo nosso desenho;V°deo;"Aplicar conceitos de cores em c¢digo usando o P5.js.
+
+Criar novas formas e elementos visuais (ex: sobrancelhas, pupilas) no personagem utilizando as coordenadas do plano cartesiano.
+
+Documentar o c¢digo com coment†rios claros e organizados.";"Cores predefinidas e hexadecimal no P5.js.
+
+Utilizaá∆o de outros comandos para criar mais formas geomÇtricas.
+
+Coment†rios para documentaá∆o de c¢digo.";n/a;EM13CO02;(EM13CO02) Explorar e construir a soluá∆o de problemas por meio de refinamentos, utilizando diversos n°veis de abstraá∆o desde a especificaá∆o atÇ a implementaá∆o.;EMIFMAT04;Reconhecer produtos e/ou processos criativos por meio de fruiá∆o, vivàncias e reflex∆o cr°tica na produá∆o do conhecimento matem†tico e sua aplicaá∆o no desenvolvimento de processos tecnol¢gicos diversos.;Elaborar produá‰es textuais e multimodais em diferentes gàneros e suportes, utilizando mÇtodos investigativos e anal°ticos para articular conhecimentos interdisciplinares, valorizando a diversidade cultural, a acessibilidade e a transformaá∆o social nos territ¢rios.
+Ensino MÇdio;2¶ sÇrie;1ß;;;;4;8;Efeito Monalisa;V°deo;"Aplicar conceitos de mapeamento para restringir a movimentaá∆o de elementos gr†ficos na tela.
+
+Analisar a l¢gica de posicionamento e ajuste de vari†veis para criar interaá‰es visuais precisas.
+
+Criar uma animaá∆o interativa onde elementos gr†ficos seguem a posiá∆o do cursor do mouse.";"Comando map() para limitar o movimento de elementos na tela.
+
+Conceito de vari†veis em programaá∆o.
+
+Pr†ticas de declaraá∆o de vari†veis e organizaá∆o de c¢digo para evitar erros em animaá‰es.";Sim;EM13CO02;(EM13CO02) Explorar e construir a soluá∆o de problemas por meio de refinamentos, utilizando diversos n°veis de abstraá∆o desde a especificaá∆o atÇ a implementaá∆o.;EMIFMAT04;Reconhecer produtos e/ou processos criativos por meio de fruiá∆o, vivàncias e reflex∆o cr°tica na produá∆o do conhecimento matem†tico e sua aplicaá∆o no desenvolvimento de processos tecnol¢gicos diversos.;Analisar a relaá∆o entre vari†veis matem†ticas e indicadores utilizados em diferentes campos da vida social e profissional investigando padr‰es e tendàncias por meio de c†lculos estat°sticos, correlaá‰es e representaá‰es gr†ficas.
+Ensino MÇdio;2¶ sÇrie;1ß;6;13/02/2026 09:00;;x;9 e 10;"Avaliaá∆o da unidade: 
+
+- Introduá∆o Ö computaá∆o: tecnologias na sociedade do futuro";;;;-;-;-;-;;
+Ensino MÇdio;2¶ sÇrie;1ß;7;16 a 20/03;L¢gica de programaá∆o: criando arte interativa com P5.js.;5;11;Novo projeto: quente frio;V°deo;"Aplicar conceitos de coordenadas aleat¢rias para posicionar elementos na tela de um projeto.
+
+Compreender a diferenáa entre n£meros inteiros e decimais em operaá‰es de comparaá∆o.
+
+Testar e depurar c¢digo utilizando console.log().";"Utilizaá∆o do comando random() para sortear um valor aleat¢rio.
+
+Diferenciaá∆o entre n£meros inteiros e decimais.
+
+Corrigir bugs a partir de pequenos testes.";n/a;EM13CO02;(EM13CO02) Explorar e construir a soluá∆o de problemas por meio de refinamentos, utilizando diversos n°veis de abstraá∆o desde a especificaá∆o atÇ a implementaá∆o.;EMIFMAT04;Reconhecer produtos e/ou processos criativos por meio de fruiá∆o, vivàncias e reflex∆o cr°tica na produá∆o do conhecimento matem†tico e sua aplicaá∆o no desenvolvimento de processos tecnol¢gicos diversos.;Analisar a relaá∆o entre vari†veis matem†ticas e indicadores utilizados em diferentes campos da vida social e profissional investigando padr‰es e tendàncias por meio de c†lculos estat°sticos, correlaá‰es e representaá‰es gr†ficas.
+Ensino MÇdio;2¶ sÇrie;1ß;;;;6;12;Ser† que podemos utilizar Pit†goras?;V°deo;"Aplicar operadores l¢gicos para combinar m£ltiplas condiá‰es em uma estrutura condicional.
+
+Compreender o conceito de distÉncia e sua aplicaá∆o em projetos interativos.
+
+Implementar o Teorema de Pit†goras para calcular distÉncias em um plano cartesiano.";"Uso de operadores l¢gicos (e).
+
+Introduá∆o ao conceito de distÉncia em um plano cartesiano.
+
+Aplicaá∆o do Teorema de Pit†goras.";n/a;EM13CO18;Planejar e gerenciar projetos integrados Ös †reas de conhecimento de forma colaborativa, solucionando problemas, usando diversos artefatos computacionais.;EMIFMAT04;Reconhecer produtos e/ou processos criativos por meio de fruiá∆o, vivàncias e reflex∆o cr°tica na produá∆o do conhecimento matem†tico e sua aplicaá∆o no desenvolvimento de processos tecnol¢gicos diversos.;Investigar situaá‰es-problema, a partir da an†lise de vari†veis e hip¢teses relevantes, da integraá∆o de conhecimentos matem†ticos e de outras †reas, e da seleá∆o de estratÇgias adequadas, para a interpretaá∆o de dados e a soluá∆o de problemas em diferentes contextos.
+Ensino MÇdio;2¶ sÇrie;1ß;8;23 a 27/03;;7;13;Comandos em Javascript;V°deo;"Compreender o uso da funá∆o dist() do P5JS para calcular distÉncias entre dois pontos.
+
+Aplicar o conceito de distÉncia para ajustar o comportamento visual de elementos interativos.
+
+Associar diferentes abordagens para calcular distÉncias.";"Ajuste do tamanho de um c°rculo baseado na distÉncia do cursor ao ponto oculto.
+
+Uso da funá∆o dist() do P5JS.
+
+Comparaá∆o de mÇtodos de c†lculo de distÉncia, incluindo o Teorema de Pit†goras e a funá∆o dist().";n/a;EM13CO02;(EM13CO02) Explorar e construir a soluá∆o de problemas por meio de refinamentos, utilizando diversos n°veis de abstraá∆o desde a especificaá∆o atÇ a implementaá∆o.;EMIFMAT04;Reconhecer produtos e/ou processos criativos por meio de fruiá∆o, vivàncias e reflex∆o cr°tica na produá∆o do conhecimento matem†tico e sua aplicaá∆o no desenvolvimento de processos tecnol¢gicos diversos.;Propor soluá‰es para desafios sociais aplicando algoritmos, linguagens de programaá∆o e princ°pios de Inteligància Artificial - IA para gerar impactos sociais positivos em †reas como sa£de, educaá∆o e meio ambiente
+Ensino MÇdio;2¶ sÇrie;1ß;;;;8;14;Quente frio dinÉmico;V°deo;"Revisar o c¢digo para identificar e remover vari†veis e comandos desnecess†rios.
+
+Aplicar o comando constrain para limitar o movimento de um objeto dentro de um plano cartesiano.
+
+Modificar a dificuldade de um projeto interativo atravÇs da modificaá∆o de parÉmetros de distÉncia.";"Identificaá∆o e remoá∆o de c¢digo redundante ou desnecess†rio.
+
+Uso do comando constrain do P5JS.
+
+Ajuste da dificuldade de um jogo interativo.";Sim;EM13CO02;(EM13CO02) Explorar e construir a soluá∆o de problemas por meio de refinamentos, utilizando diversos n°veis de abstraá∆o desde a especificaá∆o atÇ a implementaá∆o.;EMIFMAT04;Reconhecer produtos e/ou processos criativos por meio de fruiá∆o, vivàncias e reflex∆o cr°tica na produá∆o do conhecimento matem†tico e sua aplicaá∆o no desenvolvimento de processos tecnol¢gicos diversos.;Explorar modelos matem†ticos para a formulaá∆o de soluá‰es inovadoras para os desafios da sociedade, utilizando an†lise de dados, estat°stica e ferramentas tecnol¢gicas para prever impactos e embasar tomadas de decis∆o sustent†veis.
+Ensino MÇdio;2¶ sÇrie;1ß;9;30/03 a 02/04;;x;15 e 16;Semana para nivelamento;;;;;-;-;-;-;
+Ensino MÇdio;2¶ sÇrie;1ß;10;10/04/2026 06:00;;x;17 e 18;"Avaliaá∆o de unidade: 
+
+- L¢gica de programaá∆o: criando arte interativa com P5.js";;;;-;-;-;-;;
+Ensino MÇdio;2¶ sÇrie;1ß;11;13 a 17/04;;x;19 e 20;Recuperaá∆o do bimestre;;;;;;;;;
+Ensino MÇdio;2¶ sÇrie;2ß;12;22 a 30/04;Modelo Computacional: Simulaá∆o com planilhas;1;21;Criando uma planilha do zero;V°deo;"Nomear os principais elementos de uma planilha eletrìnica, como cÇlulas, colunas e linhas.
+Compreender a importÉncia da organizaá∆o de dados dentro de uma planilha para planejamento e tomada de decis‰es.
+Demonstrar como criar uma planilha em branco no Google Planilhas e inserir informaá‰es b†sicas.";Acesso e criaá∆o de uma planilha no Google Planilhas. Estrutura b†sica de uma planilha: cÇlulas, colunas e linhas. Inserá∆o e organizaá∆o de informaá‰es em uma planilha.;n/a;EM13CO12;Produzir, analisar, gerir e compartilhar informaá‰es a partir de dados, utilizando princ°pios de ciància de dados;EMIFMAT01;Investigar e analisar situaá‰es problema identificando e selecionando conhecimentos matem†ticos relevantes para uma dada situaá∆o, elaborando modelos para sua representaá∆o.;Demonstrando a capacidade de: Identificar dados relacionados a desafios sociais, econìmicos e ambientais, por meio de ferramentas tecnol¢gicas e representaá‰es gr†ficas para organizar e visualizar as informaá‰es de maneira estruturada.
+Ensino MÇdio;2¶ sÇrie;2ß;;;;2;22;Formatando a planilha;V°deo;"Listar as principais ferramentas de formataá∆o no Google Planilhas.
+Descrever a importÉncia da formataá∆o para a organizaá∆o e legibilidade da planilha.
+Aplicar estilos e cores para melhorar a visualizaá∆o dos dados.";"Ajuste de colunas e mesclagem de cÇlulas.
+Personalizaá∆o de textos, fontes e cores.
+Uso de cores alternadas para melhor visualizaá∆o de dados.";n/a;EM13CO12;Produzir, analisar, gerir e compartilhar informaá‰es a partir de dados, utilizando princ°pios de ciància de dados;EMIFMAT01;Investigar e analisar situaá‰es problema identificando e selecionando conhecimentos matem†ticos relevantes para uma dada situaá∆o, elaborando modelos para sua representaá∆o.;Identificar dados relacionados a desafios sociais, econìmicos e ambientais, por meio de ferramentas tecnol¢gicas e representaá‰es gr†ficas para organizar e visualizar as informaá‰es de maneira estruturada.
+Ensino MÇdio;2¶ sÇrie;2ß;13;08/05/2026 04:00;;3;23;F¢rmulas e c†lculos;V°deo;"Nomear as cÇlulas e colunas utilizadas para c†lculos dentro do Google Planilhas.
+Explicar como utilizar f¢rmulas b†sicas de multiplicaá∆o e soma para calcular valores automaticamente.
+Aplicar as f¢rmulas aprendidas para ajustar valores e explorar diferentes cen†rios de custos em uma planilha.";"Uso de f¢rmulas matem†ticas no Google Planilhas.
+Aplicaá∆o da multiplicaá∆o e soma em cÇlulas espec°ficas.
+Exploraá∆o de funá‰es e ajustes dinÉmicos de valores.";n/a;EM13CO12;Produzir, analisar, gerir e compartilhar informaá‰es a partir de dados, utilizando princ°pios de ciància de dados;EMIFMAT01;Investigar e analisar situaá‰es problema identificando e selecionando conhecimentos matem†ticos relevantes para uma dada situaá∆o, elaborando modelos para sua representaá∆o.;"Aplicar elementos da matem†tica financeira no planejamento pessoal, familiar e comunit†rio, considerando conceitos como juros simples e compostos, amortizaá∆o de d°vidas e elaboraá∆o de oráamentos, com foco na sustentabilidade financeira, tomada de decis‰es respons†veis e reduá∆o das desigualdades econìmicas;"
+Ensino MÇdio;2¶ sÇrie;2ß;;;;4;24;Extraindo informaá‰es com gr†ficos;V°deo;"Nomear os principais tipos de gr†ficos dispon°veis no Google Planilhas.
+Explicar como os gr†ficos podem ajudar na interpretaá∆o de dados da planilha.
+Aplicar a criaá∆o e personalizaá∆o de gr†ficos para representar visualmente os valores da planilha.";"Seleá∆o de dados e inserá∆o de gr†ficos.
+Personalizaá∆o de gr†ficos (cores, t°tulos e legendas).
+Atualizaá∆o dinÉmica de gr†ficos com base em mudanáas na planilha.";Sim;EM13CO12;Produzir, analisar, gerir e compartilhar informaá‰es a partir de dados, utilizando princ°pios de ciància de dados;EMIFMAT01;Investigar e analisar situaá‰es problema identificando e selecionando conhecimentos matem†ticos relevantes para uma dada situaá∆o, elaborando modelos para sua representaá∆o.;Elaborar produá‰es textuais e multimodais em diferentes gàneros e suportes, utilizando mÇtodos investigativos e anal°ticos para articular conhecimentos interdisciplinares, valorizando a diversidade cultural, a acessibilidade e a transformaá∆o social nos territ¢rios. Demonstrando a capacidade de: Identificar dados relacionados a desafios sociais, econìmicos e ambientais, por meio de ferramentas tecnol¢gicas e representaá‰es gr†ficas para organizar e visualizar as informaá‰es de maneira estruturada.
+Ensino MÇdio;2¶ sÇrie;2ß;14;15/05/2026 11:00;;x;25 e 26;"Avaliaá∆o das unidades: 
+
+- Modelo Computacional: Simulaá∆o com planilhas";;;;-;-;-;-;;
+Ensino MÇdio;2¶ sÇrie;2ß;15;18 a 22/05;Modelo Computacional: Simulaá∆o com planilhas;1;27;F¢rmulas matem†ticas;V°deo;Listar as cÇlulas e referàncias utilizadas para c†lculos de porcentagem em planilhas. Explicar como utilizar f¢rmulas para calcular valores com porcentagem e valores acumulados. Aplicar f¢rmulas dinÉmicas para simular diferentes cen†rios de economia financeira ao longo dos anos.;Identificaá∆o e organizaá∆o de cÇlulas em planilhas. C†lculo de porcentagens e reservas financeiras usando f¢rmulas. Criaá∆o de simulaá‰es financeiras dinÉmicas para projeá∆o futura.;n/a;EM13CO11;Criar e explorar modelos computacionais simples para simular e fazer previs‰es, identificando sua importÉncia no desenvolvimento cient°fico.;EM13MAT203 e EMIFMAT01;"Planejar e executar aá‰es envolvendo a criaá∆o e a utilizaá∆o de aplicativos, jogos (digitais ou n∆o), planilhas para o controle de oráamento familiar, simuladores de c†lculos de juros compostos, dentre outros, para aplicar conceitos matem†ticos e tomar decis‰es.
+Investigar e analisar situaá‰es problema identificando e selecionando conhecimentos matem†ticos relevantes para uma dada situaá∆o, elaborando modelos para sua representaá∆o.";Propor alternativas para a administraá∆o eficiente, eficaz e equitativa de recursos financeiros, aplicando conceitos de economia solid†ria, planejamento oráament†rio e an†lise de custos, visando a autonomia financeira, a equidade social e a sustentabilidade econìmica, com ànfase na transformaá∆o positiva do mundo do trabalho e da sociedade.
+;;;;;;2;28;F¢rmulas em planilhas;V°deo;Localizar cÇlulas e referàncias utilizadas para c†lculos. Explicar como fixar cÇlulas para garantir c†lculos corretos ao longo dos anos. Aplicar f¢rmulas para prever aumentos e seus impactos em reservas financeiras.;Utilizaá∆o de preenchimento autom†tico para sÇries numÇricas. Aplicaá∆o de porcentagem em c†lculos. Fixaá∆o de cÇlulas ($) para manter referàncias em c†lculos dinÉmicos.;n/a;EM13CO11;Criar e explorar modelos computacionais simples para simular e fazer previs‰es, identificando sua importÉncia no desenvolvimento cient°fico.;EM13MAT203 e EMIFMAT01;"Planejar e executar aá‰es envolvendo a criaá∆o e a utilizaá∆o de aplicativos, jogos (digitais ou n∆o), planilhas para o controle de oráamento familiar, simuladores de c†lculos de juros compostos, dentre outros, para aplicar conceitos matem†ticos e tomar decis‰es.
+Investigar e analisar situaá‰es problema identificando e selecionando conhecimentos matem†ticos relevantes para uma dada situaá∆o, elaborando modelos para sua representaá∆o.";Demonstrando a capacidade de: Compreender padr‰es de consumo e estratÇgias de planejamento financeiro e ambiental sustent†vel, considerando evidàncias, an†lises econìmicas e projeá‰es respons†veis, aplicando conceitos matem†ticos e tomada de decis‰es conscientes para incentivar pr†ticas de economia solid†ria, agricultura familiar, responsabilidade socioambiental e sustentabilidade.
+Ensino MÇdio;2¶ sÇrie;2ß;16;25 a 29/05;;3;29;Modelo computacional;V°deo;Identificar erros em c†lculos de reserva anual e entender a necessidade da fixaá∆o de cÇlulas. Explicar como os rendimentos podem impactar no ac£mulo de uma reserva financeira. Aplicar f¢rmulas para calcular o valor acumulado ao longo dos anos, considerando investimentos com juros.;Correá∆o e fixaá∆o de cÇlulas para c†lculos de reserva anual. Adiá∆o de rendimentos sobre valores acumulados. Adiá∆o de rendimentos sobre valores acumulados.;n/a;EM13CO11;Criar e explorar modelos computacionais simples para simular e fazer previs‰es, identificando sua importÉncia no desenvolvimento cient°fico.;EM13MAT203 e EMIFMAT01;"Planejar e executar aá‰es envolvendo a criaá∆o e a utilizaá∆o de aplicativos, jogos (digitais ou n∆o), planilhas para o controle de oráamento familiar, simuladores de c†lculos de juros compostos, dentre outros, para aplicar conceitos matem†ticos e tomar decis‰es.
+Investigar e analisar situaá‰es problema identificando e selecionando conhecimentos matem†ticos relevantes para uma dada situaá∆o, elaborando modelos para sua representaá∆o.";"Aplicar elementos da matem†tica financeira no planejamento pessoal, familiar e comunit†rio, considerando conceitos como juros simples e compostos, amortizaá∆o de d°vidas e elaboraá∆o de oráamentos, com foco na sustentabilidade financeira, tomada de decis‰es respons†veis e reduá∆o das desigualdades econìmicas;"
+;;;;;;4;30;Compartilhando a Planilha;V°deo;Analisar os dados da planilha e testar diferentes cen†rios, expandindo o modelo para mais anos. Formatar os valores como moeda, ajustar a estrutura visual e aplicar cores alternadas para melhor organizaá∆o. Criar gr†ficos para representar visualmente o crescimento dos valores e compreender padr‰es de crescimento exponencial.;Expans∆o dos dados e verificaá∆o de f¢rmulas ao longo dos anos. Formataá∆o de planilhas (moeda, cores, bordas e organizaá∆o). Inserá∆o e personalizaá∆o de gr†ficos para an†lise visual de tendàncias financeiras.;Sim;EM13CO11;Criar e explorar modelos computacionais simples para simular e fazer previs‰es, identificando sua importÉncia no desenvolvimento cient°fico.;EM13MAT203 e EMIFMAT01;"Planejar e executar aá‰es envolvendo a criaá∆o e a utilizaá∆o de aplicativos, jogos (digitais ou n∆o), planilhas para o controle de oráamento familiar, simuladores de c†lculos de juros compostos, dentre outros, para aplicar conceitos matem†ticos e tomar decis‰es.
+Investigar e analisar situaá‰es problema identificando e selecionando conhecimentos matem†ticos relevantes para uma dada situaá∆o, elaborando modelos para sua representaá∆o.";Analisar os dados da planilha e testar diferentes cen†rios, expandindo o modelo para mais anos. Formatar os valores como moeda, ajustar a estrutura visual e aplicar cores alternadas para melhor organizaá∆o. Criar gr†ficos para representar visualmente o crescimento dos valores e compreender padr‰es de crescimento exponencial.
+Ensino MÇdio;2¶ sÇrie;2ß;17;03/06/2026 01:00;;x;31 e 32;Semana para nivelamento;;;;;-;-;-;-;
+Ensino MÇdio;2¶ sÇrie;2ß;18;12/06/2026 08:00;Introduá∆o a python - desafios de programaá∆o pt 1;1;33;Introduá∆o ao Google Colab;V°deo;Compreender os conceitos b†sicos do Google Colab e sua interface. Aplicar o comando print para exibir textos em Python. Criar vari†veis simples para armazenar dados reutiliz†veis em c¢digo Python.;Introduá∆o, criaá∆o de notebooks e execuá∆o de cÇlulas. Uso para exibir textos na tela e pr†tica inicial de programaá∆o. Criaá∆o e manipulaá∆o de vari†veis para personalizar sa°das.;n/a;EM13CO02;(EM13CO02) Explorar e construir a soluá∆o de problemas por meio de refinamentos, utilizando diversos n°veis de abstraá∆o desde a especificaá∆o atÇ a implementaá∆o.;EMIFMAT02;Levantar e testar hip¢teses sobre vari†veis que interferem na explicaá∆o ou resoluá∆o de uma situaá∆o-problema, elaborando modelos com a linguagem matem†tica para analis†-la e avaliar sua adequaá∆o em termos de poss°veis limitaá‰es, eficiància e possibilidades de generalizaá∆o.;-
+;;;;;;2;34;Calculando pontos;V°deo;Identificar vari†veis apropriadas para representar diferentes categorias em um problema. Calcular resultados combinando vari†veis matematicamente em Python. Apresentar resultados de forma clara e explicativa utilizando strings formatadas.;Armazenamento de valores associados a diferentes categorias em vari†veis. Utilizar operaá‰es matem†ticas com vari†veis para calcular totais. Apresentar de forma clara de resultados no terminal usando concatenaá∆o de string e vari†vel.;n/a;EM13CO01;(EM13CO01) Explorar e construir a soluá∆o de problemas por meio da reutilizaá∆o de partes de soluá‰es existentes.;EMIFMAT02;Levantar e testar hip¢teses sobre vari†veis que interferem na explicaá∆o ou resoluá∆o de uma situaá∆o-problema, elaborando modelos com a linguagem matem†tica para analis†-la e avaliar sua adequaá∆o em termos de poss°veis limitaá‰es, eficiància e possibilidades de generalizaá∆o.;-
+Ensino MÇdio;2¶ sÇrie;2ß;19;15 a 19/06;;3;35;Distribuindo itens;V°deo;"Coletar entradas do usu†rio utilizando a funá∆o input para resolver problemas interativos.
+Implementar c†lculos matem†ticos em Python para distribuir recursos de forma equitativa.
+Exibir resultados utilizando print com mensagens claras e vari†veis integradas.";"Uso de input para obter valores de usu†rios com descriá‰es claras.
+Divis∆o inteira, soma, e multiplicaá∆o para solucionar problemas pr†ticos.
+Determinar quantidades proporcionais de itens com base em condiá‰es.";n/a;EM13CO01e EM13CO02;"Explorar e construir a soluá∆o de problemas por meio da reutilizaá∆o de partes de soluá‰es existentes.
+Explorar e construir a soluá∆o de problemas por meio de refinamentos, utilizando diversos n°veis de abstraá∆o desde a especificaá∆o atÇ a implementaá∆o.";EMIFMAT02;Levantar e testar hip¢teses sobre vari†veis que interferem na explicaá∆o ou resoluá∆o de uma situaá∆o-problema, elaborando modelos com a linguagem matem†tica para analis†-la e avaliar sua adequaá∆o em termos de poss°veis limitaá‰es, eficiància e possibilidades de generalizaá∆o.;Propor alternativas para a administraá∆o eficiente, eficaz e equitativa de recursos financeiros, aplicando conceitos de economia solid†ria, planejamento oráament†rio e an†lise de custos, visando a autonomia financeira, a equidade social e a sustentabilidade econìmica, com ànfase na transformaá∆o positiva do mundo do trabalho e da sociedade.
+;;;;;;4;36;Usando condicionais;V°deo;Coletar entradas de dados do usu†rio para definir as condiá‰es do problema. Utilizar estruturas condicionais (if e else) para validar cen†rios e tomar decis‰es. Validar a capacidade de transporte com base em restriá‰es e apresentar resultados claros.;Entrada de dados com input. Estruturas condicionais (if/else). Mensagens dinÉmicas usando condiá‰es (positivo ou negativo).;Sim;EM13CO01;(EM13CO01) Explorar e construir a soluá∆o de problemas por meio da reutilizaá∆o de partes de soluá‰es existentes.;EMIFMAT02;Levantar e testar hip¢teses sobre vari†veis que interferem na explicaá∆o ou resoluá∆o de uma situaá∆o-problema, elaborando modelos com a linguagem matem†tica para analis†-la e avaliar sua adequaá∆o em termos de poss°veis limitaá‰es, eficiància e possibilidades de generalizaá∆o.;Explorar modelos matem†ticos para a formulaá∆o de soluá‰es inovadoras para os desafios da sociedade, utilizando an†lise de dados, estat°stica e ferramentas tecnol¢gicas para prever impactos e embasar tomadas de decis∆o sustent†veis.
+Ensino MÇdio;2¶ sÇrie;2ß;20;22 a 26/06;;x;37 e 38;"Avaliaá∆o da unidade: 
+
+- Modelo Computacional: Simulaá∆o com planilhas
+
+- Introduá∆o a python - desafios de programaá∆o pt 1";;;;-;-;-;-;;
+Ensino MÇdio;2¶ sÇrie;2ß;21;29/06 03/07;;x;39 e 40;Recuperaá∆o do bimestre;;;;;;;;;
+Ensino MÇdio;3¶ sÇrie;1ß;1;06/02/2026 02:00;M°dias digitais: sua apresentaá∆o com autor IA.;1;1;Apresentaá‰es com IA;Material digital;"Identificar os elementos que comp‰em uma boa apresentaá∆o.
+
+Compreender o conceito de inteligància artificial generativa e seu uso na criaá∆o de apresentaá‰es.
+
+Relacionar situaá‰es do cotidiano com o uso de IA para comunicaá∆o e produá∆o de conte£do.";"A importÉncia das apresentaá‰es na vida acadàmica e profissional.
+
+Introduá∆o Ö inteligància artificial generativa e suas aplicaá‰es.
+
+Planejamento inicial da criaá∆o de uma apresentaá∆o com suporte de IA.";n/a;EM13CO22;(EM13CO22) Produzir e publicar conte£do como textos, imagens, †udios, v°deos e suas associaá‰es, bem como ferramentas para sua integraá∆o, organizaá∆o e apresentaá∆o, utilizando diferentes m°dias digitais.;n/a;n/a;Explorar as tecnologias emergentes, como inteligància artificial e narrativas digitais e participar da criaá∆o de experiàncias interativas e na experimentaá∆o de novas formas de express∆o e produá∆o cultural, promovendo a democratizaá∆o do acesso aos bens culturais e Ö informaá∆o.
+;;;;;;2;2;Do roteiro Ö estrutura;V°deo;"Interpretar um roteiro de apresentaá∆o.
+
+Aplicar instruá‰es em uma ferramenta de IA para gerar uma estrutura inicial de apresentaá∆o.
+
+Organizar um esqueleto de apresentaá∆o com in°cio, meio e fim, adaptado ao tema estudado.";"Leitura e an†lise de roteiro para guiar a construá∆o de uma apresentaá∆o.
+
+Uso de inteligància artificial generativa para criar estruturas de apresentaá∆o.
+
+Criaá∆o do esqueleto textual com base em dados e an†lises pessoais.";n/a;EM13CO22;(EM13CO22) Produzir e publicar conte£do como textos, imagens, †udios, v°deos e suas associaá‰es, bem como ferramentas para sua integraá∆o, organizaá∆o e apresentaá∆o, utilizando diferentes m°dias digitais.;n/a;n/a;Elaborar produá‰es textuais e multimodais em diferentes gàneros e suportes, utilizando mÇtodos investigativos e anal°ticos para articular conhecimentos interdisciplinares, valorizando a diversidade cultural, a acessibilidade e a transformaá∆o social nos territ¢rios.
+Ensino MÇdio;3¶ sÇrie;1ß;2;13/02/2026 09:00;;3;3;Do texto ao slide;V°deo;"Transformar o esqueleto textual em estrutura visual de slides.
+
+Adaptar conte£dos gerados por IA para o estilo e a linguagem pessoal de apresentaá∆o.
+
+Selecionar modelos visuais adequados ao tema da apresentaá∆o utilizando ferramentas digitais.";"Convers∆o de esqueleto textual em apresentaá∆o visual.
+
+Curadoria de elementos visuais (t°tulos, cores, quantidade de slides, estÇtica e legibilidade).
+
+o que o estudante aprende / principais conceitos / quais atividades ele faz.";n/a;EM13CO19 e EM13CO22;"Expor, argumentar e negociar propostas, produtos e serviáos, utilizando diferentes m°dias e ferramentas digitais. 
+Produzir e publicar conte£do como textos, imagens, †udios, v°deos e suas associaá‰es, bem como ferramentas para sua integraá∆o, organizaá∆o e apresentaá∆o, utilizando diferentes m°dias digitais.";n/a;n/a;Elaborar produá‰es textuais e multimodais em diferentes gàneros e suportes, utilizando mÇtodos investigativos e anal°ticos para articular conhecimentos interdisciplinares, valorizando a diversidade cultural, a acessibilidade e a transformaá∆o social nos territ¢rios.
+;;;;;;4;4;Engenharia de prompt;V°deo;"Revisar criticamente os conte£dos gerados por IA para adequaá∆o ao prop¢sito comunicativo da apresentaá∆o.
+
+Planejar a organizaá∆o dos slides com base em estrutura l¢gica e coerente.
+
+Desenvolver comandos (prompts) espec°ficos e objetivos para orientar a produá∆o de conte£dos pela IA.";"An†lise cr°tica dos textos gerados por IA para apresentaá‰es.
+
+Construá∆o de prompts eficazes, com instruá‰es claras sobre forma, conte£do e formato.
+
+Organizaá∆o final dos slides: sequància, estrutura textual e foco no conte£do essencial.";Sim;EM13CO19;Expor, argumentar e negociar propostas, produtos e serviáos, utilizando diferentes m°dias e ferramentas digitais.;n/a;n/a;Examinar criticamente conte£dos digitais e midi†ticos, mobilizando abordagens cient°ficas e investigativas para avaliar aspectos de privacidade, representatividade e os impactos das redes sociais (...) enfrentamento da desinformaá∆o e das Fake News.
+Ensino MÇdio;3ß sÇrie;1ß;3;16 a 20/02;Semana Carvanal (Feriados e Planejamento/Replanejamento);;;;;;;;;;;;
+Ensino MÇdio;3¶ sÇrie;1ß;4;23 a 27/02;M°dias digitais: sua apresentaá∆o com autor IA.;5;5;Melhorando o design;V°deo;"Aprimorar a apresentaá∆o visual com ajustes de design, como tamanho de texto, alinhamento e destaques.
+
+Inserir elementos visuais, como imagens geradas por IA, para enriquecer a compreens∆o do conte£do.
+
+Selecionar recursos gr†ficos e estilos visuais adequados ao tema da apresentaá∆o e ao p£blico-alvo.";"Melhoria da legibilidade e organizaá∆o dos slides (textos, fontes, espaáamento, alinhamento).
+
+Inclus∆o de imagens como elementos complementares ao conte£do apresentado.
+
+Uso de IA integrada ao Canva para criaá∆o de imagens did†ticas personalizadas.";n/a;EM13CO19 e EM13CO22;"Expor, argumentar e negociar propostas, produtos e serviáos, utilizando diferentes m°dias e ferramentas digitais. 
+Produzir e publicar conte£do como textos, imagens, †udios, v°deos e suas associaá‰es, bem como ferramentas para sua integraá∆o, organizaá∆o e apresentaá∆o, utilizando diferentes m°dias digitais.";n/a;n/a;Criar produá‰es art°sticas e culturais a partir de diferentes linguagens e suportes, mobilizando referàncias estÇticas, hist¢ricas e identit†rias na promoá∆o de equidade, justiáa social e valorizaá∆o da diversidade cultural e dos Direitos Humanos.
+;;;;;;6;6;Apresentaá∆o em v°deo;V°deo;"Explorar recursos multim°dia (†udio e v°deo) para complementar apresentaá‰es digitais.
+
+Utilizar ferramentas digitais para gravar apresentaá‰es com narraá∆o pr¢pria ou com voz gerada por IA.
+
+Demonstrar autonomia na escolha entre diferentes formas de apresentar o conte£do (v°deo, †udio, texto).";"Gravaá∆o de apresentaá‰es com †udio e v°deo no Canva.
+
+Inserá∆o de voz gerada por IA como alternativa Ö gravaá∆o com cÉmera.
+
+Publicaá∆o e exportaá∆o do conte£do multim°dia final (em formato mp4).";n/a;EM13CO19 e EM13CO22;"Expor, argumentar e negociar propostas, produtos e serviáos, utilizando diferentes m°dias e ferramentas digitais. 
+Produzir e publicar conte£do como textos, imagens, †udios, v°deos e suas associaá‰es, bem como ferramentas para sua integraá∆o, organizaá∆o e apresentaá∆o, utilizando diferentes m°dias digitais.";n/a;n/a;Criar produá‰es art°sticas e culturais a partir de diferentes linguagens e suportes, mobilizando referàncias estÇticas, hist¢ricas e identit†rias na promoá∆o de equidade, justiáa social e valorizaá∆o da diversidade cultural e dos Direitos Humanos.
+Ensino MÇdio;3¶ sÇrie;1ß;5;06/03/2026 02:00;;7;7;Hora da aá∆o;V°deo;"Executar a apresentaá∆o final utilizando os recursos desenvolvidos ao longo da unidade.
+
+Refletir sobre a clareza, autoria e organizaá∆o dos conte£dos apresentados.
+
+Validar se a apresentaá∆o digital cumpre os critÇrios de estrutura narrativa, coerància e personalizaá∆o.";"Apresentaá∆o final do projeto em v°deo, presencial ou gravado.
+
+Verificaá∆o de aspectos como autoria, clareza e narrativa dos slides.
+
+Compartilhamento e publicaá∆o da apresentaá∆o digital (via link, v°deo ou arquivo).";n/a;EM13CO19 e EM13CO22;"Expor, argumentar e negociar propostas, produtos e serviáos, utilizando diferentes m°dias e ferramentas digitais. 
+Produzir e publicar conte£do como textos, imagens, †udios, v°deos e suas associaá‰es, bem como ferramentas para sua integraá∆o, organizaá∆o e apresentaá∆o, utilizando diferentes m°dias digitais.";n/a;n/a;Elaborar produá‰es textuais e multimodais em diferentes gàneros e suportes, utilizando mÇtodos investigativos e anal°ticos para articular conhecimentos interdisciplinares, valorizando a diversidade cultural, a acessibilidade e a transformaá∆o social nos territ¢rios.
+;;;;;;8;8;AutorIA;Material digital;"Refletir criticamente sobre o processo de construá∆o da apresentaá∆o com aux°lio da inteligància artificial.
+
+Avaliar os pontos positivos e negativos do uso de IA como ferramenta de apoio criativo.
+
+Reconhecer o papel da autoria, da criatividade e da colaboraá∆o no processo de criaá∆o com IA.";"Avaliaá∆o cr°tica do uso da inteligància artificial na produá∆o digital.
+
+Identificaá∆o de momentos de autonomia criativa e colaboraá∆o com IA.
+
+Express∆o de sentimentos e percepá‰es sobre o trabalho com tecnologia.";Sim;EM13CO19 e EM13CO22;"Expor, argumentar e negociar propostas, produtos e serviáos, utilizando diferentes m°dias e ferramentas digitais. 
+Produzir e publicar conte£do como textos, imagens, †udios, v°deos e suas associaá‰es, bem como ferramentas para sua integraá∆o, organizaá∆o e apresentaá∆o, utilizando diferentes m°dias digitais.";n/a;n/a;Analisar criticamente o impacto das TDICs na produá∆o, circulaá∆o e recepá∆o de informaá‰es, avaliando sua influància na construá∆o do conhecimento, nas pr†ticas sociais e no enfrentamento da desinformaá∆o.
+Ensino MÇdio;3¶ sÇrie;1ß;6;13/03/2026 09:00;;x;9 e 10;"Avaliaá∆o da unidade: 
+
+- M°dias digitais: sua apresentaá∆o com autor IA.";;;;-;-;-;-;;
+Ensino MÇdio;3¶ sÇrie;1ß;7;16 a 20/03;Planilhas: analisando dados sobre acessibilidade na sua comunidade pt 1;1;11;Construindo o formul†rio;V°deo;"Utilizar o Google Formul†rios para criar uma pesquisa quantitativa.
+
+Elaborar perguntas eficazes, selecionando os tipos de resposta adequados.
+
+Organizar e formatar as perguntas do formul†rio de pesquisa.";"Google Formul†rios.
+
+Pesquisa Quantitativa.
+
+Tipos de Perguntas.";n/a;"EM13CO13
+EM13CO22";"(EM13CO13) Analisar e utilizar as diferentes formas de representaá∆o e consulta a dados em formato digital para pesquisas cient°ficas.
+(EM13CO22) Produzir e publicar conte£do como textos, imagens, †udios, v°deos e suas associaá‰es, bem como ferramentas para sua integraá∆o, organizaá∆o e apresentaá∆o, utilizando diferentes m°dias digitais.";;;Demonstrando a capacidade de: Aplicar conceitos estat°sticos e modelagem matem†tica na interpretaá∆o de dados em †reas como sa£de p£blica, educaá∆o, cultura, economia, mercado de trabalho, desigualdades sociais e mudanáas clim†ticas, utilizando tabelas, gr†ficos e medidas de tendància central e dispers∆o.
+;;;;;;2;12;Formul†rio com seá‰es;V°deo;"Implementar l¢gica condicional em formul†rios para direcionar o fluxo de perguntas.
+
+Revisar e finalizar um formul†rio de pesquisa para garantir a coleta de dados desejada.
+
+Publicar e compartilhar o formul†rio, ajustando as configuraá‰es de privacidade.";"L¢gica Condicional em Formul†rios.
+
+Publicaá∆o de Formul†rios.
+
+Privacidade de Dados.";n/a;"EM13CO13
+EM13CO22";"(EM13CO13) Analisar e utilizar as diferentes formas de representaá∆o e consulta a dados em formato digital para pesquisas cient°ficas.
+(EM13CO22) Produzir e publicar conte£do como textos, imagens, †udios, v°deos e suas associaá‰es, bem como ferramentas para sua integraá∆o, organizaá∆o e apresentaá∆o, utilizando diferentes m°dias digitais.";;;-
+Ensino MÇdio;3¶ sÇrie;1ß;8;23 a 27/03;;3;13;Primeiros passos com planilhas;V°deo;"Exportar dados de um formul†rio para o Google Planilhas.
+
+Organizar dados em planilhas, renomeando e manipulando colunas.
+
+Aplicar filtros para explorar e analisar subconjuntos de dados.";"Google Planilhas.
+
+Exportaá∆o de Dados.
+
+Filtragem de Dados.";n/a;EM13CO13;Analisar e utilizar as diferentes formas de representaá∆o e consulta a dados em formato digital para pesquisas cient°ficas.;;;Demonstrando a capacidade de: Identificar dados relacionados a desafios sociais, econìmicos e ambientais, por meio de ferramentas tecnol¢gicas e representaá‰es gr†ficas para organizar e visualizar as informaá‰es de maneira estruturada.
+;;;;;;4;14;Visualizando seus dados;V°deo;"Classificar e organizar dados em planilhas para facilitar a an†lise.
+
+Gerar gr†ficos adequados (pizza, histograma) para visualizar diferentes tipos de dados.
+
+Interpretar gr†ficos para extrair conclus‰es sobre os dados coletados.";"Classificaá∆o de Dados.
+
+Tipos de Gr†ficos.
+
+Interpretaá∆o Visual de Dados.";n/a;"EM13CO13
+EM13CO22";"(EM13CO13) Analisar e utilizar as diferentes formas de representaá∆o e consulta a dados em formato digital para pesquisas cient°ficas.
+(EM13CO22) Produzir e publicar conte£do como textos, imagens, †udios, v°deos e suas associaá‰es, bem como ferramentas para sua integraá∆o, organizaá∆o e apresentaá∆o, utilizando diferentes m°dias digitais.";;;Interpretar representaá‰es gr†ficas de dados sociais e ambientais, utilizando ferramentas digitais para comunicar as informaá‰es e apoiar a compreens∆o de quest‰es relacionadas Ö emergància clim†tica e outros elementos cr°ticos relacionados Ö sustentabilidade socioambiental.
+Ensino MÇdio;3¶ sÇrie;1ß;9;30/03 a 02/04;;x;15 e 16;Semana para nivelamento;;;;;-;-;-;-;
+Ensino MÇdio;3¶ sÇrie;1ß;10;10/04/2026 06:00;;x;17 e 18;"Avaliaá∆o das unidades: 
+
+- Planilhas: analisando dados sobre acessibilidade na sua comunidade pt 1";;;;-;-;-;-;;
+Ensino MÇdio;3¶ sÇrie;1ß;11;13 a 17/04;;x;19 e 20;Recuperaá∆o do bimestre;;;;;;;;;
+Ensino MÇdio;3¶ sÇrie;2ß;12;22 a 30/04;Planilhas: analisando dados sobre acessibilidade na sua comunidade pt 2;5;21;F¢rmulas e estat°stica;V°deo;Aplicar f¢rmulas como MêDIA e MEDIANA para calcular estat°sticas descritivas. Utilizar a funá∆o CONT.SE para quantificar ocorràncias espec°ficas nos dados. Explorar as estat°sticas da coluna para uma an†lise r†pida e eficiente dos dados.;F¢rmulas de Planilha (MêDIA, MEDIANA, CONT.SE). An†lise Estat°stica B†sica. Identificaá∆o de DiscrepÉncias.;Sim;EM13CO13;(EM13CO13) Analisar e utilizar as diferentes formas de representaá∆o e consulta a dados em formato digital para pesquisas cient°ficas.;;;Analisar a relaá∆o entre vari†veis matem†ticas e indicadores utilizados em diferentes campos da vida social e profissional investigando padr‰es e tendàncias por meio de c†lculos estat°sticos, correlaá‰es e representaá‰es gr†ficas.
+;;;;;;6;22;Introduá∆o Ö criaá∆o de apresentaá‰es;V°deo;Utilizar o Canva IA para iniciar a criaá∆o de apresentaá‰es de forma eficiente. Fornecer instruá‰es claras Ö IA para gerar designs relevantes e contextualizados. Estruturar uma apresentaá∆o com base nos resultados e conclus‰es da pesquisa.;Canva IA. Geraá∆o de Apresentaá‰es. Estruturaá∆o de Conte£do.;n/a;EM13CO13;(EM13CO13) Analisar e utilizar as diferentes formas de representaá∆o e consulta a dados em formato digital para pesquisas cient°ficas.;;;Explorar as tecnologias emergentes, como inteligància artificial e narrativas digitais e participar da criaá∆o de experiàncias interativas e na experimentaá∆o de novas formas de express∆o e produá∆o cultural, promovendo a democratizaá∆o do acesso aos bens culturais e Ö informaá∆o.
+Ensino MÇdio;3¶ sÇrie;2ß;13;08/05/2026 04:00;;7;23;Apresentaá∆o com dados e gr†ficos;V°deo;Integrar elementos visuais e gr†ficos dinÉmicos em apresentaá‰es do Canva. Vincular dados do Google Planilhas ao Canva para criar gr†ficos personalizados. Comparar visualmente diferentes conjuntos de dados para reforáar conclus‰es.;Integraá∆o Canva-Planilhas. Geraá∆o de Gr†ficos no Canva. Visualizaá∆o Comparativa de Dados.;n/a;"EM13CO13
+EM13CO22";"(EM13CO13) Analisar e utilizar as diferentes formas de representaá∆o e consulta a dados em formato digital para pesquisas cient°ficas.
+(EM13CO22) Produzir e publicar conte£do como textos, imagens, †udios, v°deos e suas associaá‰es, bem como ferramentas para sua integraá∆o, organizaá∆o e apresentaá∆o, utilizando diferentes m°dias digitais.";;;Demonstrando a capacidade de: Aplicar conceitos estat°sticos e modelagem matem†tica na interpretaá∆o de dados em †reas como sa£de p£blica, educaá∆o, cultura, economia, mercado de trabalho, desigualdades sociais e mudanáas clim†ticas, utilizando tabelas, gr†ficos e medidas de tendància central e dispers∆o.
+;;;;;;8;24;Compartilhando seu projeto;V°deo;Refinar o design e a identidade visual da apresentaá∆o no Canva. Utilizar ferramentas de IA para gerar e integrar imagens relevantes. Preparar e compartilhar a apresentaá∆o final para diferentes p£blicos.;Design de Apresentaá‰es. Geraá∆o de Imagens com IA. EstratÇgias de Compartilhamento.;Sim;EM13CO22;Produzir e publicar conte£do como textos, imagens, †udios, v°deos e suas associaá‰es, bem como ferramentas para sua integraá∆o, organizaá∆o e apresentaá∆o, utilizando diferentes m°dias digitais.;;;-
+Ensino MÇdio;3¶ sÇrie;2ß;14;15/05/2026 11:00;;x;25 e 26;"Avaliaá∆o das unidades: 
+
+- Planilhas: analisando dados sobre acessibilidade na sua comunidade pt 2";;;;-;-;-;-;;
+Ensino MÇdio;3¶ sÇrie;2ß;15;18 a 22/05;Seguranáa digital com criptografia em python.;1;27;Criptografando informaá‰es;;"Compreender o princ°pio b†sico da criptografia por substituiá∆o.
+Implementar um algoritmo de cifra simples utilizando iteraá∆o de strings e convers∆o de tipos em Python.
+Analisar o processo de transformaá∆o de caracteres em um algoritmo de criptografia.";"Criptografia por substituiá∆o.
+Iteraá∆o de strings em Python.
+Convers∆o de tipos (int, str).";;(EM13C002);(EM13C002) Explorar e construir a soluá∆o de problemas por meio de refinamentos, utilizando diversos n°veis de abstraá∆o desde a especificaá∆o atÇ a implementaá∆o.;;;Compreender os impactos do uso das tecnologias nas relaá‰es interpessoais, analisando seus benef°cios e os desafios Çticos, como seguranáa, privacidade, exclus∆o digital, acessibilidade e inclus∆o social, e aplicando conceitos matem†ticos como estat°sticas, modelagem matem†tica, e an†lise de dados para abordar quest‰es de justiáa e Direitos Humanos no contexto sociocultural e ambiental.
+;;;;;;2;28;Criptografando letras;;"Converter caracteres em seus valores ASCII e vice-versa.
+Construir uma tabela de substituiá∆o para criptografar letras.
+Desenvolver uma funá∆o em Python para aplicar uma cifra de substituiá∆o em texto.";"Convers∆o de tipos (int, str).
+Tabela ASCII e funá∆o ord()
+Cifras de substituiá∆o com tabelas";;(EM13C002);(EM13C002) Explorar e construir a soluá∆o de problemas por meio de refinamentos, utilizando diversos n°veis de abstraá∆o desde a especificaá∆o atÇ a implementaá∆o.;;;Compreender os impactos do uso das tecnologias nas relaá‰es interpessoais, analisando seus benef°cios e os desafios Çticos, como seguranáa, privacidade, exclus∆o digital, acessibilidade e inclus∆o social, e aplicando conceitos matem†ticos como estat°sticas, modelagem matem†tica, e an†lise de dados para abordar quest‰es de justiáa e Direitos Humanos no contexto sociocultural e ambiental.
+Ensino MÇdio;3¶ sÇrie;2ß;16;25 a 29/05;;3;29;Refinando a cifra;;"Aplicar l¢gica condicional para tratar diferentes tipos de caracteres em uma cifra.
+Refinar algoritmos de criptografia para lidar com exceá‰es.
+Testar a robustez de uma funá∆o de codificaá∆o com entradas variadas.";"Estruturas condicionais (if/else)
+Tratamento de exceá‰es em criptografia
+Refinamento de algoritmos";;"(EM13C002)
+(EM13C008)";"(EM13C002) Explorar e construir a soluá∆o de problemas por meio de refinamentos, utilizando diversos n°veis de abstraá∆o desde a especificaá∆o atÇ a implementaá∆o.
+(EM13CO08) Entender como mudanáas na tecnologia afetam a seguranáa, incluindo novas maneiras de preservar sua privacidade e dados pessoais on-line, reportando suspeitas e buscando ajuda em situaá‰es de risco.";;;Elaborar modelos matem†ticos, por meio do uso de ferramentas tecnol¢gicas digitais e da sistematizaá∆o de dados e evidàncias, para a representaá∆o, investigaá∆o e soluá∆o de problemas interdisciplinares, considerando critÇrios cient°ficos, Çticos e sociais e favorecendo a formaá∆o integral e a intervená∆o sociocultural.
+;;;;;;4;30;Hash;;"Compreender o conceito de transformar texto em um valor numÇrico £nico.
+Compreender e implementar uma transformaá∆o de senha baseada em acumulaá∆o de valores.
+Analisar as implicaá‰es da transformaá∆o numÇrica de textos quanto Ö reversibilidade da informaá∆o.";"Introduá∆o a funá‰es hash
+Acumulaá∆o de valores numÇricos
+Transformaá‰es unidirecionais de dados";;"(EM13C002)
+(EM13C008)";"(EM13C002) Explorar e construir a soluá∆o de problemas por meio de refinamentos, utilizando diversos n°veis de abstraá∆o desde a especificaá∆o atÇ a implementaá∆o.
+(EM13CO08) Entender como mudanáas na tecnologia afetam a seguranáa, incluindo novas maneiras de preservar sua privacidade e dados pessoais on-line, reportando suspeitas e buscando ajuda em situaá‰es de risco.";;;-
+Ensino MÇdio;3¶ sÇrie;2ß;17;03/06/2026 01:00;;x;31 e 32;Semana para nivelamento;;;;;-;-;-;-;
+Ensino MÇdio;3¶ sÇrie;2ß;18;12/06/2026 08:00;Seguranáa digital com criptografia em python.;5;33;Hash aprimorado;;"Modificar um algoritmo de hash para que a ordem dos caracteres influencie o resultado.
+Organizar o c¢digo de hash em uma funá∆o reutiliz†vel.
+Compreender a importÉncia de limitar o tamanho de um hash para eficiància computacional.";"Hashing sens°vel Ö ordem
+Reutilizaá∆o de c¢digo com funá‰es
+Operador m¢dulo para limitar valores";;"(EM13C002)
+(EM13C008)";"(EM13C002) Explorar e construir a soluá∆o de problemas por meio de refinamentos, utilizando diversos n°veis de abstraá∆o desde a especificaá∆o atÇ a implementaá∆o.
+(EM13CO08) Entender como mudanáas na tecnologia afetam a seguranáa, incluindo novas maneiras de preservar sua privacidade e dados pessoais on-line, reportando suspeitas e buscando ajuda em situaá‰es de risco.";;;-
+;;;;;;6;34;Autenticaá∆o segura;;"Aplicar funá‰es hash para armazenar e verificar senhas de forma segura.
+Comparar hashes para autenticaá∆o de usu†rios sem expor a senha original.
+Compreender a importÉncia de n∆o armazenar senhas em texto claro em bancos de dados.";"Autenticaá∆o de senhas com hash
+Seguranáa no armazenamento de credenciais
+Comparaá∆o de valores hash";;(EM13C008);(EM13CO08) Entender como mudanáas na tecnologia afetam a seguranáa, incluindo novas maneiras de preservar sua privacidade e dados pessoais on-line, reportando suspeitas e buscando ajuda em situaá‰es de risco.;;;Compreender os impactos do uso das tecnologias nas relaá‰es interpessoais, analisando seus benef°cios e os desafios Çticos, como seguranáa, privacidade, exclus∆o digital, acessibilidade e inclus∆o social, e aplicando conceitos matem†ticos como estat°sticas, modelagem matem†tica, e an†lise de dados para abordar quest‰es de justiáa e Direitos Humanos no contexto sociocultural e ambiental.
+Ensino MÇdio;3¶ sÇrie;2ß;19;15 a 19/06;;7;35;Combinaá‰es;;"Compreender o conceito de ataque de foráa bruta e suas aplicaá‰es.
+Utilizar a biblioteca itertools para gerar todas as combinaá‰es poss°veis.
+Analisar a eficiància de testar todas as possibilidades em um problema.";"Ataques de foráa bruta
+Geraá∆o de combinaá‰es com itertools
+Listas e iteraá∆o em Python";;(EM13C001);(EM13C001) Explorar e construir a soluá∆o de problemas por meio da reutilizaá∆o de partes de soluá‰es existentes.;;;Compreender os impactos do uso das tecnologias nas relaá‰es interpessoais, analisando seus benef°cios e os desafios Çticos, como seguranáa, privacidade, exclus∆o digital, acessibilidade e inclus∆o social, e aplicando conceitos matem†ticos como estat°sticas, modelagem matem†tica, e an†lise de dados para abordar quest‰es de justiáa e Direitos Humanos no contexto sociocultural e ambiental.
+;;;;;;8;36;Ataque de foráa bruta;;"Simular um ataque de foráa bruta para quebrar uma senha com hash.
+Analisar a relaá∆o entre o tamanho da senha e a dificuldade de um ataque de foráa bruta.
+Identificar a importÉncia de senhas fortes e atualizadas para a seguranáa digital.";"Simulaá∆o de ataque de foráa bruta
+Dicion†rios de caracteres para ataques
+Impacto do tamanho da senha na seguranáa";;(EM13C008);(EM13CO08) Entender como mudanáas na tecnologia afetam a seguranáa, incluindo novas maneiras de preservar sua privacidade e dados pessoais on-line, reportando suspeitas e buscando ajuda em situaá‰es de risco.;;;-
+Ensino MÇdio;3¶ sÇrie;2ß;20;22 a 26/06;;x;37 e 38;"Avaliaá∆o das unidades: 
+
+Seguranáa digital com criptografia em python.";;;;-;-;-;-;;
+Ensino MÇdio;3¶ sÇrie;2ß;21;29/06 a 03/07;;x;39 e 40;Avaliaá∆o de recuperaá∆o do bimestre;;;;;;;;;

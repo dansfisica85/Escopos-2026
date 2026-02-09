@@ -1,0 +1,298 @@
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.materiais-didaticos-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.9rem 1.5rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #bf360c, #e65100);
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(191,54,12,0.3);
+  transition: all 0.25s ease;
+}
+.materiais-didaticos-btn:hover {
+  background: linear-gradient(135deg, #d84315, #ff5722);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(191,54,12,0.4);
+}
+.filters {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+  background: white;
+  padding: 1.25rem;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  flex: 1;
+  min-width: 180px;
+}
+.filter-group label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.filter-group select {
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  background: #fafafa;
+  cursor: pointer;
+}
+.filter-group select:focus {
+  outline: none;
+  border-color: #e65100;
+  box-shadow: 0 0 0 3px rgba(230,81,0,0.1);
+}
+.materiais-section {
+  background: white;
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+.materiais-section h3 {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  color: #333;
+}
+.materiais-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 0.5rem;
+}
+.material-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 0.8rem;
+  background: #fff3e0;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #bf360c;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+  border: 1px solid #ffe0b2;
+}
+.material-link:hover {
+  background: #ffe0b2;
+  transform: translateY(-1px);
+}
+.material-aula {
+  font-weight: 700;
+  white-space: nowrap;
+}
+.material-titulo {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.material-icon {
+  font-size: 1rem;
+}
+.material-badge {
+  background: #fff3e0;
+  color: #e65100;
+  padding: 0.15rem 0.5rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid #ffe0b2;
+  transition: background 0.2s;
+}
+.material-badge:hover {
+  background: #ffe0b2;
+}
+.section-title {
+  font-size: 1.1rem;
+  color: #333;
+  margin: 0 0 1rem;
+  font-weight: 600;
+}
+.semanas-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.semana-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  border-left: 4px solid #e65100;
+  transition: box-shadow 0.2s;
+}
+.semana-card.especial {
+  border-left-color: #f57c00;
+}
+.semana-card.expanded {
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+.semana-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.15s;
+}
+.semana-header:hover {
+  background: #f8f9fa;
+}
+.semana-info {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+.semana-numero {
+  font-weight: 700;
+  color: #bf360c;
+  font-size: 0.95rem;
+  white-space: nowrap;
+}
+.semana-data {
+  font-size: 0.85rem;
+  color: #888;
+  white-space: nowrap;
+}
+.semana-especial-badge {
+  background: #fff3e0;
+  color: #e65100;
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.semana-unidade {
+  font-size: 0.9rem;
+  color: #555;
+  font-style: italic;
+}
+.expand-icon {
+  color: #999;
+  font-size: 0.8rem;
+}
+.semana-content {
+  padding: 0 1.25rem 1.25rem;
+}
+.especial-message {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  background: #fff8e1;
+  border-radius: 8px;
+}
+.especial-icon {
+  font-size: 1.5rem;
+}
+.especial-message p {
+  margin: 0;
+  color: #555;
+}
+.aula-card {
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+}
+.aula-card:last-child {
+  margin-bottom: 0;
+}
+.aula-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+.aula-header h4 {
+  margin: 0;
+  font-size: 1rem;
+  color: #bf360c;
+  font-weight: 600;
+}
+.aula-badges {
+  display: flex;
+  gap: 0.4rem;
+  flex-shrink: 0;
+}
+.badge {
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.badge.formato {
+  background: #fff3e0;
+  color: #e65100;
+}
+.badge.entrega {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+.aula-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.detail-section h5 {
+  margin: 0 0 0.35rem;
+  font-size: 0.85rem;
+  color: #666;
+  font-weight: 600;
+}
+.detail-section p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #444;
+  line-height: 1.5;
+}
+.material-download-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1rem;
+  background: linear-gradient(135deg, #fff3e0, #ffe0b2);
+  border: 1px solid #ffcc80;
+  border-radius: 8px;
+  color: #bf360c;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  margin-bottom: 0.75rem;
+  transition: all 0.2s;
+}
+.material-download-link:hover {
+  background: linear-gradient(135deg, #ffe0b2, #ffcc80);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(230,81,0,0.15);
+}
+@media (max-width: 768px) {
+  .filters { flex-direction: column; }
+  .aula-details { grid-template-columns: 1fr; }
+  .aula-header { flex-direction: column; }
+  .materiais-grid { grid-template-columns: 1fr; }
+}

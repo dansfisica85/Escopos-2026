@@ -1,0 +1,98 @@
+<div class="page-container">
+  <a href="https://fiapcom-my.sharepoint.com/:p:/g/personal/thais_pianucci_alura_com_br/IQBdW2nvEaO_RIkfEUndp_0uAfRrnVZ92W52CtqJOCR_Xqo?rtime=XjfzVkln3kg" target="_blank" class="materiais-didaticos-btn">
+    📚 MATERIAIS DIDÁTICOS
+  </a>
+  <div class="filters">
+    <div class="filter-group">
+      <label>Disciplina</label>
+      <select (change)="onDisciplinaChange(+$any($event.target).value)">
+        @for (d of disciplinas; track d.id; let i = $index) {
+          <option [value]="i" [selected]="d.id === selectedDisciplina().id">{{ d.nome }} ({{ d.ciclo }})</option>
+        }
+      </select>
+    </div>
+    <div class="filter-group">
+      <label>Ano/Série</label>
+      <select (change)="onAnoChange(+$any($event.target).value)">
+        @for (a of anos(); track a.anoSerie; let i = $index) {
+          <option [value]="i" [selected]="a.anoSerie === selectedAno().anoSerie">{{ a.anoSerie }}</option>
+        }
+      </select>
+    </div>
+    <div class="filter-group">
+      <label>Bimestre</label>
+      <select (change)="onBimestreChange(+$any($event.target).value)">
+        @for (b of bimestres(); track b.bimestre; let i = $index) {
+          <option [value]="i" [selected]="b.bimestre === selectedBimestre().bimestre">{{ b.bimestre }}</option>
+        }
+      </select>
+    </div>
+  </div>
+
+  <h2 class="section-title">
+    {{ selectedDisciplina().nome }} — {{ selectedAno().anoSerie }} — {{ selectedBimestre().bimestre }}
+  </h2>
+
+  <div class="semanas-list">
+    @for (semana of semanas(); track semana.numero) {
+      <div class="semana-card" [class.expanded]="expandedSemana() === semana.numero" [class.especial]="!!semana.especial">
+        <div class="semana-header" (click)="toggleSemana(semana.numero)">
+          <div class="semana-info">
+            <span class="semana-numero">Semana {{ semana.numero }}</span>
+            @if (semana.data) {
+              <span class="semana-data">{{ semana.data }}</span>
+            }
+            @if (semana.especial) {
+              <span class="semana-especial-badge">{{ semana.especial }}</span>
+            }
+            @if (semana.unidade) {
+              <span class="semana-unidade">{{ semana.unidade }}</span>
+            }
+          </div>
+          <span class="expand-icon">{{ expandedSemana() === semana.numero ? '▲' : '▼' }}</span>
+        </div>
+
+        @if (expandedSemana() === semana.numero) {
+          <div class="semana-content">
+            @if (semana.especial && semana.aulas.length === 0) {
+              <div class="especial-message">
+                <span class="especial-icon">📋</span>
+                <p>{{ semana.especial }}</p>
+              </div>
+            }
+            @for (aula of semana.aulas; track aula.aulaSala) {
+              <div class="aula-card">
+                <div class="aula-header">
+                  <h4>{{ aula.aulaSala }} — {{ aula.titulo }}</h4>
+                  <div class="aula-badges">
+                    @if (aula.formato) {
+                      <span class="badge formato">{{ aula.formato }}</span>
+                    }
+                    @if (aula.entregaProjeto) {
+                      <span class="badge entrega">📦 Entrega</span>
+                    }
+                  </div>
+                </div>
+                @if (aula.materialLink) {
+                  <a [href]="aula.materialLink" target="_blank" class="material-download-link">
+                    📄 Abrir Material Digital — {{ aula.titulo }}
+                  </a>
+                }
+                <div class="aula-details">
+                  <div class="detail-section">
+                    <h5>🎯 Objetivos</h5>
+                    <p>{{ aula.objetivos }}</p>
+                  </div>
+                  <div class="detail-section">
+                    <h5>📖 Conteúdos</h5>
+                    <p>{{ aula.conteudos }}</p>
+                  </div>
+                </div>
+              </div>
+            }
+          </div>
+        }
+      </div>
+    }
+  </div>
+</div>

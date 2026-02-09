@@ -1,0 +1,1188 @@
+CICLO;ANO;BIMESTRE;Semana;AULAS;HABILIDADES BNCC - COMPUTA€ÇO;HABILIDADE BNCC;OBJETO DE CONHECIMENTO;TÖTULO DA AULA;CONTEéDO;OBJETIVOS
+Anos Finais;6§;1§;1;1 e 2;- EF05CO05;- Identificar os componentes principais de um computador (dispositivos de entrada/sa¡da, processadores e armazenamento).;"- Defini‡Æo de rob¢tica.
+- Componentes do computador.";Computadores e rob“s: uma introdu‡Æo;- P‚rifericos / entradas e sa¡das.;"- Reconhecer os principais perifericos de um computador.
+- Relacionar com entradas e sa¡das."
+Anos Finais;6§;1§;2;3 e 4;- EF05CO011;"- Identificar a adequa‡Æo de diferentes tecnologias
+computacionais na resolu‡Æo de problemas.";- Conceitos de rob¢tica na cultura e no cotidiano.;Entendendo a rob¢tica;"- Conceitos de rob¢tica.
+- Rob“s e suas aplica‡äes.
+- Hist¢ria da rob¢tica.";"- Compreender o conceito de rob¢tica, por meio de suas diferentes representa‡äes em produ‡äes audiovisuais e usos na sociedade contemporƒnea.
+- Reconhecer o impacto e a relevƒncia da rob¢tica no cotidiano."
+Anos Finais;6§;1§;3;5 e 6;- EF06CO02;- Elaborar algoritmos que envolvam instru‡äes sequenciais, de repeti‡Æo e de sele‡Æo, usando uma linguagem de programa‡Æo.;- Algoritmos e programa‡Æo em blocos.;Aprendendo a linguagem dos rob“s;"- Linguagem de programa‡Æo em blocos na rob¢tica.
+- Linguagem natural x linguagem formal.
+- Algoritmo e instru‡äes.";"- Compreender que existem diferentes formas de se construir algoritmos.
+- Reconhecer a programa‡Æo em blocos como uma forma acess¡vel de se comunicar com os rob“s."
+Anos Finais;6§;1§;4;7 e 8;- EF06CO02;- Elaborar algoritmos que envolvam instru‡äes sequenciais, de repeti‡Æo e de sele‡Æo, usando uma linguagem de programa‡Æo.;- Micro:bit: estrutura da plataforma MakeCode.;Mist‚rios do micro:bit;"-Ambiente de programa‡Æo do MakeCode.
+- Menu de ferramentas do MakeCode.
+- estrutura dos blocos.";"- Explorar o ambiente de programa‡Æo MakeCode do micro:bit.
+- Identificar as principais ferramentas e funcionalidades de programa‡Æo."
+Anos Finais;6§;1§;5;9 e 10;- EF06CO05;- Identificar os recursos ou insumos necess rios (entradas) para a resolu‡Æo de problemas, bem como os resultados esperados (sa¡das), determinar os respectivos tipos de dados, e estabelecer a defini‡Æo de problema como uma rela‡Æo entre entrada e sa¡da.;"- Plataforma MakeCode: Blocos b sicos.
+- C¢digos de programa‡Æo.";Emo‡äes com o micro:bit: botäes;"- Comunica‡Æo digital com o uso de emojis.
+- blocos de entrada- botäes.
+- blocos b sicos- icones.";"- Identificar os blocos de botäes e blocos basicos da plataforma Makecode.
+- Explorar a comunica‡Æo no ambiente digital."
+Anos Finais;6§;1§;6;11 e 12;- EF06CO05;- Identificar os recursos ou insumos necess rios (entradas) para a resolu‡Æo de problemas, bem como os resultados esperados (sa¡das), determinar os respectivos tipos de dados, e estabelecer a defini‡Æo de problema como uma rela‡Æo entre entrada e sa¡da.;- Inteligˆncia emocional: ¡cones que representam as emo‡äes utilizando o recurso acelerämetro do micro:bit.;Emo‡äes com o micro:bit: aceler“metro;"- Representa‡Æo de emo‡äes no rob“.
+- Sensor aceler“metro no micro:bit.
+- Bloco agitar no menu de entrada.";"- Identificar o sensor aceler“metro na placa micro:bit e suas funcionalidades.
+- Construir um programa utilizando o sensor aceler“metro."
+Anos Finais;6§;1§;7;13 e 14;- EF06CO02;- Elaborar algoritmos que envolvam instru‡äes sequenciais, de repeti‡Æo e de sele‡Æo, usando uma linguagem de programa‡Æo.;- Prot¢tipo de rob“ desplugado com o tema sa£de.;Meu amigo rob“;"- Apresenta‡Æo do problema.
+- Desenvolvimento da proposta.
+- Constru‡Æo de um prot¢tipo de rob“ desplugado com tema sa£de.";- Construir um rob“ com materiais nÆo estruturados, utilizando uma proposta de tema transversal.
+Anos Finais;6§;2§;1;1 e 2;- EF06CO02;- Elaborar algoritmos que envolvam instru‡äes sequenciais, de repeti‡Æo e de sele‡Æo, usando uma linguagem de programa‡Æo.;- Os pilares do pensamento computacional: a sua aplicabilidade no contexto da sociedade.;Pensamento computacional;"- Pilares do pensamento computacional.
+- Decomposi‡Æo.
+- Reconhecimento de padräes.
+- Abstra‡Æo.
+- Algoritmos.";- Identificar os pilares do pensamento computacional no contexto da rob¢tica e na rela‡Æo com problemas do cotidiano.
+Anos Finais;6§;2§;2;3 e 4;- EF06CO04;- Construir solu‡äes de problemas, usando a t‚cnica de decomposi‡Æo, e automatizar tais solu‡äes usando uma linguagem de programa‡Æo.;- Fauna brasileira: anima‡äes utilizando blocos b sicos do menu de ferramentas da plataforma MakeCode.;[Competi‡Æo de Rob¢tica] Animais animados - Programando a matriz de LEDs;"- Fauna brasileira.
+- Blocos b sico (Pausa).
+- Programa‡Æo: anima‡äes no painel de LEDS do micro:bit.
+- Competi‡Æo de Rob¢tica";- Explorar o menu de blocos b sico do MakeCode na cria‡Æo de anima‡äes na matriz de LEDs utilizando como tema a fauna brasileira.
+Anos Finais;6§;2§;3;5 e 6;- EF06CO04;- Construir solu‡äes de problemas, usando a t‚cnica de decomposi‡Æo, e automatizar tais solu‡äes usando uma linguagem de programa‡Æo.;"- Engrenagens: constru‡Æo de um prot¢tipo utilizando engrenagens que simule um cen rio em movimento dos animais em extin‡Æo da fauna brasileira.
+
+- Competi‡Æo de projetos";[Competi‡Æo de Rob¢tica] Animais animados - Conhecendo o projeto;"- O que sÆo engrenagens.
+- Os diferentes tipos de engrenagem e sua aplica‡Æo na sociedade.
+- Atividade sobre o tema.
+- Apresenta‡Æo do prot¢tipo ""animais em movimento"".
+- Competi‡Æo de projetos";"- Explorar o que sÆo engrenagens e sua aplicabilidade na sociedade.
+- Conhecer o projeto ""animais em movimento"" e como ele deve funcionar na pr tica.
+- Conhecer a proposta de competi‡Æo e as etapas de desenvolvimento do projeto"
+Anos Finais;6§;2§;4;7 e 8;- EF06CO05;- Identificar os recursos ou insumos necess rios (entradas) para a resolu‡Æo de problemas, bem como os resultados esperados (sa¡das), determinar os respectivos tipos de dados, e estabelecer a defini‡Æo de problema como uma rela‡Æo entre entrada e sa¡da.;- Engrenagens: constru‡Æo de um prot¢tipo utilizando engrenagens que simule um cen rio em movimento dos animais em extin‡Æo da fauna brasileira.;[Competi‡Æo de Rob¢tica] Animais animados - Montando as engrenagens;"- Constru‡Æo do prot¢tipo.
+- Posicionamento das engrenagens: o encaixe das engrenagens para proporcionar o movimento da plataforma.";"- Entender o que sÆo engrenagens e qual a sua fun‡Æo no mundo das m quinas e para a sociedade.
+- Iniciar a constru‡Æo do prot¢tipo utilizando engrenagens com o tema ""animais em extin‡Æo""."
+Anos Finais;6§;2§;5;9 e 10;- EF06CO05;- Identificar os recursos ou insumos necess rios (entradas) para a resolu‡Æo de problemas, bem como os resultados esperados (sa¡das), determinar os respectivos tipos de dados, e estabelecer a defini‡Æo de problema como uma rela‡Æo entre entrada e sa¡da.;"- Prot¢tipo: constru‡Æo do cen rio com o tema animais em extin‡Æo da fauna brasileira.
+- Instalando a placa micro:bit com o programa aniamis animados.";[Competi‡Æo de Rob¢tica] Animais animados - Incorporando a placa ao prot¢tipo;"- C¢digo de programa‡Æo.
+- Finalizar a constru‡Æo do prot¢tipo com a montagem das engrenagens e o cen rio com os animais.";"- Construir e finalizar cenario do prot¢tipo animais em movimento.
+- Aplicar o programa na placa micro:bit. em seguida agregar a placa ao prot¢tipo."
+Anos Finais;6§;2§;6;11 e 12;- EF06CO03;- Descrever com precisÆo a solu‡Æo de um problema, construindo o programa que implementa a solu‡Æo descrita.;"- Comunica‡Æo cient¡fica
+- Prototipagem
+- Programa‡Æo";[Competi‡Æo de Rob¢tica] Animais animados - Montando nossa apresenta‡Æo do prot¢tipo;"- Customiza‡Æo de prot¢tipo
+- Apresenta‡Æo do prot¢tipo";"- Customizar um prot¢tipo, usando materiais nÆo estruturados e materiais escolares.
+- Criar uma apresenta‡Æo para a competi‡Æo de projetos."
+Anos Finais;6§;2§;7;13 e 14;- EF06CO03;- Descrever com precisÆo a solu‡Æo de um problema, construindo o programa que implementa a solu‡Æo descrita.;"- Comunica‡Æo cient¡fica
+- Prototipagem
+- Programa‡Æo";[Competi‡Æo de Rob¢tica] Animais animados - Hora da competi‡Æo;"- Competi‡Æo de projetos
+- Crit‚rios de avalia‡Æo de um projeto";- Apresentar um prot¢tipo de cen rio m¢vel, com animais animados na placa micro:bit
+Anos Finais;7§;1§;1;1 e 2;- EF07CO03;- Construir solu‡äes computacionais de problemas de diferentes  reas do conhecimento, de forma individual e colaborativa, selecionando as estruturas de dados e t‚cnicas adequadas, aperfei‡oando e articulando saberes escolares.;- M£sica: blocos de m£sica no MakeCode.;Criando sons com o micro:bit I;"- Apresenta‡Æo da nota‡Æo europeia.
+- Como aparecem as notas no teclado virtual.
+- Como as notas se dividem em oitavas.
+- Blocos de m£sica no MakeCode.";"- Conhecer os conceitos b sicos de notas musicais e oitavas.
+- Experimentar as possibilidades do uso da se‡Æo de blocos de m£sica.
+- Investigar a capacidade da placa de criar e tocar melodias.
+- Distinguir se os sons representados quando executados nÆo soam igual ao que eu canto ou a que estou acostumado a ouvir."
+Anos Finais;7§;1§;2;3 e 4;- EF07CO03;- Construir solu‡äes computacionais de problemas de diferentes  reas do conhecimento, de forma individual e colaborativa, selecionando as estruturas de dados e t‚cnicas adequadas, aperfei‡oando e articulando saberes escolares.;- M£sica: blocos de m£sica no MakeCode.;Criando sons com o micro:bit II;"- O que ‚ BPM?.
+- A rela‡Æo do andamento (BPM) na velocidade da m£sica.
+- Tempo e dura‡Æo de notas musicais.
+- As pausas na composi‡Æo musical.";"- Identificar o que ‚ andamento (BPM) e como ele interfere na composi‡Æo musical.
+- Explorar como as dura‡äes de tempo e os intervalos sÆo associados …s notas musicais.
+- Experimentar as varia‡äes de comandos no teclado virtual do bloco de m£sica.
+- Identificar a capacidade da placa de organizar e construir melodias no micro:bit."
+Anos Finais;7§;1§;3;5 e 6;- EF07CO03;- Construir solu‡äes computacionais de problemas de diferentes  reas do conhecimento, de forma individual e colaborativa, selecionando as estruturas de dados e t‚cnicas adequadas, aperfei‡oando e articulando saberes escolares.;- Sensor de temperatura no micro:bit.;TermoBit I;"- Termämetro.
+- Fun‡äes pr‚-programadas no menu de ferramentas.
+- Sensor de temperatura no micro:bit.";"- Identificar a importƒncia do term“metro na aferi‡Æo de temperatura em diferentes situa‡äes do dia a dia.
+- Entender o que ‚ a fun‡Æo pr‚-programada no menu de ferramentas do MakeCode.
+- Identificar o sensor de temperatura e compreender o seu funcionamento na placa micro:Bit."
+Anos Finais;7§;1§;4;7 e 8;- EF07CO03;- Construir solu‡äes computacionais de problemas de diferentes  reas do conhecimento, de forma individual e colaborativa, selecionando as estruturas de dados e t‚cnicas adequadas, aperfei‡oando e articulando saberes escolares.;- Sensor de temperatura no micro:bit.;TermoBit II;"- O sensor de temperatura do micro:bit.
+- Bloco de temperatura.
+- Programa‡Æo.";"- Compreender as diferentes aplica‡äes do sensor de temperatura na rob¢tica.
+- Construir um progrma para identificar temperturaturas em ambientes externos e internos."
+Anos Finais;7§;1§;5;9 e 10;- EF07CO03;- Construir solu‡äes computacionais de problemas de diferentes  reas do conhecimento, de forma individual e colaborativa, selecionando as estruturas de dados e t‚cnicas adequadas, aperfei‡oando e articulando saberes escolares.;- Micro:bit: blocos de matematica, n£meros aleat¢rios, programa‡Æo.;Jogando com a matem tica;"- Blocos de matem tica:.
+- Opera‡äes fundamentais.
+- N£meros aleat¢rios.
+- Programa‡Æo.";"- Identificar os blocos de matem tica no menu de ferramentas do MakeCode.
+- Explorar os blocos de opera‡äes matematicas com o objetivo de executar a‡äes espec¡ficas no c¢digo programa‡Æo."
+Anos Finais;7§;1§;6;11 e 12;- EF07CO03;- Construir solu‡äes computacionais de problemas de diferentes  reas do conhecimento, de forma individual e colaborativa, selecionando as estruturas de dados e t‚cnicas adequadas, aperfei‡oando e articulando saberes escolares.;- Micro:bit: blocos de repeti‡Æo, programa‡Æo.;Vamos de novo: conhecendo os blocos de repeti‡Æo;"- Fun‡Æo loops.
+- Blocos de repeti‡Æo.";"- Identificar a fun‡Æo loop no menu de ferramentas do MakeCode.
+- Explorar os blocos de repeti‡Æo para determinar um n£mero de a‡äes que ser  executado no c¢digo de programa‡Æo."
+Anos Finais;7§;1§;7;13 e 14;- EF15CO02;- Construir e simular algoritmos, de forma independente ou em colabora‡Æo, que resolvam problemas simples e do cotidiano com uso de sequˆncias, sele‡äes condicionais e repeti‡äes de instru‡äes.;"- Sensores: sensor de temperatura, bloco de temperatura.
+- Blocos de m£sica.";Alarme de temperatura;"- Sensor de temperatura.
+- Blocos de m£sica.
+- Programa‡Æo.
+- Prot¢tipo de alarme.";- Explorar os recursos do sensor de temperatura e blocos de m£sica no desenvolvimento de um alarme de temperatura.
+Anos Finais;7§;2§;1;1 e 2;- EF15CO04;- Aplicar a estrat‚gia de decomposi‡Æo para resolver problemas complexos, dividindo esse problema em partes menores, resolvendo-as e combinando suas solu‡äes.;- Mecƒnica/hidr ulica: conceito, exemplos de sistemas hidraulicos.;Mecƒnica/hidr ulica: introdu‡Æo.;"- Mecƒnica/hidr ulica: conceito.
+- Os primeiros mecanismos utilizando o sistema hidr ulico.
+- Exemplos de sistemas hidr ulicos encontrados nosso dia a dia.";- Entender o conceito b sico de mecƒnica e hidr ulica e sua aplica‡Æo no dia a dia.
+Anos Finais;7§;2§;2;3 e 4;- EF15CO04;- Aplicar a estrat‚gia de decomposi‡Æo para resolver problemas complexos, dividindo esse problema em partes menores, resolvendo-as e combinando suas solu‡äes.;- Mecƒnica/hidr ulica: o que sÆo elevadores hidraulicos, transmissÆo de for‡a por fluidos, desenvolvimento de um prot¢tipo.;Elevador hidr ulico - Parte 1;"- O que sÆo elevadores hidr ulicos.
+- Onde podem ser encontrados.
+- Desenvolvimento de um prot¢tipo de elevador hidr ulico.";"- Entender o que sÆo e onde podem ser utilizados os elevadores hidr ulicos.
+- Conhecer o sistema de movimento do elevador por meio da transmissÆo de for‡a por fluidos."
+Anos Finais;7§;2§;3;5 e 6;- EF15CO04;- Aplicar a estrat‚gia de decomposi‡Æo para resolver problemas complexos, dividindo esse problema em partes menores, resolvendo-as e combinando suas solu‡äes.;- Mecƒnica/hidr ulica: prototipa‡Æo do elevador hidr ulico.;Elevador hidr ulico - Parte 2;"- Elevador hidr ulico.
+- Finaliza‡Æo do prot¢tipo.";- Construir um prot¢tipo de elevador hidr ulico utilizando materiais nÆo estruturados.
+Anos Finais;7§;2§;4;7 e 8;- EF15CO04;- Aplicar a estrat‚gia de decomposi‡Æo para resolver problemas complexos, dividindo esse problema em partes menores, resolvendo-as e combinando suas solu‡äes.;- Mecƒnica/hidr ulica: conceito de bra‡o rob¢tico, aplicabilidade na sociedade.;[Competi‡Æo de Rob¢tica] Bra‡o rob¢tico hidr ulico - Parte 1;"- Bra‡o rob¢tico: conceito.
+- As aplica‡äes na sociedade.
+- Competi‡Æo de projetos";"- Entender o conceito e aplica‡Æo do bra‡o rob¢tico como dispositivo utilizado em diversos setores da sociedade.
+- Compreender as etapas e os crit‚rios da competi‡Æo de rob¢tica"
+Anos Finais;7§;2§;5;9 e 10;- EF15CO04;- Aplicar a estrat‚gia de decomposi‡Æo para resolver problemas complexos, dividindo esse problema em partes menores, resolvendo-as e combinando suas solu‡äes.;- Mecƒnica/hidr ulica: prototipa‡Æo do bra‡o rob¢tico.;[Competi‡Æo de Rob¢tica] Bra‡o rob¢tico hidr ulico - Parte 2;"- Bra‡o rob¢tico.
+- Constru‡Æo do prot¢tipo.";"- Entender as etapas de constru‡Æo do bra‡o rob¢tico hidr ulico.
+- Perceber o sistema de movimento dos bra‡os e garra. por meio da transmissÆo de for‡a por fluidos."
+Anos Finais;7§;2§;6;11 e 12;- EF15CO04;- Aplicar a estrat‚gia de decomposi‡Æo para resolver problemas complexos, dividindo esse problema em partes menores, resolvendo-as e combinando suas solu‡äes.;- Mecƒnica/hidr ulica: prototipa‡Æo do bra‡o rob¢tico, avalia‡Æo.;[Competi‡Æo de Rob¢tica] Bra‡o rob¢tico hidr ulico - Parte 3;"- Bra‡o rob¢tico.
+- Finaliza‡Æo do prot¢tipo.";"- Compreender as etapas e o processo de constru‡Æo do bra‡o rob¢tico hidr ulico, bem como seu funcionamento.
+- Criar uma apresenta‡Æo para a competi‡Æo de rob¢tica"
+Anos Finais;7§;2§;7;13 e 14;- EF15CO04;- Aplicar a estrat‚gia de decomposi‡Æo para resolver problemas complexos, dividindo esse problema em partes menores, resolvendo-as e combinando suas solu‡äes.;"- Comunica‡Æo cient¡fica
+- Prototipagem
+- Programa‡Æo";[Competi‡Æo de Rob¢tica Bra‡o rob¢tico hidr ulico - Hora da competi‡Æo;"- Competi‡Æo de projetos
+- Crit‚rios de avalia‡Æo de um projeto";- Apresentar um prot¢tipo de bra‡o rob¢tico hidr ulico em uma competi‡Æo
+Anos Finais;8§;1§;1;1 e 2;- EF69CO04;- Construir solu‡äes de problemas usando a t‚cnica de decomposi‡Æo e automatizar tais solu‡äes usando uma linguagem de programa‡Æo.;- A rob¢tica como linguagem tecnol¢gica utilizada na cria‡Æo de solu‡äes para problemas reais.;A pregui‡a ‚ mÆe do progresso? Descubra como a rob¢tica torna a nossa vida mais f cil;- A rob¢tica como expressÆo da criatividade humana.;- Reconhecer a rob¢tica como uma manifesta‡Æo da criatividade humana aplicada … resolu‡Æo de problemas do cotidiano e … busca pelo bem-estar da sociedade.
+Anos Finais;8§;1§;2;3 e 4;- EF69CO05;- Identificar os recursos ou insumos necess rios (entradas) para a resolu‡Æo de problemas, bem como os resultados esperados (sa¡das), determinando os respectivos tipos de dados, e estabelecendo a defini‡Æo de problema como uma rela‡Æo entre entrada e sa¡da.;- Estrutura e funcionamento dos computadores como sistemas computacionais, compreendendo a intera‡Æo entre hardware e software e o papel dos perif‚ricos, al‚m da aplica‡Æo do pensamento computacional para entender processos b sicos de opera‡Æo.;NÆo fique bugado! - Entenda o que faz um computador funcionar por dentro;"- Componentes b sicos de um computador: hardware, software e perif‚ricos.
+- Tipos de computadores presentes no cotidiano (desktops, laptops, tablets, smartphones etc.).
+- Fundamentos do pensamento computacional aplicado ao funcionamento do computador.
+- Ciclo b sico de opera‡Æo do computador: entrada, processamento e sa¡da de dados.";"- Reconhecer os componentes de um computador (hardware, software e perif‚ricos) e diferentes tipos de computadores no dia a dia.
+- Identificar o pensamento computacional no modo de opera‡Æo de um computador enquanto aprofunda o entendimento sobre o funcionamento de computadores (entrada, processamento e sa¡da de dados)."
+Anos Finais;8§;1§;3;5 e 6;- EF69CO02;- Elaborar algoritmos que envolvam instru‡äes sequenciais, de repeti‡Æo e de sele‡Æo usando uma linguagem de programa‡Æo.;- L¢gica de programa‡Æo: constru‡Æo e compreensÆo de algoritmos que utilizam vari veis, n£meros aleat¢rios, condi‡äes e comparadores para tomada de decisÆo automatizada.;Pedra, papel, tesoura! Aprenda a controlar a l¢gica e o acaso nos seus programas;"- Conceitos de vari veis em programa‡Æo.
+- Uso de n£meros aleat¢rios em c¢digos.
+- Estruturas condicionais (if, else).
+- Operadores comparadores (==, !=, >, <, >=, <=).
+- Integra‡Æo l¢gica entre vari veis, n£meros aleat¢rios, condi‡äes e comparadores.";"- Compreender os conceitos de vari veis, n£meros aleat¢rios, condi‡äes e comparadores, entendendo de modo l¢gico a correla‡Æo entre os conceitos em uma programa‡Æo.
+- Programar integrando os conceitos de vari veis, n£meros aleat¢rios, condi‡äes e comparadores."
+Anos Finais;8§;1§;4;7 e 8;- EF69CO05;- Identificar os recursos ou insumos necess rios (entradas) para a resolu‡Æo de problemas, bem como os resultados esperados (sa¡das), determinando os respectivos tipos de dados, e estabelecendo a defini‡Æo de problema como uma rela‡Æo entre entrada e sa¡da.;- Intera‡Æo entre campo magn‚tico terrestre e magnet“metros.;"Ca‡adores do ampo agn‚tico perdido: use a b£ssola digital para desvendar os mist‚rios da dire‡Æo
+
+";"- Campo magn‚tico terrestre e sua influˆncia na orienta‡Æo espacial.
+- Dire‡äes cardeais e o uso da b£ssola tradicional.
+- Funcionamento e aplica‡Æo do sensor magnet“metro.
+- B£ssola digital: princ¡pios de funcionamento e rela‡Æo com o campo magn‚tico da Terra.";"- Compreender como o campo magn‚tico terrestre define as dire‡äes cardeais e como isso ‚ representado na b£ssola.
+- Identificar e descrever o funcionamento do sensor magnet“metro e sua rela‡Æo com o campo magn‚tico terrestre na aplica‡Æo pr tica da b£ssola digital."
+Anos Finais;8§;1§;5;9 e 10;- EF69CO02;- Elaborar algoritmos que envolvam instru‡äes sequenciais, de repeti‡Æo e de sele‡Æo usando uma linguagem de programa‡Æo.;- Programa‡Æo e controle temporal em sistemas computacionais e rob¢ticos.;Me d  um tempo? - Controlando o tempo na robotica;"- Funcionamento dos temporizadores e delays em programa‡Æo.
+- Sensores touch: conceito, funcionamento e aplica‡äes pr ticas.
+- Aplica‡äes de temporizadores e sensores touch em sistemas automatizados e rob¢tica.
+- Uso de vari veis e estruturas de repeti‡Æo (loops) para criar c¢digos eficientes.
+- Controle de tempo em sistemas automatizados: delay versus temporizadores.";"- Compreender o funcionamento dos temporizadores e sensores touch, identificando suas aplica‡äes no cotidiano e em projetos de rob¢tica.
+- Implementar vari veis e estruturas de repeti‡Æo para criar c¢digos eficientes em diferentes contextos de programa‡Æo.
+- Justificar o uso do delay e dos temporizadores como mecanismos essenciais para o controle do tempo em sistemas automatizados."
+Anos Finais;8§;1§;6;11 e 12;- EF69CO01;- Classificar informa‡äes, agrupando-as em cole‡äes (conjuntos) e associando cada cole‡Æo a um ?tipo de dado?.;- Entrada e sa¡da de dados em sistemas embarcados.;Plot-Art: desenhando no micro:bit com matem tica;"- Conceito de entrada e sa¡da (I/O) em sistemas embarcados.
+- Plano cartesiano: coordenadas X e Y aplicadas … matriz de LEDs.
+- Funcionamento da matriz de LEDs do micro:bit.
+- Programa‡Æo do acionamento de LEDs de forma independente usando coordenadas cartesianas.";"- Relacionar o conceito de coordenadas do plano cartesiano … matriz de LEDs do micro:bit, compreendendo sua estrutura e funcionamento.
+- Programar o acionamento independente de LEDs usando a linguagem de blocos, aplicando coordenadas cartesianas para controle preciso."
+Anos Finais;8§;1§;7;13 e 14 ;- EF69CO03;- Descrever com precisÆo a solu‡Æo de um problema, construindo o programa que implementa a solu‡Æo descrita.;- Representa‡Æo e visualiza‡Æo de informa‡äes em sistemas computacionais.;Desanima nÆo! - Fa‡a anima‡äes usando a matriz de LEDs do micro:bit;"- Conceito e princ¡pios da t‚cnica de stop motion.
+- Reconhecimento da matriz de LEDs do micro:bit como dispositivo de sa¡da visual.
+- Cria‡Æo de frames de anima‡Æo.
+- Programa‡Æo de sequˆncias de anima‡Æo.
+- Produ‡Æo colaborativa de anima‡Æo digital.";"- Compreender a t‚cnica de stop motion e sua aplica‡Æo na matriz de LEDs do micro:bit.
+- Planejar e programar uma anima‡Æo com uso de fun‡äes, controle de tempo e interatividade.
+- Criar uma anima‡Æo autoral integrando imagem, som e entrada por botäes."
+Anos Finais;8§;2§;1;1 e 2;- EF69CO08;- Compreender e utilizar diferentes formas de armazenar, manipular, compactar e recuperar arquivos, documentos e metadados.;- Tecnologias de som e luz.;Solta o beat I: quando som e luz entram na dan‡a;"- Som e luz como formas de expressÆo art¡stica e tecnol¢gica.
+- Compreender a diferen‡a entre intensidade sonora e volume, reconhecendo suas aplica‡äes e impactos no cotidiano.
+- Programar o micro:bit para medir a intensidade do som e representar os dados visualmente na matriz de LEDs, integrando-os a um prot¢tipo interativo.";"- Explorar a rela‡Æo entre som, luz e artes, reconhecendo a evolu‡Æo tecnol¢gica de r dios e caixas de som, e compreendendo o conceito de amplifica‡Æo sonora.
+- Compreender a diferen‡a entre intensidade do som (f¡sica) e volume (percep‡Æo), refletindo sobre suas implica‡äes no cotidiano.
+- Programar o micro:bit para medir a intensidade sonora, representar graficamente os dados na matriz de LEDs e integr -los a um prot¢tipo maker interativo."
+Anos Finais;8§;2§;2;3 e 4;- EF69CO06;- Comparar diferentes casos particulares (instƒncias) de um mesmo problema, identificando as semelhan‡as e diferen‡as entre eles, e criar um algoritmo para resolver todos, fazendo uso de vari veis (parƒmetros) para permitir o tratamento de todos os casos de forma gen‚rica.;- Representa‡Æo e visualiza‡Æo de informa‡äes: uso da matriz de LEDs para exibir dados sonoros e avalia‡Æo da efic cia da interface interativa.;Solta o beat II: criando uma caixa de som;"- Constru‡Æo e personaliza‡Æo de prot¢tipos de caixas de som.
+- Evolu‡Æo dos r dios e caixas de som.
+- Conceito de amplifica‡Æo sonora (f¡sica do som).
+- Dispositivos sonoros simples (alto-falantes, buzzers).
+- Analisar a clareza e a precisÆo da representa‡Æo gr fica dos dados sonoros no micro:bit, propondo melhorias para a comunica‡Æo visual.";"- Projetar e construir um prot¢tipo funcional para amplifica‡Æo de som utilizando dispositivos sonoros e material nÆo estruturado.
+- Personalizar o prot¢tipo de forma tem tica, combinando amplifica‡Æo sonora e efeitos visuais.
+- Avaliar criticamente a efic cia da matriz de LEDs na visualiza‡Æo de dados sonoros, considerando clareza, precisÆo e aspectos est‚ticos da experiˆncia interativa."
+Anos Finais;8§;2§;3;5 e 6;- EF69CO04;- Construir solu‡äes de problemas usando a t‚cnica de decomposi‡Æo e automatizar tais solu‡äes usando uma linguagem de programa‡Æo.;- Sistemas embarcados e rob¢tica educacional: integra‡Æo de sensores, programa‡Æo b sica e cuidados no uso da shield Robotbit.;Shield Masters: domine o cora‡Æo do rob“! - Descobrindo a shield Robotbit;"- Funcionalidades e aplica‡äes da shield Robotbit.
+- Integra‡Æo de sensores … shield Robotbit.
+- Programa‡äes simples para controle e intera‡Æo com sensores.
+- Procedimentos de cuidado e seguran‡a no manuseio da Robotbit.
+- Aplica‡äes da Robotbit em projetos de rob¢tica.";"- Compreender as funcionalidades e aplica‡äes da shield Robotbit, reconhecendo seu potencial na cria‡Æo de projetos de rob¢tica.
+- Integrar sensores … shield Robotbit, desenvolvendo programa‡äes simples que possibilitem a intera‡Æo pr tica e a resolu‡Æo de problemas.
+- Aplicar procedimentos de cuidado e seguran‡a no manuseio da shield Robotbit, garantindo o uso correto e a preserva‡Æo dos equipamentos."
+Anos Finais;8§;2§;4;7 e 8;- EF69CO04;- Construir solu‡äes de problemas usando a t‚cnica de decomposi‡Æo e automatizar tais solu‡äes usando uma linguagem de programa‡Æo.;- Tecnologias embarcadas e automa‡Æo.;[Competi‡Æo de Rob¢tica] Casa inteligente, vida descomplicada I: explorando a automa‡Æo residencial;"- Sensores integrados do micro:bit e suas aplica‡äes pr ticas.
+- Representa‡Æo de eventos reais com prot¢tipos funcionais.
+- Conceitos b sicos de automa‡Æo residencial.
+- Impactos e benef¡cios da automa‡Æo no cotidiano.
+- Constru‡Æo e aperfei‡oamento de prot¢tipos maker (integra‡Æo mecƒnica e tecnol¢gica).
+- Competi‡Æo de projetos de rob¢tica";"- Aplicar sensores integrados do micro:bit em projetos maker, representando eventos do mundo real atrav‚s da cria‡Æo de prot¢tipos funcionais e criativos.
+- Explorar conceitos de automa‡Æo residencial, refletindo criticamente sobre seus impactos e benef¡cios na vida cotidiana.
+- Construir e aperfei‡oar prot¢tipos no ambiente maker, integrando princ¡pios b sicos da mecƒnica e tecnologia para conectar teoria e pr tica.
+- Conhecer as etapas e os crit‚rios para a competi‡Æo de projetos de rob¢tica em sala"
+Anos Finais;8§;2§;5;9 e 10;- EF69CO02;- Elaborar algoritmos que envolvam instru‡äes sequenciais, de repeti‡Æo e de sele‡Æo usando uma linguagem de programa‡Æo.;- Programa‡Æo e automa‡Æo.;[Competi‡Æo de Rob¢tica] Casa inteligente, vida descomplicada II: ilumina‡Æo inteligente;"- Programa‡Æo em blocos com estruturas de controle e condicionais.
+- Funcionamento do sensor de luminosidade.
+- Aplica‡äes do sensor em projetos de automa‡Æo.
+- Desenvolvimento e teste de prot¢tipo funcional.
+- Cria‡Æo de uma lƒmpada inteligente (ajuste autom tico conforme luminosidade).";"- Aplicar conceitos fundamentais de programa‡Æo em blocos, utilizando estruturas de controle e condicionais para resolver problemas pr ticos.
+- Explorar o sensor de luminosidade, compreendendo seu funcionamento e potencial de uso em projetos de automa‡Æo.
+- Programar e testar um prot¢tipo funcional, integrando o sensor de luminosidade ao micro:bit para criar uma lƒmpada inteligente ajust vel conforme a luz do ambiente."
+Anos Finais;8§;2§;6;11 e 12;- EF69CO07;- Entender o processo de transmissÆo de dados, como a informa‡Æo ‚ quebrada em peda‡os, transmitida em pacotes atrav‚s de m£ltiplos equipamentos, e reconstru¡da no destino.;- Integra‡Æo de sensores e comunica‡Æo wireless.;[Competi‡Æo de Rob¢tica] Casa inteligente, vida descomplicada III: explorando a tecnologia sem fio;"- Aplica‡Æo de sensores integrados do micro:bit em projetos maker.
+- Conceitos b sicos de automa‡Æo residencial.
+- Tecnologias wireless (bluetooth) e comunica‡Æo entre dispositivos.
+- Desenvolvimento de prot¢tipos funcionais usando sensores e comunica‡Æo sem fio.
+- ReflexÆo cr¡tica sobre impactos e benef¡cios da automa‡Æo e conectividade no cotidiano.";"- Aplicar sensores integrados do micro:bit em projetos maker, representando situa‡äes do mundo real atrav‚s da cria‡Æo de prot¢tipos funcionais e criativos.
+- Explorar conceitos de automa‡Æo residencial e tecnologias wireless, refletindo criticamente sobre suas aplica‡äes, benef¡cios e impactos na vida cotidiana.
+- Desenvolver e aperfei‡oar prot¢tipos no ambiente maker, integrando programa‡Æo, sensores e comunica‡Æo sem fio para conectar teoria e pr tica."
+Anos Finais;8§;2§;7;13 e 14;"- EF69CO10
+- EF69CO04";"- Entender como ‚ a estrutura e funcionamento da internet.
+- Construir solu‡äes de problemas usando a t‚cnica de decomposi‡Æo e automatizar tais solu‡äes usando uma linguagem de programa‡Æo.";- Comunica‡Æo via r dio para controle remoto de dispositivos.;[Competi‡Æo de Rob¢tica] Casa inteligente, vida descomplicada IV: o r dio como controle remoto;"- Programa‡Æo em blocos com ˆnfase na comunica‡Æo via r dio do micro:bit.
+- Funcionamento da antena de r dio e princ¡pios da comunica‡Æo wireless.
+- Uso de blocos espec¡ficos de envio e recebimento de mensagens via r dio.
+- Desenvolvimento de prot¢tipo funcional de controle remoto.
+- Integra‡Æo e teste do sistema de acionamento remoto.
+- Apresenta‡Æo dos projetos de rob¢tica";"- Aplicar conceitos fundamentais de programa‡Æo em blocos, utilizando estruturas de controle e blocos espec¡ficos da comunica‡Æo via r dio do micro:bit.
+- Compreender o funcionamento da antena de r dio do micro:bit e desenvolver um programa que simule um controle remoto para acionar dispositivos … distƒncia.
+- Integrar e testar o sistema de comunica‡Æo via r dio em um prot¢tipo funcional, garantindo o acionamento remoto de um eletrodom‚stico ou mecanismo.
+- Apresentar o prot¢tipo, justificando suas funcionalidades"
+Anos Finais;9§;1§;1;1 e 2;- EF69CO05;- Identificar os recursos ou insumos necess rios (entradas) para a resolu‡Æo de problemas, bem como os resultados esperados (sa¡das), determinando os respectivos tipos de dados, e estabelecendo a defini‡Æo de problema como uma rela‡Æo entre entrada e sa¡da.;- Prototipagem e controle de sistemas rob¢ticos com sensores.;Dispositivos rob¢ticos! ? Programando a diversÆo;"- Entrada, processamento e sa¡da.
+- L¢gica sequencial e condicionais de movimento.
+- Diferen‡a entre sensores virtuais e sensores f¡sicos.";"- Relembrar a l¢gica de entrada/processamento/sa¡da em sistemas rob¢ticos.
+- Programar movimentos de um rob“ virtual no VEX Code VR usando l¢gica sequencial e condicionais.
+- Relacionar sensores virtuais com sensores f¡sicos.
+- Explorar o uso de motores e sensores diversos para a movimenta‡Æo e movimenta‡Æo do prot¢tipo (por ex: um touro mecƒnico, carro de bate e volta, autorama)."
+Anos Finais;9§;1§;2;3 e 4;- EF69CO01;- Classificar informa‡äes, agrupando-as em cole‡äes (conjuntos) e associando cada cole‡Æo a um ?tipo de dado?.;- Representa‡Æo f¡sca das informa‡äes do c¢digo no projeto.;Luz, brinquedo, a‡Æo! ? Adicionando movimento;"- Cria‡Æo de gr ficos em tempo real.
+- Exibi‡Æo de dados em matriz de LEDs.";"- Representar visualmente dados de funcionamento do brinquedo (por exemplo, complexidade dos movimentos).
+- Integrar o c¢digo para visualizar em tempo real os comandos dos movimentos do brinquedo."
+Anos Finais;9§;1§;3;5 e 6;- EF69CO03;- Descrever com precisÆo a solu‡Æo de um problema, construindo o programa que implementa a solu‡Æo descrita.;- Atua‡Æo condicional com feedback.;Reage, brinquedo! - Programe a diversÆo!;"- Programa‡Æo condicional com faixa de valores; atua‡Æo autom tica com LEDs, motores ou sirenes; resposta reativa a m£ltiplas vari veis.";- Desenvolver sistemas automatizados que respondem a diferentes n¡veis de sensores com m£ltiplas rea‡äes.
+Anos Finais;9§;1§;4;7 e 8;- EF69CO07;- Entender o processo de transmissÆo de dados, como a informa‡Æo ‚ quebrada em peda‡os, transmitida em pacotes atrav‚s de m£ltiplos equipamentos, e reconstru¡da no destino.;- Comunica‡Æo r dio e coordena‡Æo.;Controle radical: brinquedo controlado por r dio;"- Comunica‡Æo sem fio via r dio entre micro:bits.
+- Envio e recebimento de comandos.
+- Sincroniza‡Æo entre controle remoto e rob“.";"- Programar dois dispositivos para operar em conjunto com comunica‡Æo via r dio.
+- Criar sistemas coordenados."
+Anos Finais;9§;1§;5;9 e 10;- EF09CO02;- Construir solu‡äes computacionais de problemas de diferentes  reas do conhecimento, de forma individual e colaborativa, selecionando as estruturas de dados e t‚cnicas adequadas, aperfei‡oando e articulando saberes escolares.;- Intera‡Æo prot¢tipo-ambiente.;Brinquedos interativos: simulando comportamentos reativos;- Utiliza‡Æo de estruturas matem ticas para tomada de decisÆo com base no movimento aleat¢rio.;- Projetar e programar um prot¢tipo rob¢tico simples que utilize sensores ou motores para realizar uma tarefa espec¡fica.
+Anos Finais;9§;1§;6;11 e 12;- EF69CO04;- Construir solu‡äes de problemas usando a t‚cnica de decomposi‡Æo e automatizar tais solu‡äes usando uma linguagem de programa‡Æo.;- Controle de motores com precisÆo.;Servo ataca! ? Controle de movimento preciso;"- Controle de movimento com servomotor.
+- Defini‡Æo de ƒngulos de atua‡Æo.
+- Constru‡Æo mecƒnica com seguran‡a estrutural.";- Programar o servomotor com diferentes ƒngulos de resposta.
+Anos Finais;9§;1§;7;13 e 14 ;- EF69CO04;- Construir solu‡äes de problemas usando a t‚cnica de decomposi‡Æo e automatizar tais solu‡äes usando uma linguagem de programa‡Æo.;- Mini-desafio de integra‡Æo.;Show de rob¢tica: prot¢tipo final em funcionamento;"- Integra‡Æo de sensores, motores e comunica‡Æo r dio
+- Desenvolvimento de sistema coordenado com rea‡Æo a m£ltiplos eventos.
+- Montagem final do prot¢tipo funcional.";- Integrar sensores, atuadores e r dio em um sistema funcional com interface e resposta coordenada a eventos cr¡ticos.
+Anos Finais;9§;2§;1;1 e 2;EF69CO02;? Elaborar algoritmos que envolvam instru‡äes sequenciais, de repeti‡Æo e de sele‡Æo usando uma linguagem de programa‡Æo.;Elementos b sicos de jogos digitais;[Competi‡Æo de Rob¢tica] Jogo Iniciado! ? Sprites e botäes no comando;"- Introdu‡Æo … biblioteca ?Jogos? do MakeCode; cria‡Æo de sprites; l¢gica de movimenta‡Æo com botäes.
+- Apresenta‡Æo da Competi‡Æo de Projetos - Game Jam";"Compreender os elementos estruturais da biblioteca ?Jogos? do MakeCode e iniciar a cria‡Æo de um jogo simples com movimento e controle.
+Reconhecer as etapas e crit‚rios do Game Jam"
+Anos Finais;9§;2§;2;3 e 4;EF69CO06;? Comparar diferentes casos particulares (instƒncias) de um mesmo problema, identificando as semelhan‡as e diferen‡as entre eles, e criar um algoritmo para resolver todos, fazendo uso de vari veis (parƒmetros) para permitir o tratamento de todos os casos de forma gen‚rica.;Coordenadas e Interatividade;[Competi‡Æo de Rob¢tica] NÆo Saia da Tela! ? Movimento com limites;"Utiliza‡Æo do plano cartesiano (X, Y); movimenta‡Æo por coordenadas; detec‡Æo de colisäes e tratamento de bordas.";Aplicar o plano cartesiano no controle de sprites e criar jogos com movimenta‡Æo e limita‡Æo espacial.
+Anos Finais;9§;2§;3;5 e 6;EF69CO03;? Descrever com precisÆo a solu‡Æo de um problema, construindo o programa que implementa a solu‡Æo descrita.;Rea‡Æo e Aleatoriedade;[Competi‡Æo de Rob¢tica] Inimigo Aleat¢rio! ? Eventos e colisäes;"Gera‡Æo de n£meros aleat¢rios; uso de vari veis de estado; condicionais para eventos de vit¢ria e colisÆo.";Criar um sistema de jogo com desafios de tempo e chance, utilizando vari veis e aleatoriedade.
+Anos Finais;9§;2§;4;7 e 8;EF69CO05;? Identificar os recursos ou insumos necess rios (entradas) para a resolu‡Æo de problemas, bem como os resultados esperados (sa¡das), determinando os respectivos tipos de dados, e estabelecendo a defini‡Æo de problema como uma rela‡Æo entre entrada e sa¡da.;Jogos com Sensores;[Competi‡Æo de Rob¢tica] Mexeu, Jogou Parte 1! ? Jogos com sensores f¡sicos;"Uso de sensores embarcados (aceler“metro e gestos) como entrada de controle; desenvolvimento de jogos com intera‡Æo por movimento.";"Usar sensores embarcados como entrada principal do jogo; desenvolver jogo desplugado com movimento f¡sico."
+Anos Finais;9§;2§;5;9 e 10;EF69CO02;? Elaborar algoritmos que envolvam instru‡äes sequenciais, de repeti‡Æo e de sele‡Æo usando uma linguagem de programa‡Æo.;Contadores e Tempo;[Competi‡Æo de Rob¢tica] Mexeu, Jogou parte 2! ? Corrida contra o tempo.;"Controle de tempo com loops temporais; cria‡Æo de cron“metro e l¢gica de ?game over?; jogos baseados em tempo e resposta r pida.";Criar jogo baseado em tempo e pressÆo com resposta r pida, cron“metro e l¢gica de ?game over?.
+Anos Finais;9§;2§;6;11 e 12;EF69CO01;? Classificar informa‡äes, agrupando-as em cole‡äes (conjuntos) e associando cada cole‡Æo a um ?tipo de dado?.;Sistemas de Pontua‡Æo e HUD;[Competi‡Æo de Rob¢tica] Mexeu, Jogou Parte 3! ? Pontue e Apare‡a;"Cria‡Æo de vari veis de pontua‡Æo; atualiza‡Æo do placar em tempo real; constru‡Æo de HUD visual no micro:bit.";"Controlar placar e l¢gica de jogo por pontos; construir feedback visual com o HUD da micro:bit"
+Anos Finais;9§;2§;7;13 e 14;EF69CO04;? Construir solu‡äes de problemas usando a t‚cnica de decomposi‡Æo e automatizar tais solu‡äes usando uma linguagem de programa‡Æo.;Game Jam Maker;[Competi‡Æo de Rob¢tica] Meu Jogo, Minhas Regras ? Cria‡Æo autoral;"Integra‡Æo de movimenta‡Æo, pontua‡Æo, tempo e HUD em jogo autoral; cria‡Æo de jogo completo com sensores e l¢gica de intera‡Æo.
+Apresenta‡Æo do jogo - Game Jam";"Criar um jogo autoral usando blocos de ?Jogos? com integra‡Æo de sensores, l¢gica, sprites e controle por tempo.
+Criar um Pitch para o jogo
+Apresentar o jogo em competi‡Æo de rob¢tica"
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;

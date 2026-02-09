@@ -1,0 +1,73 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.header {
+  background: linear-gradient(135deg, #1a237e 0%, #283593 50%, #3949ab 100%);
+  color: white;
+  padding: 1.5rem 2rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+.logo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+.subtitle {
+  font-size: 0.85rem;
+  opacity: 0.8;
+  margin: 0.25rem 0 0;
+}
+.nav-tabs {
+  display: flex;
+  gap: 0.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.nav-tab {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  color: rgba(255,255,255,0.7);
+  text-decoration: none;
+  border-radius: 8px 8px 0 0;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+  border-bottom: none;
+}
+.nav-tab:hover {
+  color: white;
+  background: rgba(255,255,255,0.1);
+}
+.nav-tab.active {
+  color: #1a237e;
+  background: #f5f5f5;
+  font-weight: 600;
+}
+.tab-icon {
+  font-size: 1.2rem;
+}
+.main-content {
+  flex: 1;
+  background: #f5f5f5;
+  padding: 2rem;
+}
+@media (max-width: 600px) {
+  .header { padding: 1rem 1rem 0; }
+  .logo { font-size: 1.2rem; }
+  .nav-tab { padding: 0.6rem 1rem; font-size: 0.85rem; }
+  .main-content { padding: 1rem; }
+}
