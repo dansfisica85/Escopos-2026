@@ -158,6 +158,24 @@ O projeto está configurado para deploy no **Vercel** com:
 
 ---
 
+## 🆕 Melhorias e Novas Tecnologias
+
+Consulte o arquivo [CHANGELOG.md](./CHANGELOG.md) para ver a lista detalhada de melhorias, novas tecnologias e correções implementadas.
+
+---
+
+## ⚠️ Observação sobre Materiais de Robótica
+
+Alguns links de materiais didáticos de robótica utilizam o domínio `acervocmsp.educacao.sp.gov.br` e podem retornar erro **403 Forbidden** devido a restrições de acesso do portal. Isso ocorre por:
+- Requisitos de autenticação/rede interna da Secretaria
+- Materiais restritos a usuários logados ou rede escolar
+
+**Solução sugerida:**
+- Acesse a partir de uma rede da Secretaria ou com login institucional
+- Caso o erro persista, entre em contato com o suporte do portal ou utilize materiais alternativos
+
+---
+
 ## 👨‍💻 Desenvolvedor
 
 Davi Antonino Nunes da Silva
