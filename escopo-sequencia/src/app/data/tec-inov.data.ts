@@ -22,6 +22,7 @@ export const TEC_INOV_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 1',
                   titulo: 'Primeiros passos na tecnologia',
                   formato: 'Material digital',
+                  materialLink: 'materiais/5613_AULA01_AULA01_ALUNO.pdf',
                   objetivos: 'Identificar os três eixos principais que estruturam o ensino de tecnologia: pensamento computacional, mundo digital e cultura digital. Explicar pensamento computacional e seus quatro pilares fundamentais. Descrever conceitos iniciais de projeto tecnológico pessoal.',
                   conteudos: 'Eixos estruturantes da tecnologia. Pilares do pensamento computacional: decomposição, reconhecimento de padrões, abstração e algoritmo. Planejamento inicial de projetos criativos.'
                 },
@@ -29,6 +30,7 @@ export const TEC_INOV_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 2',
                   titulo: 'Entrada e saída no computador',
                   formato: 'Material digital',
+                  materialLink: 'materiais/5613_AULA02_AULA02_ALUNO.pdf',
                   objetivos: 'Listar principais dispositivos tecnológicos na escola. Explicar diferenças entre dispositivos de entrada e saída. Classificar corretamente os dispositivos.',
                   conteudos: 'Identificação dos dispositivos tecnológicos na escola. Dispositivos de entrada (mouse, teclado, microfone, câmera). Dispositivos de saída (monitor, impressora, projetor, caixa de som).'
                 }
@@ -42,6 +44,7 @@ export const TEC_INOV_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 3',
                   titulo: 'Explorando o mouse',
                   formato: 'Material digital',
+                  materialLink: 'materiais/5613_AULA03_AULA03_ALUNO.pdf',
                   objetivos: 'Identificar partes e funcionalidades do mouse. Utilizar o mouse para clicar, arrastar e soltar blocos no Start Lab.',
                   conteudos: 'Dispositivo de entrada: o mouse. Interação com blocos de programação no Start Lab.'
                 },
@@ -49,6 +52,7 @@ export const TEC_INOV_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 4',
                   titulo: 'Criando com Teclado',
                   formato: 'Material digital',
+                  materialLink: 'materiais/5613_AULA04_AULA04_ALUNO.pdf',
                   objetivos: 'Identificar principais comandos do teclado no Start Lab. Reconhecer a função do bloco diga.',
                   conteudos: 'Exploração do teclado. Uso da bandeira verde e blocos de Eventos. Personalização de mensagens.',
                   entregaProjeto: true
@@ -70,6 +74,7 @@ export const TEC_INOV_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 5',
                   titulo: 'Explorando a cultura digital',
                   formato: 'Material digital',
+                  materialLink: 'materiais/5643_AULA05_AULA01_ALUNO.pdf',
                   objetivos: 'Identificar comportamentos respeitosos e inadequados nas interações digitais. Aplicar princípios de respeito e ética.',
                   conteudos: 'Reflexão sobre emoções nas interações digitais. Importância do comportamento respeitoso. Regras de convivência.'
                 },
@@ -77,6 +82,7 @@ export const TEC_INOV_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 6',
                   titulo: 'O poder das respostas',
                   formato: 'Material digital',
+                  materialLink: 'materiais/5643_AULA06_AULA02_ALUNO.pdf',
                   objetivos: 'Aplicar estratégias para responder de maneira respeitosa. Diferenciar respostas respeitosas de impulsivas.',
                   conteudos: 'Conceito de pirâmide das emoções. Identificação de respostas impulsivas e reflexivas.'
                 }
@@ -90,6 +96,7 @@ export const TEC_INOV_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 7',
                   titulo: 'Tirando dúvidas corretamente',
                   formato: 'Material digital',
+                  materialLink: 'materiais/5643_AULA07_AULA03_ALUNO.pdf',
                   objetivos: 'Aplicar estratégias para fazer perguntas claras no fórum. Analisar exemplos de perguntas inadequadas.',
                   conteudos: 'Como fazer perguntas claras e objetivas. Estratégias de criação de boas perguntas.'
                 },
@@ -97,6 +104,7 @@ export const TEC_INOV_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 8',
                   titulo: 'Desvendando a Obsolescência Programada',
                   formato: 'Material digital',
+                  materialLink: 'materiais/5643_AULA08_AULA04_ALUNO.pdf',
                   objetivos: 'Compreender o conceito de obsolescência programada e seus impactos. Analisar as consequências ambientais.',
                   conteudos: 'Conceito de obsolescência programada. Impactos ambientais do lixo eletrônico. Soluções para consumo sustentável.'
                 }
@@ -377,6 +385,7 @@ export const TEC_INOV_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 5',
                   titulo: 'Pacote de dados',
                   formato: 'Material digital',
+                  materialLink: 'materiais/5642_AULA05_AULA01_ALUNO.pdf',
                   objetivos: 'Reconhecer conceito de transmissão de dados. Compreender importância de pacotes de dados.',
                   conteudos: 'Conceito de transmissão de dados. Divisão de informações em pacotes.'
                 },
@@ -424,6 +433,7 @@ export const TEC_INOV_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 11',
                   titulo: 'Rastros na Internet',
                   formato: 'Material digital',
+                  materialLink: 'materiais/5657_AULA11_AULA01_ALUNO.pdf',
                   objetivos: 'Compreender diferença entre dados e informações digitais. Identificar práticas inseguras. Refletir sobre rastros digitais.',
                   conteudos: 'Diferença entre dados e informações digitais. Interações online geram perfis pessoais. Segurança digital.'
                 },
@@ -431,6 +441,7 @@ export const TEC_INOV_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 12',
                   titulo: 'Ameaças digitais',
                   formato: 'Material digital',
+                  materialLink: 'materiais/5657_AULA12_AULA02_ALUNO.pdf',
                   objetivos: 'Analisar como dados pessoais são usados em golpes. Relacionar ameaças a comportamentos inseguros.',
                   conteudos: 'Tipos de ameaças: malware e phishing. Estratégias de golpistas. Dicas de prevenção.'
                 }
@@ -444,6 +455,7 @@ export const TEC_INOV_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 13',
                   titulo: 'Desinformação online',
                   formato: 'Material digital',
+                  materialLink: 'materiais/5657_AULA13_AULA03_ALUNO.pdf',
                   objetivos: 'Analisar engenharia social e desinformação. Reconhecer riscos de exposição de dados.',
                   conteudos: 'Engenharia social e fake news. Manipulação de conteúdo. Riscos do compartilhamento.'
                 },
@@ -451,6 +463,7 @@ export const TEC_INOV_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 14',
                   titulo: 'Empatia digital',
                   formato: 'Material digital',
+                  materialLink: 'materiais/5657_AULA14_AULA04_ALUNO.pdf',
                   objetivos: 'Refletir sobre atitudes que impactam segurança digital. Reconhecer importância da empatia online.',
                   conteudos: 'Ações individuais e segurança digital. Empatia e respeito. Riscos de conteúdos ofensivos.'
                 }
@@ -638,6 +651,7 @@ export const TEC_INOV_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 1',
                   titulo: 'Conhecendo o explorador de arquivos',
                   formato: 'Material digital',
+                  materialLink: 'materiais/5644_AULA01_AULA01_ALUNO.pdf',
                   objetivos: 'Identificar partes básicas de navegação do computador. Entender explorador de arquivos. Criar e nomear pastas.',
                   conteudos: 'Estrutura básica do computador. Tipos de arquivo. Organização de arquivos e pastas.'
                 },
@@ -712,6 +726,7 @@ export const TEC_INOV_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 8',
                   titulo: 'Apresentando o projeto',
                   formato: 'Material digital',
+                  materialLink: 'materiais/5644_AULA08_AULA08_ALUNO.pdf',
                   objetivos: 'Exportar como PDF. Organizar apresentação. Preparar apresentação oral.',
                   conteudos: 'Exportação de documentos (PDF). Técnicas de apresentação oral.',
                   entregaProjeto: true
@@ -947,6 +962,7 @@ export const TEC_INOV_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 1',
                   titulo: 'Introdução às Redes Sociais',
                   formato: 'Material digital',
+                  materialLink: 'materiais/5645_AULA01_AULA01_ALUNO.pdf',
                   objetivos: 'Analisar o cenário de uso da internet no Brasil. Identificar intencionalidades dos usuários. Distinguir características das plataformas.',
                   conteudos: 'Uso da Internet e Redes Sociais no Brasil. Intencionalidade do Usuário. Diversidade de Plataformas.'
                 },
@@ -967,6 +983,7 @@ export const TEC_INOV_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 3',
                   titulo: 'Primeira postagem no Canva',
                   formato: 'Material digital',
+                  materialLink: 'materiais/Redes_sociais_conteudos_conectam_algoritmos_AULA03_ALUNO.pdf',
                   objetivos: 'Utilizar o Canva para designs de postagens. Selecionar e estilizar textos. Personalizar fundo.',
                   conteudos: 'Introdução ao Canva. Edição de Texto e Fontes. Personalização de Backgrounds.'
                 },
@@ -1021,6 +1038,7 @@ export const TEC_INOV_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 8',
                   titulo: 'Compartilhando o post',
                   formato: 'Material digital',
+                  materialLink: 'materiais/5645_AULA08_AULA08_ALUNO.pdf',
                   objetivos: 'Elaborar legendas e hashtags eficazes. Configurar compartilhamento. Exportar como vídeo.',
                   conteudos: 'Criação de Legendas e Hashtags. Opções de Compartilhamento. Exportação para Redes Sociais.',
                   entregaProjeto: true
@@ -1042,6 +1060,7 @@ export const TEC_INOV_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 11',
                   titulo: 'Desvendando fake news',
                   formato: 'Material digital',
+                  materialLink: 'materiais/5691_AULA11_AULA01_ALUNO.pdf',
                   objetivos: 'Analisar postagens para avaliar confiabilidade. Aplicar tabela de análise.',
                   conteudos: 'Compartilhamento de informações. Critérios de avaliação de confiabilidade. Responsabilidade e ética.'
                 },
@@ -1049,6 +1068,7 @@ export const TEC_INOV_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 12',
                   titulo: 'Criando postagens confiáveis',
                   formato: 'Material digital',
+                  materialLink: 'materiais/5691_AULA12_AULA02_ALUNO.pdf',
                   objetivos: 'Compreender impacto das redes sociais. Criar post informativo. Avaliar confiabilidade de informações.',
                   conteudos: 'Criação de conteúdo responsável. Verificação de informações.'
                 }
@@ -1062,6 +1082,7 @@ export const TEC_INOV_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 13',
                   titulo: 'Protegendo seus dados',
                   formato: 'Material digital',
+                  materialLink: 'materiais/5691_AULA13_AULA03_ALUNO.pdf',
                   objetivos: 'Identificar tipos de dados pessoais. Reconhecer riscos. Compreender importância de proteger dados.',
                   conteudos: 'Tipos de dados. Riscos no compartilhamento. Privacidade e segurança online.'
                 },

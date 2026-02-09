@@ -22,6 +22,7 @@ export const PROG_EM_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 1',
                   titulo: 'Tecnologia no dia a dia',
                   formato: 'Material digital',
+                  materialLink: 'materiais/5646_AULA01_AULA01_ALUNO.pdf',
                   objetivos: 'Identificar a presença e o uso de tecnologias digitais no trabalho. Compreender os impactos das tecnologias na evolução das profissões. Analisar como a tecnologia pode promover um mundo mais justo.',
                   conteudos: 'Transformações digitais no trabalho. Adaptação profissional e novas carreiras. Tecnologia e ODS (ONU).'
                 },
@@ -42,6 +43,7 @@ export const PROG_EM_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 3',
                   titulo: 'O que veremos nas aulas?',
                   formato: 'Material digital',
+                  materialLink: 'materiais/5646_AULA03_AULA03_ALUNO.pdf',
                   objetivos: 'Refletir sobre o uso de diferentes tecnologias para a construção de soluções computacionais. Relacionar tecnologias digitais com saberes escolares. Propor o uso responsável de IA.',
                   conteudos: 'Ferramentas e linguagens de programação. Uso de tecnologia para solucionar problemas do cotidiano escolar. Reflexão sobre o uso responsável de IA.'
                 },
@@ -49,6 +51,7 @@ export const PROG_EM_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 4',
                   titulo: 'Inteligência artificial',
                   formato: 'Material digital',
+                  materialLink: 'materiais/5646_AULA04_AULA04_ALUNO.pdf',
                   objetivos: 'Compreender os fundamentos da Inteligência Artificial. Comparar a IA com a inteligência humana. Analisar os riscos e benefícios do uso da IA.',
                   conteudos: 'Fundamentos e tipos de IA. Comparativo IA vs. inteligência humana. Potenciais, riscos e limites da IA.',
                   entregaProjeto: true
@@ -343,6 +346,7 @@ export const PROG_EM_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 1',
                   titulo: 'Apresentações com IA',
                   formato: 'Material digital',
+                  materialLink: 'materiais/5641_AULA01_AULA01_ALUNO.pdf',
                   objetivos: 'Identificar os elementos que compõem uma boa apresentação. Compreender o conceito de IA generativa. Relacionar situações do cotidiano com o uso de IA.',
                   conteudos: 'A importância das apresentações na vida acadêmica e profissional. Introdução à IA generativa. Planejamento inicial.'
                 },
@@ -417,6 +421,7 @@ export const PROG_EM_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 8',
                   titulo: 'AutorIA',
                   formato: 'Material digital',
+                  materialLink: 'materiais/5641_AULA08_AULA08_ALUNO.pdf',
                   objetivos: 'Refletir criticamente sobre o processo com IA. Avaliar pontos positivos e negativos do uso de IA. Reconhecer o papel da autoria e criatividade.',
                   conteudos: 'Avaliação crítica do uso da IA. Identificação de momentos de autonomia criativa. Expressão de percepções sobre tecnologia.',
                   entregaProjeto: true
