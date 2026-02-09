@@ -21,7 +21,8 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aulas 1 e 2',
                   titulo: 'Computadores e robôs: uma introdução',
                   objetivos: 'Reconhecer os principais periféricos de um computador. Relacionar com entradas e saídas.',
-                  conteudos: 'Periféricos / entradas e saídas.'
+                  conteudos: 'Periféricos / entradas e saídas.',
+                  materialLink: 'https://acervocmsp.educacao.sp.gov.br/147452/1519475.pdf'
                 }
               ]
             },
@@ -214,7 +215,8 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aulas 1 e 2',
                   titulo: 'Criando sons com o micro:bit I',
                   objetivos: 'Conhecer conceitos básicos de notas musicais e oitavas. Experimentar blocos de música. Investigar capacidade da placa.',
-                  conteudos: 'Notação europeia. Notas no teclado virtual. Oitavas. Blocos de música no MakeCode.'
+                  conteudos: 'Notação europeia. Notas no teclado virtual. Oitavas. Blocos de música no MakeCode.',
+                  materialLink: 'https://acervocmsp.educacao.sp.gov.br/147053/1503490.pdf'
                 }
               ]
             },
@@ -407,7 +409,8 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aulas 1 e 2',
                   titulo: 'Explorando labirintos com senso de direção',
                   objetivos: 'Compreender os conceitos de direção e navegação. Explorar orientação com coordenadas no MakeCode.',
-                  conteudos: 'Labirinto. Rosa dos ventos. Navegação por coordenadas.'
+                  conteudos: 'Labirinto. Rosa dos ventos. Navegação por coordenadas.',
+                  materialLink: 'https://acervocmsp.educacao.sp.gov.br/142955/1507123.pdf'
                 }
               ]
             },
@@ -419,7 +422,8 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aulas 3 e 4',
                   titulo: 'Planejando a rota',
                   objetivos: 'Compreender o funcionamento da bússola. Criar programa que exibe direção na matriz de LEDs.',
-                  conteudos: 'Direções. Bússola do micro:bit. Programação.'
+                  conteudos: 'Direções. Bússola do micro:bit. Programação.',
+                  materialLink: 'https://acervocmsp.educacao.sp.gov.br/143483/1516377.pdf'
                 }
               ]
             },
@@ -601,7 +605,8 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aulas 1 e 2',
                   titulo: 'Introdução à IoT',
                   objetivos: 'Compreender o conceito de IoT. Identificar aplicações de IoT no cotidiano.',
-                  conteudos: 'Internet das Coisas. Sensores conectados. Automação.'
+                  conteudos: 'Internet das Coisas. Sensores conectados. Automação.',
+                  materialLink: 'https://acervocmsp.educacao.sp.gov.br/143691/1520656.pdf'
                 }
               ]
             },

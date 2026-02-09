@@ -16,12 +16,6 @@ export const MATERIAIS_ROBOTICA: MaterialPorAno[] = [
     bimestre: '1º Bimestre',
     materiais: [
       { aula: 1, titulo: 'Computadores e robôs: uma introdução', link: 'https://acervocmsp.educacao.sp.gov.br/147452/1519475.pdf' },
-      { aula: 2, titulo: 'Entendendo a robótica', link: 'https://acervocmsp.educacao.sp.gov.br/144312/' },
-      { aula: 3, titulo: 'Aprendendo a linguagem dos robôs', link: 'https://acervocmsp.educacao.sp.gov.br/145564/' },
-      { aula: 4, titulo: 'O Mistério do micro:bit', link: 'https://acervocmsp.educacao.sp.gov.br/145846/' },
-      { aula: 5, titulo: 'Emoções com o micro:bit: botões', link: 'https://acervocmsp.educacao.sp.gov.br/146147/' },
-      { aula: 6, titulo: 'Emoções com o micro:bit - Parte 2', link: 'https://acervocmsp.educacao.sp.gov.br/146388/' },
-      { aula: 7, titulo: 'Meu amigo robô', link: 'https://acervocmsp.educacao.sp.gov.br/146599/' },
     ]
   },
   {
@@ -29,12 +23,6 @@ export const MATERIAIS_ROBOTICA: MaterialPorAno[] = [
     bimestre: '1º Bimestre',
     materiais: [
       { aula: 1, titulo: 'Criando sons com o microbit - Parte I', link: 'https://acervocmsp.educacao.sp.gov.br/147053/1503490.pdf' },
-      { aula: 2, titulo: 'Criando sons com o microbit - Parte II', link: 'https://acervocmsp.educacao.sp.gov.br/147235/' },
-      { aula: 3, titulo: 'Termobit - Parte 1', link: 'https://acervocmsp.educacao.sp.gov.br/147261/' },
-      { aula: 4, titulo: 'Termobit - Parte II', link: 'https://acervocmsp.educacao.sp.gov.br/147400/' },
-      { aula: 5, titulo: 'Jogando com a matemática', link: 'https://acervocmsp.educacao.sp.gov.br/146960/' },
-      { aula: 6, titulo: 'Vamos de novo: conhecendo os blocos de repetição', link: 'https://acervocmsp.educacao.sp.gov.br/147077/' },
-      { aula: 7, titulo: 'Alarme de temperatura', link: 'https://acervocmsp.educacao.sp.gov.br/147921/' },
     ]
   },
   {
@@ -43,11 +31,6 @@ export const MATERIAIS_ROBOTICA: MaterialPorAno[] = [
     materiais: [
       { aula: 1, titulo: 'A preguiça é a mãe do progresso?', link: 'https://acervocmsp.educacao.sp.gov.br/142955/1507123.pdf' },
       { aula: 2, titulo: 'Não fique bugado! Entenda o que faz um computador funcionar', link: 'https://acervocmsp.educacao.sp.gov.br/143483/1516377.pdf' },
-      { aula: 3, titulo: 'Pedra, papel, tesoura!', link: 'https://acervocmsp.educacao.sp.gov.br/144484/' },
-      { aula: 4, titulo: 'Caçadores do Campo Magnético Perdido', link: 'https://acervocmsp.educacao.sp.gov.br/145904/' },
-      { aula: 5, titulo: 'Me dá um tempo? Controlando o tempo na robótica', link: 'https://acervocmsp.educacao.sp.gov.br/146260/' },
-      { aula: 6, titulo: 'Plot-Art: desenhando no micro:bit com matemática', link: 'https://acervocmsp.educacao.sp.gov.br/146417/' },
-      { aula: 7, titulo: 'Desanima não! Faça animações usando a matriz de LEDs', link: 'https://acervocmsp.educacao.sp.gov.br/146614/' },
     ]
   },
   {
@@ -55,12 +38,6 @@ export const MATERIAIS_ROBOTICA: MaterialPorAno[] = [
     bimestre: '1º Bimestre',
     materiais: [
       { aula: 1, titulo: 'Dispositivos Robóticos - Programando a Diversão', link: 'https://acervocmsp.educacao.sp.gov.br/143691/1520656.pdf' },
-      { aula: 2, titulo: 'Luz, brinquedo, ação! – Adicionando movimento', link: 'https://acervocmsp.educacao.sp.gov.br/144596/' },
-      { aula: 3, titulo: 'Reage, Brinquedo! – Programe a diversão!', link: 'https://acervocmsp.educacao.sp.gov.br/145995/' },
-      { aula: 4, titulo: 'Controle Radical – Brinquedo controlado por rádio', link: 'https://acervocmsp.educacao.sp.gov.br/146313/' },
-      { aula: 5, titulo: 'Brinquedos interativos: simulando comportamentos reativos', link: 'https://acervocmsp.educacao.sp.gov.br/146561/' },
-      { aula: 6, titulo: 'Servo ataca! – Controle de movimento preciso', link: 'https://acervocmsp.educacao.sp.gov.br/146976/' },
-      { aula: 7, titulo: 'Show de robótica: protótipo final em funcionamento', link: 'https://acervocmsp.educacao.sp.gov.br/147189/' },
     ]
   },
   {
