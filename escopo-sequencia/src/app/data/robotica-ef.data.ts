@@ -22,7 +22,7 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   titulo: 'Computadores e robôs: uma introdução',
                   objetivos: 'Reconhecer os principais periféricos de um computador. Relacionar com entradas e saídas.',
                   conteudos: 'Periféricos / entradas e saídas.',
-                  materialLink: 'https://acervocmsp.educacao.sp.gov.br/147452/1519475.pdf'
+                  materialLink: 'materiais/1519475.pdf'
                 }
               ]
             },
@@ -34,7 +34,8 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aulas 3 e 4',
                   titulo: 'Entendendo a robótica',
                   objetivos: 'Compreender o conceito de robótica por meio de produções audiovisuais. Reconhecer o impacto da robótica no cotidiano.',
-                  conteudos: 'Conceitos de robótica. Robôs e suas aplicações. História da robótica.'
+                  conteudos: 'Conceitos de robótica. Robôs e suas aplicações. História da robótica.',
+                  materialLink: 'materiais/1503299.pdf'
                 }
               ]
             },
@@ -46,7 +47,8 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aulas 5 e 6',
                   titulo: 'Aprendendo a linguagem dos robôs',
                   objetivos: 'Compreender que existem diferentes formas de construir algoritmos. Reconhecer a programação em blocos como forma acessível.',
-                  conteudos: 'Linguagem de programação em blocos na robótica. Linguagem natural x linguagem formal. Algoritmo e instruções.'
+                  conteudos: 'Linguagem de programação em blocos na robótica. Linguagem natural x linguagem formal. Algoritmo e instruções.',
+                  materialLink: 'materiais/1503877.pdf'
                 }
               ]
             },
@@ -58,7 +60,8 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aulas 7 e 8',
                   titulo: 'Mistérios do micro:bit',
                   objetivos: 'Explorar o ambiente de programação MakeCode. Identificar as principais ferramentas e funcionalidades.',
-                  conteudos: 'Ambiente de programação do MakeCode. Menu de ferramentas. Estrutura dos blocos.'
+                  conteudos: 'Ambiente de programação do MakeCode. Menu de ferramentas. Estrutura dos blocos.',
+                  materialLink: 'materiais/1503515.pdf'
                 }
               ]
             },
@@ -70,7 +73,8 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aulas 9 e 10',
                   titulo: 'Emoções com o micro:bit: botões',
                   objetivos: 'Identificar os blocos de botões e blocos básicos do MakeCode. Explorar a comunicação no ambiente digital.',
-                  conteudos: 'Comunicação digital com emojis. Blocos de entrada - botões. Blocos básicos - ícones.'
+                  conteudos: 'Comunicação digital com emojis. Blocos de entrada - botões. Blocos básicos - ícones.',
+                  materialLink: 'materiais/1516408.pdf'
                 }
               ]
             },
@@ -82,7 +86,8 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aulas 11 e 12',
                   titulo: 'Emoções com o micro:bit: acelerômetro',
                   objetivos: 'Identificar o sensor acelerômetro na placa micro:bit. Construir um programa utilizando o sensor acelerômetro.',
-                  conteudos: 'Representação de emoções no robô. Sensor acelerômetro no micro:bit. Bloco agitar no menu de entrada.'
+                  conteudos: 'Representação de emoções no robô. Sensor acelerômetro no micro:bit. Bloco agitar no menu de entrada.',
+                  materialLink: 'materiais/1519491.pdf'
                 }
               ]
             },
@@ -95,6 +100,7 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   titulo: 'Meu amigo robô',
                   objetivos: 'Construir um robô com materiais não estruturados, utilizando proposta de tema transversal.',
                   conteudos: 'Apresentação do problema. Desenvolvimento da proposta. Construção de protótipo de robô desplugado com tema saúde.',
+                  materialLink: 'materiais/1518949.pdf',
                   entregaProjeto: true
                 }
               ]
@@ -216,7 +222,7 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   titulo: 'Criando sons com o micro:bit I',
                   objetivos: 'Conhecer conceitos básicos de notas musicais e oitavas. Experimentar blocos de música. Investigar capacidade da placa.',
                   conteudos: 'Notação europeia. Notas no teclado virtual. Oitavas. Blocos de música no MakeCode.',
-                  materialLink: 'https://acervocmsp.educacao.sp.gov.br/147053/1503490.pdf'
+                  materialLink: 'materiais/1503490.pdf'
                 }
               ]
             },
@@ -228,7 +234,8 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aulas 3 e 4',
                   titulo: 'Criando sons com o micro:bit II',
                   objetivos: 'Identificar andamento (BPM). Explorar durações de tempo e intervalos. Experimentar variações de comandos.',
-                  conteudos: 'O que é BPM. Relação do andamento na velocidade. Tempo e duração de notas musicais. Pausas na composição.'
+                  conteudos: 'O que é BPM. Relação do andamento na velocidade. Tempo e duração de notas musicais. Pausas na composição.',
+                  materialLink: 'materiais/1503338.pdf'
                 }
               ]
             },
@@ -240,7 +247,8 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aulas 5 e 6',
                   titulo: 'TermoBit I',
                   objetivos: 'Identificar importância do termômetro. Entender funções pré-programadas. Identificar o sensor de temperatura.',
-                  conteudos: 'Termômetro. Funções pré-programadas no menu de ferramentas. Sensor de temperatura no micro:bit.'
+                  conteudos: 'Termômetro. Funções pré-programadas no menu de ferramentas. Sensor de temperatura no micro:bit.',
+                  materialLink: 'materiais/1503404.pdf'
                 }
               ]
             },
@@ -252,7 +260,8 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aulas 7 e 8',
                   titulo: 'TermoBit II',
                   objetivos: 'Compreender diferentes aplicações do sensor de temperatura. Construir um programa para identificar temperaturas.',
-                  conteudos: 'O sensor de temperatura do micro:bit. Bloco de temperatura. Programação.'
+                  conteudos: 'O sensor de temperatura do micro:bit. Bloco de temperatura. Programação.',
+                  materialLink: 'materiais/1503436.pdf'
                 }
               ]
             },
@@ -264,7 +273,8 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aulas 9 e 10',
                   titulo: 'Jogando com a matemática',
                   objetivos: 'Identificar blocos de matemática no MakeCode. Explorar operações matemáticas no código.',
-                  conteudos: 'Blocos de matemática. Operações fundamentais. Números aleatórios. Programação.'
+                  conteudos: 'Blocos de matemática. Operações fundamentais. Números aleatórios. Programação.',
+                  materialLink: 'materiais/1504710.pdf'
                 }
               ]
             },
@@ -276,7 +286,8 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aulas 11 e 12',
                   titulo: 'Vamos de novo: conhecendo os blocos de repetição',
                   objetivos: 'Identificar a função loop no MakeCode. Explorar blocos de repetição.',
-                  conteudos: 'Função loops. Blocos de repetição.'
+                  conteudos: 'Função loops. Blocos de repetição.',
+                  materialLink: 'materiais/1518918.pdf'
                 }
               ]
             },
@@ -289,6 +300,7 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   titulo: 'Alarme de temperatura',
                   objetivos: 'Explorar os recursos do sensor de temperatura e blocos de música no desenvolvimento de um alarme.',
                   conteudos: 'Sensor de temperatura. Blocos de música. Programação. Protótipo de alarme.',
+                  materialLink: 'materiais/1516296.pdf',
                   entregaProjeto: true
                 }
               ]
@@ -410,7 +422,7 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   titulo: 'Explorando labirintos com senso de direção',
                   objetivos: 'Compreender os conceitos de direção e navegação. Explorar orientação com coordenadas no MakeCode.',
                   conteudos: 'Labirinto. Rosa dos ventos. Navegação por coordenadas.',
-                  materialLink: 'https://acervocmsp.educacao.sp.gov.br/142955/1507123.pdf'
+                  materialLink: 'materiais/1507123.pdf'
                 }
               ]
             },
@@ -423,7 +435,7 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   titulo: 'Planejando a rota',
                   objetivos: 'Compreender o funcionamento da bússola. Criar programa que exibe direção na matriz de LEDs.',
                   conteudos: 'Direções. Bússola do micro:bit. Programação.',
-                  materialLink: 'https://acervocmsp.educacao.sp.gov.br/143483/1516377.pdf'
+                  materialLink: 'materiais/1516377.pdf'
                 }
               ]
             },
@@ -435,7 +447,8 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aulas 5 e 6',
                   titulo: 'Introdução à Shield do micro:bit',
                   objetivos: 'Conhecer a shield de expansão. Explorar componentes e servomotores.',
-                  conteudos: 'Shield de expansão. Componentes da shield. Servomotores.'
+                  conteudos: 'Shield de expansão. Componentes da shield. Servomotores.',
+                  materialLink: 'materiais/1518645.pdf'
                 }
               ]
             },
@@ -447,7 +460,8 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aulas 7 e 8',
                   titulo: 'Servomotores em ação',
                   objetivos: 'Programar servomotores. Controlar posição e velocidade.',
-                  conteudos: 'Controle de servomotores. Programação de ângulos. Movimento preciso.'
+                  conteudos: 'Controle de servomotores. Programação de ângulos. Movimento preciso.',
+                  materialLink: 'materiais/1516350.pdf'
                 }
               ]
             },
@@ -459,7 +473,8 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aulas 9 e 10',
                   titulo: 'Construindo um semáforo inteligente',
                   objetivos: 'Construir um semáforo com LEDs. Compreender temporização.',
-                  conteudos: 'LEDs. Semáforo. Temporização.'
+                  conteudos: 'LEDs. Semáforo. Temporização.',
+                  materialLink: 'materiais/1516417.pdf'
                 }
               ]
             },
@@ -471,7 +486,8 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aulas 11 e 12',
                   titulo: 'Protótipo: semáforo interativo',
                   objetivos: 'Adicionar interatividade ao semáforo. Usar sensores e botões.',
-                  conteudos: 'Sensor de luz. Botões. Interatividade.'
+                  conteudos: 'Sensor de luz. Botões. Interatividade.',
+                  materialLink: 'materiais/1491265.pdf'
                 }
               ]
             },
@@ -484,6 +500,7 @@ export const ROBOTICA_EF_DATA: DisciplinaEscopo = {
                   titulo: 'Semáforo inteligente: apresentação',
                   objetivos: 'Apresentar protótipo do semáforo inteligente.',
                   conteudos: 'Apresentação do projeto. Competição.',
+                  materialLink: 'materiais/1516265.pdf',
                   entregaProjeto: true
                 }
               ]
