@@ -27,12 +27,16 @@ export class RoboticaComponent {
   semanas = computed(() => this.selectedBimestre().semanas);
 
   materiaisAtuais = computed(() => {
-    const ano = this.selectedAno().anoSerie;
-    const bim = this.selectedBimestre().bimestre;
-    return this.materiais.find(m =>
-      m.ano.toLowerCase().includes(ano.toLowerCase().replace('º ano', '').replace('ª série', '').trim()) ||
-      ano.toLowerCase().includes(m.ano.toLowerCase().replace('º ano', '').trim())
-    );
+    const ano = this.selectedAno().anoSerie.toLowerCase();
+    return this.materiais.find(m => {
+      const mAno = m.ano.toLowerCase();
+      // Normalizar para comparação
+      const anoNorm = ano.replace(/º ano/g, '').replace(/ª séries?/g, '').replace(/[\/,]/g, ' ').trim();
+      const mAnoNorm = mAno.replace(/º ano/g, '').replace(/ª séries?/g, '').replace(/[\/,]/g, ' ').trim();
+      // Verifica se qualquer token do ano está contido no material ou vice-versa
+      const anoTokens = anoNorm.split(/\s+/).filter(t => /\d/.test(t));
+      return anoTokens.some(t => mAnoNorm.includes(t)) || mAnoNorm.includes(anoNorm) || anoNorm.includes(mAnoNorm);
+    });
   });
 
   onDisciplinaChange(index: number) {

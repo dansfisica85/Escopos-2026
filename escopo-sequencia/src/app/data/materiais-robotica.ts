@@ -64,7 +64,20 @@ export const MATERIAIS_ROBOTICA: MaterialPorAno[] = [
     ]
   },
   {
-    ano: 'Ensino Médio (1ª, 2ª e 3ª séries)',
+    ano: '1ª série',
+    bimestre: '1º Bimestre',
+    materiais: [
+      { aula: 1, titulo: 'Pequenos dispositivos, Grandes ideias', link: 'https://acervocmsp.educacao.sp.gov.br/147452/1507749.pdf' },
+      { aula: 2, titulo: 'Apresentando o micro:bit', link: 'https://acervocmsp.educacao.sp.gov.br/144312/1508240.pdf' },
+      { aula: 3, titulo: 'Onde se criam os programas', link: 'https://acervocmsp.educacao.sp.gov.br/145564/1511065.pdf' },
+      { aula: 4, titulo: 'Atividade desplugada', link: 'https://acervocmsp.educacao.sp.gov.br/145846/1514610.pdf' },
+      { aula: 5, titulo: 'Olhos digitais: sentidos à la micro:bit', link: 'https://acervocmsp.educacao.sp.gov.br/146147/1518713.pdf' },
+      { aula: 6, titulo: 'Olhos digitais: sentidos – Limitações', link: 'https://acervocmsp.educacao.sp.gov.br/146388/1520604.pdf' },
+      { aula: 7, titulo: 'Quando um sensor não basta', link: 'https://acervocmsp.educacao.sp.gov.br/146599/1520623.pdf' },
+    ]
+  },
+  {
+    ano: '2ª/3ª séries',
     bimestre: '1º Bimestre',
     materiais: [
       { aula: 1, titulo: 'Robótica sustentável: materializando ideias', link: 'https://acervocmsp.educacao.sp.gov.br/143696/1511028.pdf' },
