@@ -97,6 +97,8 @@ Cada `AulaEscopo` contém: título, formato, objetivos, conteúdos, flag de entr
 
 ### Routing
 
+### Routing
+
 Duas rotas principais com redirect automático:
 
 - `/programacao` → Programação EM + Tecnologia e Inovação
@@ -158,25 +160,143 @@ O projeto está configurado para deploy no **Vercel** com:
 
 ---
 
-## 🆕 Melhorias e Novas Tecnologias
+## ✨ Funcionalidades Principais
 
-Consulte o arquivo [CHANGELOG.md](./CHANGELOG.md) para ver a lista detalhada de melhorias, novas tecnologias e correções implementadas.
+### Filtros em Cascata
+- **Disciplina**: Selecione entre Programação EM, Tecnologia e Inovação, Robótica EF ou Robótica EM
+- **Ano/Série**: Acesso aos anos específicos de cada ciclo (EF: 6º-9º; EM: 1ª-3ª)
+- **Bimestre**: Navegação entre os 4 bimestres do ano letivo
+- **Expansão por Semana**: Cards expansíveis para visualizar detalhes das aulas semana por semana
+
+### Visualização de Aulas
+Cada aula apresenta:
+- **Número da aula** (sequência do ano)
+- **Título** descritivo do conteúdo
+- **Formato**: Aula teórica, prática, laboratorial, revisão, avaliação
+- **Habilidades BNCC**: Objetivos pedagógicos específicos
+- **Conteúdos**: Tópicos abordados na semana
+- **Marcador de Projeto**: Identifica semanas com entregas de projetos
+- **Materiais Didáticos**: Links para apresentações e recursos complementares (quando disponíveis)
+
+### Experiência do Usuário
+- **Interface intuitiva** com navegação clara e visual
+- **Responsivo**: Funciona perfeitamente em desktop, tablet e mobile
+- **Busca visual rápida**: Filtros dinâmicos para encontrar conteúdo específico
+- **Design acessível**: Cores contrastantes, tipografia legível, componentes bem espaçados
+- **Tema institucional**: Comunica-se com a identidade visual da Secretaria da Educação
 
 ---
 
-## ⚠️ Observação sobre Materiais de Robótica
+## 🎓 Contexto Educacional
 
-Alguns links de materiais didáticos de robótica utilizam o domínio `acervocmsp.educacao.sp.gov.br` e podem retornar erro **403 Forbidden** devido a restrições de acesso do portal. Isso ocorre por:
-- Requisitos de autenticação/rede interna da Secretaria
-- Materiais restritos a usuários logados ou rede escolar
+Este projeto atende às necessidades da educação pública do Estado de São Paulo, alinhado com:
 
-**Solução sugerida:**
-- Acesse a partir de uma rede da Secretaria ou com login institucional
-- Caso o erro persista, entre em contato com o suporte do portal ou utilize materiais alternativos
+- **Base Nacional Comum Curricular (BNCC)**: Habilidades estruturadas conforme diretrizes nacionais
+- **Proposta Curricular SP**: Organização em bimestres conforme calendário letivo
+- **Programas de Inovação**: Tecnologia e Inovação (TI) e Robótica para todos os ciclos
+- **Disciplina de Programação**: Novo componente curricular para Ensino Médio (2ª e 3ª séries)
+
+Serve como ferramenta de planejamento para:
+- ✅ Professores: Consultar sequência didática, objetivos e materiais
+- ✅ Coordenadores Pedagógicos: Monitorar alinhamento curricular
+- ✅ Gestores: Visualizar panorama geral de conteúdos por disciplina/ano
+- ✅ Alunos: Conhecer o planejamento e materiais de apoio
 
 ---
 
-## 👨‍💻 Desenvolvedor
+## 🔧 Requisitos do Sistema
+
+- **Node.js**: versão 18.x ou superior
+- **npm**: versão 9.x ou superior (instalado automaticamente com Node.js)
+- **Navegadores suportados**: 
+  - Chrome/Edge versão 120+
+  - Firefox versão 115+
+  - Safari versão 16+
+
+---
+
+## 🔍 Componentes Principais
+
+### Componente `ProgramacaoComponent`
+Gerencia a exibição de Programação EM e Tecnologia e Inovação com:
+- Seleção de disciplina especializada
+- Filtros de ano/série, bimestre e semana
+- Renderização dinâmica de aulas
+- Estado sincronizado via Signals
+
+### Componente `RoboticaComponent`
+Gerencia a exibição de Robótica EF e Robótica EM com:
+- Visualização de dois ciclos na mesma página
+- Lado a lado (desktop) ou em abas (mobile)
+- Materiais didáticos específicos integrados
+- Mesma reatividade de estado
+
+### Reutilização de Código
+Ambos os componentes compartilham:
+- Modelos de dados tipados
+- Lógica de filtragem
+- Estrutura visual similar
+- Padrão de expansão de cards
+
+---
+
+## 🆕 Melhorias e Histórico
+
+Consulte o arquivo [CHANGELOG.md](./CHANGELOG.md) para ver a lista detalhada de melhorias, novas tecnologias e correções implementadas na evolução do projeto.
+
+## 📝 Manutenção e Atualização de Dados
+
+O projeto inclui os dados de escopo em **4 arquivos CSV** na raiz do repositório:
+
+- `Prog EM.csv` - Programação Ensino Médio
+- `TEC E INOV.csv` - Tecnologia e Inovação (Anos Finais)
+- `ROBÓTICA EF.csv` - Robótica Ensino Fundamental
+- `ROB EM.csv` - Robótica Ensino Médio
+
+Além disso:
+- `Material de robótica.md` - Documentação e links de materiais didáticos
+- `materiais-robotica.ts` - Dados estruturados dos materiais no código
+
+### Como Atualizar os Dados
+
+1. **Editar os arquivos CSV** com as informações atualizadas (disciplinas, aulas, conteúdos)
+2. **Processar os dados** e convertê-los para o formato TypeScript (interfaces nas pastas `data/`)
+3. **Testar localmente** com `npm start` para validar a apresentação
+4. **Fazer build de produção** com `npm run build`
+5. **Deploy automático** via Vercel ao fazer commit na branch main
+
+Cada semana letiva é identificada com aulas numeradas sequencialmente, permitindo rastreamento claro do progresso anual.
+
+---
+
+## 🌐 Plataforma de Hospedagem
+
+### Vercel
+
+O projeto está hospedado na plataforma **Vercel**, oferecendo:
+
+- **Deploy automático**: Atualizado sempre que há commit na branch `main`
+- **CDN global**: Distribuição rápida de conteúdo em todo o Brasil
+- **HTTPS nativo**: Segurança em todas as conexões
+- **Redirects SPA**: Configurado para Single Page Application com `vercel.json`
+- **Analytics**: Monitora uso e acesso dos usuários
+- **Preview URLs**: Testes de novas versões antes do merge
+
+**URL de Produção**: Disponível via dashboard do Vercel
+
+---
+
+## 💡 Possíveis Extensões Futuras
+
+- 📊 **Dashboard de Analytics**: Visualização de capítulos mais acessados
+- 🔍 **Busca Global**: Buscar por tema, habilidade ou número de aula
+- 📥 **Exportação**: Gerar PDFs com escopo de um semestre ou ano
+- 🔐 **Login de Professores**: Salvar preferências e anotações pessoais
+- 📱 **App Mobile**: Aplicativo nativo iOS/Android
+- 🌐 **Integração com LMS**: Importar/exportar para Google Classroom, Moodle
+- 🗣️ **Múltiplos Idiomas**: Suporte para escolas bilíngues
+
+---
 
 Davi Antonino Nunes da Silva
 
