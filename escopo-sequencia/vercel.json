@@ -1,4 +1,5 @@
 {
+  "outputDirectory": "dist/escopo-sequencia/browser",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
