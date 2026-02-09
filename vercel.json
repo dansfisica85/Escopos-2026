@@ -1,0 +1,8 @@
+{
+  "buildCommand": "cd escopo-sequencia && npm install && npm run build",
+  "outputDirectory": "escopo-sequencia/dist/escopo-sequencia/browser",
+  "framework": null,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
