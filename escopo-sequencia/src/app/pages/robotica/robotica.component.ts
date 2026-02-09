@@ -62,7 +62,7 @@ export class RoboticaComponent {
   getMaterialLink(semanaNumero: number): string | null {
     const mat = this.materiaisAtuais();
     if (!mat) return null;
-    const found = mat.materiais.find(m => m.aula === semanaNumero);
+    const found = mat.materiais.find((m: { aula: number; link: string }) => m.aula === semanaNumero);
     return found ? found.link : null;
   }
 }

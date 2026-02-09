@@ -1,27 +1,27 @@
 <div class="page-container">
-  <a href="https://fiapcom-my.sharepoint.com/:p:/g/personal/thais_pianucci_alura_com_br/IQBdW2nvEaO_RIkfEUndp_0uAfRrnVZ92W52CtqJOCR_Xqo?rtime=XjfzVkln3kg" target="_blank" class="materiais-didaticos-btn">
+  <a href="https://fiapcom-my.sharepoint.com/:p:/g/personal/thais_pianucci_alura_com_br/IQBdW2nvEaO_RIkfEUndp_0uAfRrnVZ92W52CtqJOCR_Xqo?rtime=XjfzVkln3kg" target="_blank" rel="noopener" class="materiais-didaticos-btn">
     📚 MATERIAIS DIDÁTICOS
   </a>
   <div class="filters">
     <div class="filter-group">
-      <label>Disciplina</label>
-      <select (change)="onDisciplinaChange(+$any($event.target).value)">
+      <label for="select-disciplina">Disciplina</label>
+      <select id="select-disciplina" title="Selecionar Disciplina" (change)="onDisciplinaChange(+$any($event.target).value)">
         @for (d of disciplinas; track d.id; let i = $index) {
           <option [value]="i" [selected]="d.id === selectedDisciplina().id">{{ d.nome }} ({{ d.ciclo }})</option>
         }
       </select>
     </div>
     <div class="filter-group">
-      <label>Ano/Série</label>
-      <select (change)="onAnoChange(+$any($event.target).value)">
+      <label for="select-ano-prog">Ano/Série</label>
+      <select id="select-ano-prog" title="Selecionar Ano/Série" (change)="onAnoChange(+$any($event.target).value)">
         @for (a of anos(); track a.anoSerie; let i = $index) {
           <option [value]="i" [selected]="a.anoSerie === selectedAno().anoSerie">{{ a.anoSerie }}</option>
         }
       </select>
     </div>
     <div class="filter-group">
-      <label>Bimestre</label>
-      <select (change)="onBimestreChange(+$any($event.target).value)">
+      <label for="select-bim-prog">Bimestre</label>
+      <select id="select-bim-prog" title="Selecionar Bimestre" (change)="onBimestreChange(+$any($event.target).value)">
         @for (b of bimestres(); track b.bimestre; let i = $index) {
           <option [value]="i" [selected]="b.bimestre === selectedBimestre().bimestre">{{ b.bimestre }}</option>
         }
