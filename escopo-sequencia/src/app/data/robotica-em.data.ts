@@ -22,7 +22,7 @@ export const ROBOTICA_EM_DATA: DisciplinaEscopo = {
                   titulo: 'Pequenos dispositivos, Grandes ideias – Invertendo a aula com o micro:bit',
                   objetivos: 'Comparar computadores com videogames, celulares e microcontroladores. Identificar recursos embarcados no micro:bit.',
                   conteudos: 'Computadores, aparelhos e micro:bit. Pitch. Sala de aula invertida.',
-                  materialLink: 'materiais/1507749.pdf'
+                  materialLink: 'materiais/1511028.pdf'
                 }
               ]
             },
@@ -35,7 +35,7 @@ export const ROBOTICA_EM_DATA: DisciplinaEscopo = {
                   titulo: 'Apresentando o micro:bit com as nossas palavras',
                   objetivos: 'Compreender o papel dos microcontroladores, reconhecendo os recursos embarcados na placa micro:bit.',
                   conteudos: 'Sala de aula invertida. Pitch – Recursos da placa micro:bit.',
-                  materialLink: 'materiais/1508240.pdf'
+                  materialLink: 'materiais/1507063.pdf'
                 }
               ]
             },
@@ -48,7 +48,7 @@ export const ROBOTICA_EM_DATA: DisciplinaEscopo = {
                   titulo: 'Onde se criam os programas',
                   objetivos: 'Compreender o papel das IDEs no processo de programação, reconhecendo a versatilidade do MakeCode.',
                   conteudos: 'IDE e sua relação com a programação e robótica. Resolução de problemas e aplicações. Recursos da programação em blocos.',
-                  materialLink: 'materiais/1511065.pdf'
+                  materialLink: 'materiais/1520463.pdf'
                 }
               ]
             },
@@ -61,7 +61,7 @@ export const ROBOTICA_EM_DATA: DisciplinaEscopo = {
                   titulo: 'Atividade desplugada – Um outro jeito de aprender',
                   objetivos: 'Compreender que tudo em excesso faz mal. Experimentar aprendizagem com atividades desplugadas. Identificar a matemática nas brincadeiras.',
                   conteudos: 'Tecnologia e saúde. Atividades plugadas e desplugadas. Brincadeiras, matemática e interação. Input/output.',
-                  materialLink: 'materiais/1514610.pdf'
+                  materialLink: 'materiais/1520699.pdf'
                 }
               ]
             },
@@ -74,7 +74,7 @@ export const ROBOTICA_EM_DATA: DisciplinaEscopo = {
                   titulo: 'Olhos digitais: sentidos à la micro:bit',
                   objetivos: 'Estabelecer analogias entre os 5 sentidos e os sensores. Compreender diferença entre sensores analógicos e digitais. Criar sistema de vigilância com sensor PIR.',
                   conteudos: 'Sensores – Input/Output (analogia com o corpo humano). Sensores analógicos e digitais. Sensor PIR.',
-                  materialLink: 'materiais/1518713.pdf'
+                  materialLink: 'materiais/1520561.pdf'
                 }
               ]
             },
@@ -87,7 +87,7 @@ export const ROBOTICA_EM_DATA: DisciplinaEscopo = {
                   titulo: 'Olhos digitais: sentidos à la micro:bit – Limitações',
                   objetivos: 'Investigar comportamentos inesperados do sensor PIR e suas causas. Julgar adequação do sensor PIR. Criar proposta de redesign.',
                   conteudos: 'Limitações técnicas. Adaptações/Redesign.',
-                  materialLink: 'materiais/1520604.pdf'
+                  materialLink: 'materiais/1520578.pdf'
                 }
               ]
             },
@@ -100,7 +100,7 @@ export const ROBOTICA_EM_DATA: DisciplinaEscopo = {
                   titulo: 'Quando um sensor não basta, o pensamento computacional prevalece',
                   objetivos: 'Identificar os três eixos do acelerômetro. Explicar diferença entre evento de chacoalhar e leitura direta. Usar valores de X e Y para controlar LED. Comparar dados de aceleração transformados em algo visual.',
                   conteudos: 'Eixos X, Y e Z (movimento lateral, frontal e vertical). Representação visual na matriz de LEDs. Pensamento computacional aplicado.',
-                  materialLink: 'materiais/1520623.pdf'
+                  materialLink: 'materiais/1520693.pdf'
                 }
               ]
             }
@@ -213,7 +213,7 @@ export const ROBOTICA_EM_DATA: DisciplinaEscopo = {
                   titulo: '[Competição de Robótica] Robótica sustentável: Materializando ideias',
                   objetivos: 'Compreender o papel da robótica sustentável na formação cidadã. Relacionar ciclo de produção com ODS e economia circular. Estimular protagonismo juvenil.',
                   conteudos: 'Robótica sustentável. ODS da ONU. Economia circular. Conexão com o cotidiano e projeto do carrinho. Competição de robótica.',
-                  materialLink: 'materiais/1511028.pdf'
+                  materialLink: 'materiais/1508240.pdf'
                 }
               ]
             },
@@ -226,7 +226,7 @@ export const ROBOTICA_EM_DATA: DisciplinaEscopo = {
                   titulo: '[Competição de Robótica] Robótica sustentável: Direção diferencial',
                   objetivos: 'Compreender importância de ambientes de testes. Analisar uso da direção diferencial. Aplicar direção diferencial nos motores.',
                   conteudos: 'Ambiente de testes. Direção diferencial. Programação e teste de funcionamento.',
-                  materialLink: 'materiais/1507063.pdf'
+                  materialLink: 'materiais/1507749.pdf'
                 }
               ]
             },
@@ -239,7 +239,7 @@ export const ROBOTICA_EM_DATA: DisciplinaEscopo = {
                   titulo: '[Competição de Robótica] Robótica sustentável: Indo a fundo no controle por rádio – Parte 1',
                   objetivos: 'Aplicar lógica de controle às funções. Entender como funciona o sistema de rádio controle com micro:bits.',
                   conteudos: 'Reaproveitamento de programas. Princépios de mapeamento lógico (emissor/receptor).',
-                  materialLink: 'materiais/1520463.pdf'
+                  materialLink: 'materiais/1518713.pdf'
                 }
               ]
             },
@@ -252,7 +252,7 @@ export const ROBOTICA_EM_DATA: DisciplinaEscopo = {
                   titulo: '[Competição de Robótica] Robótica sustentável: Indo a fundo no controle por rádio – Parte 2',
                   objetivos: 'Entender como reaproveitar a estrutura no sistema de rádio controle. Testar programas e fazer ajustes.',
                   conteudos: 'Reaproveitamento de programas. Código do receptor.',
-                  materialLink: 'materiais/1520699.pdf'
+                  materialLink: 'materiais/1520604.pdf'
                 }
               ]
             },
@@ -265,7 +265,7 @@ export const ROBOTICA_EM_DATA: DisciplinaEscopo = {
                   titulo: '[Competição de Robótica] Robótica sustentável: Do Design ao Protótipo – Parte 1',
                   objetivos: 'Compreender o que é carro conceito. Criar chassi Tadpole. Projetar encaixes com simetria. Testar funcionalidade.',
                   conteudos: 'Carro conceito. Projetos feitos a mão e alternativas.',
-                  materialLink: 'materiais/1520561.pdf'
+                  materialLink: 'materiais/1514610.pdf'
                 }
               ]
             },
@@ -278,7 +278,7 @@ export const ROBOTICA_EM_DATA: DisciplinaEscopo = {
                   titulo: '[Competição de Robótica] Robótica sustentável: Do Design ao Protótipo – Parte 2',
                   objetivos: 'Entender competições estudantis de robótica no Brasil. Ajustar código para melhorar precisão. Apresentar protótipo funcional.',
                   conteudos: 'Recorte das peças. Montagem e fixação da shield, motores e eixos. Testes finais e ajustes.',
-                  materialLink: 'materiais/1520578.pdf'
+                  materialLink: 'materiais/1511065.pdf'
                 }
               ]
             },
@@ -291,7 +291,7 @@ export const ROBOTICA_EM_DATA: DisciplinaEscopo = {
                   titulo: '[Competição de Robótica] Robótica sustentável: Corrida final: obstáculos e precisão!',
                   objetivos: 'Testar funcionalidade do protótipo em situação real de competição. Participar de competição de robótica.',
                   conteudos: 'OBR – Lego League & circuito de testes. Corrida de obstáculos com avaliação de desempenho.',
-                  materialLink: 'materiais/1520693.pdf'
+                  materialLink: 'materiais/1520623.pdf'
                 }
               ]
             }
