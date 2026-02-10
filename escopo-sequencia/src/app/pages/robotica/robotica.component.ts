@@ -28,15 +28,7 @@ export class RoboticaComponent {
 
   materiaisAtuais = computed(() => {
     const ano = this.selectedAno().anoSerie.toLowerCase();
-    return this.materiais.find(m => {
-      const mAno = m.ano.toLowerCase();
-      // Normalizar para comparação
-      const anoNorm = ano.replace(/º ano/g, '').replace(/ª séries?/g, '').replace(/[\/,]/g, ' ').trim();
-      const mAnoNorm = mAno.replace(/º ano/g, '').replace(/ª séries?/g, '').replace(/[\/,]/g, ' ').trim();
-      // Verifica se qualquer token do ano está contido no material ou vice-versa
-      const anoTokens = anoNorm.split(/\s+/).filter(t => /\d/.test(t));
-      return anoTokens.some(t => mAnoNorm.includes(t)) || mAnoNorm.includes(anoNorm) || anoNorm.includes(mAnoNorm);
-    });
+    return this.materiais.find(m => m.ano.toLowerCase() === ano);
   });
 
   onDisciplinaChange(index: number) {
