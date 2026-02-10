@@ -1,5 +1,6 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
+import { injectSpeedInsights } from '@vercel/speed-insights';
 
 @Component({
   selector: 'app-root',
@@ -204,6 +205,11 @@ npm run build</pre>
 })
 export class App {
   showAbout = signal(false);
+
+  constructor() {
+    // Initialize Vercel Speed Insights
+    injectSpeedInsights();
+  }
 
   toggleAbout() {
     this.showAbout.update(v => !v);
