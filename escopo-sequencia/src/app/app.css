@@ -326,6 +326,30 @@ code {
   flex-direction: column;
   align-items: center;
 }
+
+.footer-dev-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-avatar-small {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  opacity: 0.85;
+}
+
+.footer-dev-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+}
 .footer-avatar {
   width: 80px;
   height: 80px;
