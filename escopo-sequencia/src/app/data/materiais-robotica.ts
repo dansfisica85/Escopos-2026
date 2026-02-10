@@ -67,26 +67,26 @@ export const MATERIAIS_ROBOTICA: MaterialPorAno[] = [
     ano: '1ª série',
     bimestre: '1º Bimestre',
     materiais: [
-      { aula: 1, titulo: 'Pequenos dispositivos, Grandes ideias', link: 'materiais/1507749.pdf' },
-      { aula: 2, titulo: 'Apresentando o micro:bit', link: 'materiais/1508240.pdf' },
-      { aula: 3, titulo: 'Onde se criam os programas', link: 'materiais/1511065.pdf' },
-      { aula: 4, titulo: 'Atividade desplugada', link: 'materiais/1514610.pdf' },
-      { aula: 5, titulo: 'Olhos digitais: sentidos à la micro:bit', link: 'materiais/1518713.pdf' },
-      { aula: 6, titulo: 'Olhos digitais: sentidos – Limitações', link: 'materiais/1520604.pdf' },
-      { aula: 7, titulo: 'Quando um sensor não basta', link: 'materiais/1520623.pdf' },
+      { aula: 1, titulo: 'Pequenos dispositivos, Grandes ideias', link: 'materiais/1511028.pdf' },
+      { aula: 2, titulo: 'Apresentando o micro:bit', link: 'materiais/1507063.pdf' },
+      { aula: 3, titulo: 'Onde se criam os programas', link: 'materiais/1520463.pdf' },
+      { aula: 4, titulo: 'Atividade desplugada', link: 'materiais/1520699.pdf' },
+      { aula: 5, titulo: 'Olhos digitais: sentidos à la micro:bit', link: 'materiais/1520561.pdf' },
+      { aula: 6, titulo: 'Olhos digitais: sentidos – Limitações', link: 'materiais/1520578.pdf' },
+      { aula: 7, titulo: 'Quando um sensor não basta', link: 'materiais/1520693.pdf' },
     ]
   },
   {
     ano: '2ª/3ª séries',
     bimestre: '1º Bimestre',
     materiais: [
-      { aula: 1, titulo: 'Robótica sustentável: materializando ideias', link: 'materiais/1511028.pdf' },
-      { aula: 2, titulo: 'Robótica sustentável: direção diferencial', link: 'materiais/1507063.pdf' },
-      { aula: 3, titulo: 'Robótica sustentável: indo fundo no controle por rádio – Parte 1', link: 'materiais/1520463.pdf' },
-      { aula: 4, titulo: 'Robótica sustentável: indo fundo no controle por rádio - Parte 2', link: 'materiais/1520699.pdf' },
-      { aula: 5, titulo: 'Robótica sustentável: do Design ao Protótipo – Parte 1', link: 'materiais/1520561.pdf' },
-      { aula: 6, titulo: 'Robótica sustentável: do Design ao Protótipo – Parte 2', link: 'materiais/1520578.pdf' },
-      { aula: 7, titulo: 'Robótica sustentável - Corrida final: obstáculos e precisão!', link: 'materiais/1520693.pdf' },
+      { aula: 1, titulo: 'Robótica sustentável: materializando ideias', link: 'materiais/1508240.pdf' },
+      { aula: 2, titulo: 'Robótica sustentável: direção diferencial', link: 'materiais/1507749.pdf' },
+      { aula: 3, titulo: 'Robótica sustentável: indo fundo no controle por rádio – Parte 1', link: 'materiais/1518713.pdf' },
+      { aula: 4, titulo: 'Robótica sustentável: indo fundo no controle por rádio - Parte 2', link: 'materiais/1520604.pdf' },
+      { aula: 5, titulo: 'Robótica sustentável: do Design ao Protótipo – Parte 1', link: 'materiais/1514610.pdf' },
+      { aula: 6, titulo: 'Robótica sustentável: do Design ao Protótipo – Parte 2', link: 'materiais/1511065.pdf' },
+      { aula: 7, titulo: 'Robótica sustentável - Corrida final: obstáculos e precisão!', link: 'materiais/1520623.pdf' },
     ]
   }
 ];
