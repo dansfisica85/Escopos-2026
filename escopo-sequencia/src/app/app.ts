@@ -193,13 +193,10 @@ npm run build</pre>
     </main>
     <footer class="footer">
       <div class="footer-content">
-        <div class="footer-dev-row">
-          <img src="Davi%20Antonino%20Nunes%20da%20Silva.png" alt="Davi Antonino Nunes da Silva" class="footer-avatar-small" />
-          <div class="footer-dev-info">
-            <p class="footer-dev">Desenvolvido por: <strong>Davi Antonino Nunes da Silva</strong></p>
-            <p>E-mail: <a href="mailto:professordavi85@gmail.com">professordavi85&#64;gmail.com</a></p>
-            <p>WhatsApp: <a href="https://wa.me/5516992604315" target="_blank" rel="noopener">(16) 99260-4315</a></p>
-          </div>
+        <div class="footer-dev-info" style="margin: 0 auto; align-items: center; text-align: center;">
+          <p class="footer-dev">Desenvolvido por: <strong>Davi Antonino Nunes da Silva</strong></p>
+          <p>E-mail: <a href="mailto:professordavi85@gmail.com">professordavi85&#64;gmail.com</a></p>
+          <p>WhatsApp: <a href="https://wa.me/5516992604315" target="_blank" rel="noopener">(16) 99260-4315</a></p>
         </div>
         <p class="footer-brand">
           🐺 <a href="https://open.spotify.com/intl-pt/artist/0IBe0S81z4uWoscwHEOQ1f?si=a4Ye9ZnLQSir4P_fPqj-ig" target="_blank" rel="noopener">Artigli Notturni</a>
