@@ -103,19 +103,10 @@
 
             <div class="ia-actions">
               <button class="btn-ia-gerar"
-                (click)="gerarPlanoIA(semana)"
-                [disabled]="generatingPlan() === semana.numero">
-                @if (generatingPlan() === semana.numero) {
-                  <span class="spinner"></span> Gerando plano...
-                } @else {
-                  🤖 Gerar Plano de Aula com IA
-                }
+                (click)="abrirInstrucoes(semana)"
+                [disabled]="generatingPlan() !== null">
+                🤖 Gerar Plano de Aula com IA
               </button>
-              @if (generatedMarkdown()?.semana === semana.numero) {
-                <button class="btn-ia-download" (click)="baixarPlano(semana)">
-                  ⬇️ Baixar Plano em Markdown
-                </button>
-              }
             </div>
           </div>
         }
@@ -123,3 +114,80 @@
     }
   </div>
 </div>
+
+@if (showInstrucoesDialog()) {
+  <div class="modal-overlay" (click)="fecharDialogInstrucoes()">
+    <div class="modal-box" (click)="$event.stopPropagation()">
+      <div class="modal-header">
+        <h3>🤖 Gerar Plano de Aula com IA</h3>
+        <button class="btn-fechar" (click)="fecharDialogInstrucoes()">&times;</button>
+      </div>
+      <p class="modal-subtitle">Semana {{ semanaParaGerar()?.numero }} — {{ selectedAno().anoSerie }}</p>
+      <div class="form-group">
+        <label for="instrucoes-prog">O que você gostaria neste plano? (opcional)</label>
+        <textarea
+          id="instrucoes-prog"
+          placeholder="Ex: Focar na parte prática. Incluir atividade para alunos com dificuldade. Turma tem 30 alunos..."
+          [value]="instrucaoTexto()"
+          (input)="instrucaoTexto.set($any($event.target).value)"
+          rows="5"
+        ></textarea>
+      </div>
+      <div class="modal-actions">
+        <button class="btn-cancelar" (click)="fecharDialogInstrucoes()">Cancelar</button>
+        <button class="btn-confirmar" (click)="confirmarGeracao()" [disabled]="generatingPlan() !== null">
+          @if (generatingPlan() !== null) {
+            <span class="spinner"></span> Gerando...
+          } @else {
+            Gerar Plano
+          }
+        </button>
+      </div>
+    </div>
+  </div>
+}
+
+@if (showPlanoModal()) {
+  <div class="modal-overlay" (click)="fecharPlanoModal()">
+    <div class="modal-box modal-plano" (click)="$event.stopPropagation()">
+      <div class="modal-header">
+        <h3>Plano de Aula Gerado</h3>
+        <button class="btn-fechar" (click)="fecharPlanoModal()">&times;</button>
+      </div>
+      <div class="plano-preview">
+        <pre>{{ generatedMarkdown()?.markdown }}</pre>
+      </div>
+      <div class="chat-section">
+        @if (chatMessages().length > 0) {
+          <div class="chat-messages">
+            @for (msg of chatMessages(); track $index) {
+              <div class="chat-msg" [class.user]="msg.role === 'user'" [class.ai]="msg.role === 'ai'">
+                <span class="chat-role">{{ msg.role === 'user' ? 'Você' : 'IA' }}:</span>
+                {{ msg.text }}
+              </div>
+            }
+          </div>
+        }
+        <div class="chat-input-row">
+          <input type="text"
+            placeholder="Peça alterações ao plano..."
+            [value]="chatInput()"
+            (input)="chatInput.set($any($event.target).value)"
+            (keydown.enter)="enviarMensagemChat()"
+            [disabled]="refinando()">
+          <button class="btn-chat-send" (click)="enviarMensagemChat()" [disabled]="refinando() || !chatInput()">
+            @if (refinando()) {
+              <span class="spinner"></span>
+            } @else {
+              Enviar
+            }
+          </button>
+        </div>
+      </div>
+      <div class="modal-actions">
+        <button class="btn-cancelar" (click)="fecharPlanoModal()">Fechar</button>
+        <button class="btn-download" (click)="baixarPlanoModal()">Baixar Plano (.md)</button>
+      </div>
+    </div>
+  </div>
+}

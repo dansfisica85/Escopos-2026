@@ -10,17 +10,19 @@
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0,0,0,0.18);
-  background-image: url('/todos-os-pecs.jpeg');
-  background-size: cover;
-  background-position: center 30%;
-  background-repeat: no-repeat;
 }
-.pec-header::after {
-  content: '';
+.pec-bg-img {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.18) 0%, rgba(0,0,0,0.52) 100%);
-  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 75%;
+}
+.pec-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.12) 0%, rgba(0,0,0,0.55) 100%);
 }
 .pec-info {
   position: absolute;
