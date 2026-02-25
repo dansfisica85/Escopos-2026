@@ -24,6 +24,17 @@ export class ProgramacaoComponent {
   generatingPlan = signal<number | null>(null);
   generatedMarkdown = signal<{ semana: number; markdown: string } | null>(null);
 
+  // Dialog de instruções
+  semanaParaGerar = signal<SemanaEscopo | null>(null);
+  showInstrucoesDialog = signal(false);
+  instrucaoTexto = signal('');
+
+  // Modal do plano + chat
+  showPlanoModal = signal(false);
+  chatMessages = signal<{ role: 'user' | 'ai'; text: string }[]>([]);
+  chatInput = signal('');
+  refinando = signal(false);
+
   anos = computed(() => this.selectedDisciplina().anos);
   bimestres = computed(() => this.selectedAno().bimestres);
   semanas = computed(() => this.selectedBimestre().semanas);
@@ -54,10 +65,24 @@ export class ProgramacaoComponent {
     this.expandedSemana.set(this.expandedSemana() === numero ? null : numero);
   }
 
-  async gerarPlanoIA(semana: SemanaEscopo) {
-    if (this.generatingPlan() === semana.numero) return;
+  abrirInstrucoes(semana: SemanaEscopo) {
+    this.semanaParaGerar.set(semana);
+    this.instrucaoTexto.set('');
+    this.showInstrucoesDialog.set(true);
+  }
+
+  fecharDialogInstrucoes() {
+    if (this.generatingPlan() !== null) return;
+    this.showInstrucoesDialog.set(false);
+  }
+
+  async confirmarGeracao() {
+    const semana = this.semanaParaGerar();
+    if (!semana || this.generatingPlan() !== null) return;
+
     this.generatingPlan.set(semana.numero);
     this.generatedMarkdown.set(null);
+    this.chatMessages.set([]);
 
     try {
       const request = this.planoIaService.buildRequest(
@@ -65,11 +90,14 @@ export class ProgramacaoComponent {
         this.selectedDisciplina().ciclo,
         this.selectedAno().anoSerie,
         this.selectedBimestre().bimestre,
-        semana
+        semana,
+        this.instrucaoTexto()
       );
 
       const markdown = await this.planoIaService.gerarPlano(request);
       this.generatedMarkdown.set({ semana: semana.numero, markdown });
+      this.showInstrucoesDialog.set(false);
+      this.showPlanoModal.set(true);
     } catch (error) {
       console.error('Erro ao gerar plano:', error);
       alert('Erro ao gerar plano de aula. Tente novamente.');
@@ -78,9 +106,35 @@ export class ProgramacaoComponent {
     }
   }
 
-  baixarPlano(semana: SemanaEscopo) {
+  fecharPlanoModal() {
+    this.showPlanoModal.set(false);
+  }
+
+  async enviarMensagemChat() {
+    const texto = this.chatInput().trim();
     const gen = this.generatedMarkdown();
-    if (!gen || gen.semana !== semana.numero) return;
+    if (!texto || !gen || this.refinando()) return;
+
+    this.chatMessages.update(msgs => [...msgs, { role: 'user' as const, text: texto }]);
+    this.chatInput.set('');
+    this.refinando.set(true);
+
+    try {
+      const novoMarkdown = await this.planoIaService.refinarPlano(gen.markdown, texto);
+      this.generatedMarkdown.set({ semana: gen.semana, markdown: novoMarkdown });
+      this.chatMessages.update(msgs => [...msgs, { role: 'ai' as const, text: 'Plano atualizado com sucesso!' }]);
+    } catch (error) {
+      console.error('Erro ao refinar plano:', error);
+      this.chatMessages.update(msgs => [...msgs, { role: 'ai' as const, text: 'Erro ao refinar. Tente novamente.' }]);
+    } finally {
+      this.refinando.set(false);
+    }
+  }
+
+  baixarPlanoModal() {
+    const gen = this.generatedMarkdown();
+    const semana = this.semanaParaGerar();
+    if (!gen || !semana) return;
 
     const filename = this.planoIaService.buildFilename(
       this.selectedDisciplina().nome,
