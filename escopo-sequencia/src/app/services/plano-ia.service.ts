@@ -74,4 +74,17 @@ export class PlanoIaService {
     const clean = (s: string) => s.replace(/[^a-zA-Z0-9]/g, '_').replace(/_+/g, '_');
     return `plano_${clean(disciplina)}_${clean(anoSerie)}_${clean(bimestre)}_semana${semana}.md`;
   }
+
+  refinarPlano(markdownAtual: string, feedback: string): Promise<string> {
+    return new Promise((resolve, reject) => {
+      this.http.post<{ markdown: string }>('/api/generate-plan', {
+        refinar: true,
+        markdownAtual,
+        feedback
+      }).subscribe({
+        next: (res) => resolve(res.markdown),
+        error: (err) => reject(err)
+      });
+    });
+  }
 }

@@ -18,6 +18,50 @@ module.exports = async (req, res) => {
   }
 
   try {
+    // Modo de refinamento: ajustar um plano já gerado
+    if (req.body.refinar) {
+      const { markdownAtual, feedback } = req.body;
+      if (!markdownAtual || !feedback) {
+        return res.status(400).json({ error: 'Missing markdownAtual or feedback' });
+      }
+
+      const refinePrompt = `O professor gerou o seguinte plano de aula:\n\n${markdownAtual}\n\nO professor solicitou as seguintes alterações:\n${feedback}\n\nPor favor, gere o plano de aula COMPLETO e atualizado com as alterações solicitadas. Mantenha o mesmo formato Markdown. Retorne apenas o plano atualizado, sem comentários adicionais.`;
+
+      const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${apiKey}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          model: 'llama-3.3-70b-versatile',
+          messages: [
+            {
+              role: 'system',
+              content: 'Você é um assistente especialista em educação brasileira, com foco em robótica educacional, programação e tecnologia. Ajuste planos de aula conforme solicitado pelo professor. Responda sempre em Markdown bem formatado.'
+            },
+            {
+              role: 'user',
+              content: refinePrompt
+            }
+          ],
+          temperature: 0.7,
+          max_tokens: 4000,
+        }),
+      });
+
+      if (!response.ok) {
+        const errorData = await response.text();
+        console.error('GROQ API error:', errorData);
+        return res.status(response.status).json({ error: 'Erro na API GROQ', details: errorData });
+      }
+
+      const data = await response.json();
+      const markdown = data.choices?.[0]?.message?.content || 'Erro ao refinar plano.';
+      return res.status(200).json({ markdown });
+    }
+
+    // Modo de geração: criar um plano novo
     const { disciplina, ciclo, anoSerie, bimestre, semana, aulas, instrucoes } = req.body;
 
     if (!aulas || !Array.isArray(aulas) || aulas.length === 0) {
