@@ -98,6 +98,23 @@
                 </div>
               </div>
             }
+
+            <div class="ia-actions">
+              <button class="btn-ia-gerar"
+                (click)="gerarPlanoIA(semana)"
+                [disabled]="generatingPlan() === semana.numero">
+                @if (generatingPlan() === semana.numero) {
+                  <span class="spinner"></span> Gerando plano...
+                } @else {
+                  🤖 Gerar Plano de Aula com IA
+                }
+              </button>
+              @if (generatedMarkdown()?.semana === semana.numero) {
+                <button class="btn-ia-download" (click)="baixarPlano(semana)">
+                  ⬇️ Baixar Plano em Markdown
+                </button>
+              }
+            </div>
           </div>
         }
       </div>

@@ -1,10 +1,11 @@
 import { Component, signal, computed } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { DisciplinaEscopo, AnoSerieEscopo, BimestreEscopo } from '../../data/models';
+import { DisciplinaEscopo, AnoSerieEscopo, BimestreEscopo, SemanaEscopo } from '../../data/models';
 import { ROBOTICA_EF_DATA } from '../../data/robotica-ef.data';
 import { ROBOTICA_EM_DATA } from '../../data/robotica-em.data';
 import { MATERIAIS_ROBOTICA, MaterialPorAno } from '../../data/materiais-robotica';
+import { PlanoIaService } from '../../services/plano-ia.service';
 
 @Component({
   selector: 'app-robotica',
@@ -22,6 +23,9 @@ export class RoboticaComponent {
   selectedBimestre = signal<BimestreEscopo>(this.disciplinas[0].anos[0].bimestres[0]);
   expandedSemana = signal<number | null>(null);
 
+  generatingPlan = signal<number | null>(null);
+  generatedMarkdown = signal<{ semana: number; markdown: string } | null>(null);
+
   anos = computed(() => this.selectedDisciplina().anos);
   bimestres = computed(() => this.selectedAno().bimestres);
   semanas = computed(() => this.selectedBimestre().semanas);
@@ -30,6 +34,8 @@ export class RoboticaComponent {
     const ano = this.selectedAno().anoSerie.toLowerCase();
     return this.materiais.find(m => m.ano.toLowerCase() === ano);
   });
+
+  constructor(private planoIaService: PlanoIaService) {}
 
   onDisciplinaChange(index: number) {
     const d = this.disciplinas[index];
@@ -60,5 +66,42 @@ export class RoboticaComponent {
     if (!mat) return null;
     const found = mat.materiais.find((m: { aula: number; link: string }) => m.aula === semanaNumero);
     return found ? found.link : null;
+  }
+
+  async gerarPlanoIA(semana: SemanaEscopo) {
+    if (this.generatingPlan() === semana.numero) return;
+    this.generatingPlan.set(semana.numero);
+    this.generatedMarkdown.set(null);
+
+    try {
+      const request = this.planoIaService.buildRequest(
+        this.selectedDisciplina().nome,
+        this.selectedDisciplina().ciclo,
+        this.selectedAno().anoSerie,
+        this.selectedBimestre().bimestre,
+        semana
+      );
+
+      const markdown = await this.planoIaService.gerarPlano(request);
+      this.generatedMarkdown.set({ semana: semana.numero, markdown });
+    } catch (error) {
+      console.error('Erro ao gerar plano:', error);
+      alert('Erro ao gerar plano de aula. Tente novamente.');
+    } finally {
+      this.generatingPlan.set(null);
+    }
+  }
+
+  baixarPlano(semana: SemanaEscopo) {
+    const gen = this.generatedMarkdown();
+    if (!gen || gen.semana !== semana.numero) return;
+
+    const filename = this.planoIaService.buildFilename(
+      this.selectedDisciplina().nome,
+      this.selectedAno().anoSerie,
+      this.selectedBimestre().bimestre,
+      semana.numero
+    );
+    this.planoIaService.downloadMarkdown(gen.markdown, filename);
   }
 }

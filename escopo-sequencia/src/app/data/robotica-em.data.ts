@@ -306,9 +306,9 @@ export const ROBOTICA_EM_DATA: DisciplinaEscopo = {
               aulas: [
                 {
                   aulaSala: 'Aulas 1 e 2',
-                  titulo: '[Competição de Robótica] Jurassic Maker: O que é Robótica Artéstica?',
-                  objetivos: 'Identificar o que é robótica artística. Explicar como a robótica pode se integrar à arte.',
-                  conteudos: 'Introdução à Modalidade de Robótica Artéstica da OBR. Conceitos de robótica e arte integrados. Exemplos inspiradores.'
+                  titulo: '[Competição de Robótica] Jurassic Maker: O que é Robótica Artística?',
+                  objetivos: 'Compreender o conceito e o propósito da Robótica Artística. Explorar o conceito de ideação e suas etapas dentro do processo criativo. Aplicar princípios de Robótica Sustentável na concepção do protótipo.',
+                  conteudos: 'Robótica Artística e Sustentável – Criando com propósito. Ideação e o processo criativo em projetos de robótica.'
                 }
               ]
             },
@@ -318,9 +318,9 @@ export const ROBOTICA_EM_DATA: DisciplinaEscopo = {
               aulas: [
                 {
                   aulaSala: 'Aulas 3 e 4',
-                  titulo: '[Competição de Robótica] Jurassic Maker: Transformando papelão em um dinossauro',
-                  objetivos: 'Planejar um projeto de robótica artística. Esquematizar ideias. Desenvolver estrutura básica com materiais recicláveis.',
-                  conteudos: 'Conceito de cultura maker e reaproveitamento de materiais. Etapas de planejamento. Estruturação de formas tridimensionais.'
+                  titulo: '[Competição de Robótica] Jurassic Maker – Como dar vida ao boneco (Parte 1)',
+                  objetivos: 'Compreender o funcionamento e porque usar o loop FOR. Aplicar loops para suavizar movimentos com servos. Analisar as limitações do FOR padrão do MakeCode e como adaptar uma nova função de loop.',
+                  conteudos: 'Estrutura de repetição FOR. Movimento gradual do servo. Criar novas funções no MakeCode.'
                 }
               ]
             },
@@ -330,9 +330,9 @@ export const ROBOTICA_EM_DATA: DisciplinaEscopo = {
               aulas: [
                 {
                   aulaSala: 'Aulas 5 e 6',
-                  titulo: '[Competição de Robótica] Jurassic Maker: Improvisar, Criar e Resolver',
-                  objetivos: 'Montar suportes articulados com materiais alternativos. Avaliar estabilidade. Projetar soluções improvisadas.',
-                  conteudos: 'Pan Tilt (bi-articulados) de papelão. Parafusos. Encaixes sem cola: durabilidade e reutilização.'
+                  titulo: '[Competição de Robótica] Jurassic Maker – Como dar vida ao boneco (Parte 2)',
+                  objetivos: 'Compreender o papel das funções na programação. Aplicar funções para modularizar movimentos. Construir o código completo do protótipo.',
+                  conteudos: 'Funções no MakeCode. Organização de código. Lógica de movimento dos servos.'
                 }
               ]
             },
@@ -342,9 +342,9 @@ export const ROBOTICA_EM_DATA: DisciplinaEscopo = {
               aulas: [
                 {
                   aulaSala: 'Aulas 7 e 8',
-                  titulo: '[Competição de Robótica] Jurassic Maker – Modelando o T-Rex',
-                  objetivos: 'Modelar peças estruturais do robô. Usar técnicas de corte e encaixe. Avaliar encaixes para estabilidade.',
-                  conteudos: 'Recorte de gabaritos. Montar e colar. Teste dos encaixes.'
+                  titulo: '[Competição de Robótica] Jurassic Maker: Improvisar, Criar e Resolver',
+                  objetivos: 'Compreender o funcionamento do pan-tilt. Montar suportes articulados com materiais alternativos. Avaliar a estabilidade dos mecanismos de articulação criados.',
+                  conteudos: 'Conceito de improvisação técnica. Encaixes sem cola: durabilidade e reutilização. Mecanismos pan-tilt. Recorte e preparação das peças.'
                 }
               ]
             },
@@ -354,9 +354,9 @@ export const ROBOTICA_EM_DATA: DisciplinaEscopo = {
               aulas: [
                 {
                   aulaSala: 'Aulas 9 e 10',
-                  titulo: '[Competição de Robótica] Jurassic Maker – Dando vida ao boneco',
-                  objetivos: 'Programar movimentos simples com servos. Relacionar comandos com movimentos físicos. Mapear movimentos em funções.',
-                  conteudos: 'Controle de servomotores. Laços e blocos personalizados. Funções.'
+                  titulo: '[Competição de Robótica] Jurassic Maker – Modelando o T-Rex',
+                  objetivos: 'Aplicar habilidades de montagem com precisão. Analisar ajustes necessários para melhor movimentação. Avaliar aspectos visuais e funcionais do modelo.',
+                  conteudos: 'Montagem e fixação. Ajustes mecânicos. Relação forma-função.'
                 }
               ]
             },
@@ -366,9 +366,9 @@ export const ROBOTICA_EM_DATA: DisciplinaEscopo = {
               aulas: [
                 {
                   aulaSala: 'Aulas 11 e 12',
-                  titulo: '[Competição de Robótica] Jurassic Maker – Ele está vivo!!!',
-                  objetivos: 'Avaliar como laço for melhora o controle de movimento. Criar blocos personalizados para modular. Escrever funções para movimentos coordenados.',
-                  conteudos: 'Controle e precisão. Criação de blocos personalizados no Makecode. Otimização de código.'
+                  titulo: '[Competição de Robótica] Jurassic Maker – "Ele está vivo!!!"',
+                  objetivos: 'Aplicar o programa no protótipo físico. Analisar e corrigir erros de programação e montagem. Criar customizações visuais e narrativas para a OBR.',
+                  conteudos: 'Testes, depuração e ajustes. Customização estética. Desafio.'
                 }
               ]
             },
@@ -379,8 +379,8 @@ export const ROBOTICA_EM_DATA: DisciplinaEscopo = {
                 {
                   aulaSala: 'Aulas 13 e 14',
                   titulo: '[Competição de Robótica] Jurassic Maker – Prototipagem criativa e avaliação final',
-                  objetivos: 'Integrar todas as partes e sistemas. Testar e ajustar funcionalidades. Propor ideias de novos protótipos. Participar de competição baseada na OBR artística.',
-                  conteudos: 'Limitações dos servos. Estímulo à criação de protótipos autorais. OBR. Apresentação da competição.'
+                  objetivos: 'Comunicar ideias e resultados. Avaliar o próprio processo e o do grupo. Propor melhorias e novas possibilidades de projeto.',
+                  conteudos: 'Avaliação formativa dos protótipos modificados. Apresentação dos projetos.'
                 }
               ]
             }

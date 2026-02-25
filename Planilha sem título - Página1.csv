@@ -1,0 +1,185 @@
+AULA COMPLEMENTAR,CICLO,SÉIRE,BIMESTRE,SEMANA,AULAS,HABILIDADES - BNCC COMPUTAÇÃO (CÓDIGO),HABILIDADES - BNCC COMPUTAÇÃO (TEXTO),OBJETO DE CONHECIMENTO,TÍTULO DA AULA,CONTEÚDO,OBJETIVOS,DESCRITIVO
+,Ensino Médio,1ª,1º,1,1 e 2,"EF15CO06
+EF15CO07","• Conhecer os componentes básicos de dispositivos computacionais, entendendo os princípios de seu funcionamento.
+• Conhecer o conceito de Sistema Operacional e sua importância na integração entre software e hardware.",Sala de aula invertida – Micro:bit componentes.,"Pequenos dispositivos, Grandes ideias – Invertendo a aula com o micro:bit","• Computadores, aparelhos e micro:bit.
+• Pitch.
+• Sala de aula invertida.","• Comparar computadores com videogames, celulares e microcontroladores;
+• Identificar quais são os recursos embarcados no micro:bit por meio da utilização de pitches e da sala de aula invertida.",
+,Ensino Médio,1ª,1º,2,3 e 4,EF03CO06,"• Reconhecer que, para um computador realizar tarefas, ele se comunica com o mundo exterior com o uso de interfaces físicas (dispositivos de entrada e saída).",Sala de aula invertida – Micro:bit componentes.,Apresentando o micro:bit com as nossas palavras,"• Sala de aula invertida.
+• Pitch – Recursos da placa micro:bit.","Compreender o papel dos microcontroladores, reconhecendo os recursos embarcados na placa micro:bit, sua origem e suas aplicações em computação física e robótica educacional, por meio de atividades investigativas e colaborativas com uso de metodologias ativas.",
+,Ensino Médio,1ª,1º,3,5 e 6,"EF03CO06
+EI03CO09","• Reconhecer que, para um computador realizar tarefas, ele se comunica com o mundo exterior com o uso de interfaces físicas (dispositivos de entrada e saída).
+• Identificar dispositivos computacionais e as diferentes formas de interação.","Interface, eficiência e acessibilidade.",Onde se criam os programas,"• IDE e sua relação com a programação e a robótica.
+• Resolução de problemas e aplicações na vida real.
+• Recursos da programação em blocos.","Compreender o papel e a funcionalidade das IDEs (Ambientes de Desenvolvimento Integrado) no processo de programação, reconhecendo a versatilidade do MakeCode como ferramenta educacional para desenvolvimento de projetos com o micro:bit.",
+,Ensino Médio,1ª,1º,4,7 e 8,EI03CO03,Experienciar a execução de algoritmos brincando com objetos (des)plugados.,Atividades Plugadas e Desplugadas.,Atividade desplugada – Um outro jeito de aprender,"• Tecnologia e saúde.
+• Atividades plugadas e desplugadas.
+• Brincadeiras, matemática e interação.
+• Input/output.","• Compreender que tudo em excesso faz mal.
+• Experimentar e vivenciar aprendizagem com atividades desplugadas.
+• Identificar a matemática presente nas brincadeiras tradicionais.",
+,Ensino Médio,1ª,1º,5,9 e 10,"EF03CO06
+EI03CO09","• Reconhecer que, para um computador realizar tarefas, ele se comunica com o mundo exterior com o uso de interfaces físicas (dispositivos de entrada e saída).
+• Identificar dispositivos computacionais e as diferentes formas de interação.",Output/Input e Sensores.,Olhos digitais: sentidos à la micro:bit,"• Sensores – Input/Output (analogia com o corpo humano).
+• Sensores analógicos de digitais.
+• Sensor PIR (Passive Infrared Sensor).","• Estabelecer analogias entre os 5 sentidos e os sensores
+• Compreender a diferença entre sensores analógicos e digitais e como isso interfere na sua programação.
+• Entender como criar sistemas de vigilância com o sensor PIR.",
+,Ensino Médio,1ª,1º,6,11 e 12,"EM13CO18
+EF03CO06","• Planejar e gerenciar projetos integrados às áreas de conhecimento de forma colaborativa, solucionando problemas, usando diversos artefatos computacionais.
+• Reconhecer que, para um computador realizar tarefas, ele se comunica com o mundo exterior com o uso de interfaces físicas (dispositivos de entrada e saída).",Aplicação prática de Sensores.,Olhos digitais: sentidos à la micro:bit – Limitações,"• Limitações técnicas.
+• Adaptações/Redesign.","• Investigar os comportamentos inesperados do sensor PIR e suas causas.
+• Julgar a adequação do sensor PIR ao contexto da brincadeira.
+• Criar uma proposta de redesign do jogo ou do sistema com base nas limitações encontradas.",
+,Ensino Médio,1ª,1º,7,13 e 14,EF03CO06,"• Reconhecer que, para um computador realizar tarefas, ele se comunica com o mundo exterior com o uso de interfaces físicas (dispositivos de entrada e saída).",Aplicação prática de Sensores – acelerômetro.,"Quando um sensor não basta, o pensamento computacional prevalece","• Eixos X, Y e Z (movimento lateral, frontal e vertical).
+• Representação visual simplificada na matriz de LEDs.
+• Pensamento computacional aplicado à interpretação de sensores – mapeamento.","• Identificar os três eixos do acelerômetro (X, Y, Z).
+• Explicar a diferença entre “evento de chacoalhar” e leitura direta dos eixos.
+• Usar os valores de X e Y para controlar a posição de um LED na matriz.
+• Comparar como dados brutos de aceleração podem ser transformados em algo visual (nível digital).",
+,Ensino Médio,1ª,2º,1,1 e 2,EF09CO03,• Usar autômatos para descrever comportamentos de forma abstrata automatizando-os através de uma linguagem de programação baseada em eventos.,História e evolução da tecnologia dos autômatos.,Do vapor ao chip: autômatos,"• Robôs, androides e autômatos.
+• Os grandes relógios medievais e o surgimento da automação mecânica.
+• As guildas de relojoeiros e a evolução da precisão mecânica.
+• Dos Cames aos cartões perfurados.
+• Mecanização das indústrias.
+• Reflexos da automação na computação moderna.","• Diferenciar robôs, androides e autômatos.
+• Identificar e explicar o papel dos grandes relógios medievais como precursores da automação mecânica.
+• Analisar como a evolução dos mecanismos relojoeiros levou ao desenvolvimento dos autômatos e à miniaturização tecnológica.
+• Explicar como os princípios dos autômatos foram incorporados às indústrias na Primeira Revolução Industrial.
+• Relacionar as tecnologias da Primeira Revolução Industrial à base dos sistemas automatizados modernos.",
+,Ensino Médio,1ª,2º,2,3 e 4,EF09CO03,• Usar autômatos para descrever comportamentos de forma abstrata automatizando-os através de uma linguagem de programação baseada em eventos.,Como controlar o movimento usando a mecânica.,[Competição de Robótica] Autômato Maker: Ideias em Movimento – Parte 1,"• Conceitos básicos que regem o funcionamento de um autômato.
+• Partes que compõem um autômato.
+• Alavancas, conceito e tipificação.
+• Formato do came e controle de movimento.
+• Competição de robótica
+• OBR artística","• Distinguir as diferenças entre um autômato e um robô moderno.
+• Relacionar o controle de movimento com os mecanismos que utilizam alavancas.
+• Descrever as partes que compõem um autômato e como elas interagem entre si.
+• Conhecer a proposta de competição, baseada na OBR Artística, e os critérios de avaliação",
+,Ensino Médio,1ª,2º,3,5 e 6,EF09CO03,• Usar autômatos para descrever comportamentos de forma abstrata automatizando-os através de uma linguagem de programação baseada em eventos.,Como controlar o movimento usando a mecânica.,[Competição de Robótica] Autômato Maker: Ideias em Movimento – Parte 2,"• Desafios do processo criativo.
+• Remix de ideias.
+• Cames e controle de movimento.
+• Montar a caixa de exposição, com eixos e cames.","• Refletir criticamente sobre os desafios envolvidos no processo de criação.
+• Analisar como o remix de ideias contribui para a criação de projetos originais.
+• Investigar como a pesquisa e a observação de referências influenciam o processo criativo.
+• Aplicar os princípios da cultura maker para planejar e construir uma caixa expositora que integre um autômato simples.",
+,Ensino Médio,1ª,2º,4,7 e 8,EF09CO03,• Usar autômatos para descrever comportamentos de forma abstrata automatizando-os através de uma linguagem de programação baseada em eventos.,Como controlar o movimento usando a mecânica.,[Competição de Robótica] Autômato Maker: Ideias em Movimento – Parte 3,"• O came o programa do autômato.
+• Alavancas e sua relação com esforço físico e mecânico.
+• Engates para eixos de motores com materiais simples.
+• Finalizar a montagem do protótipo.","• Entender como funcionam as relações entre alavancas e cames para controlar movimentos.
+• Aplicar os princípios da cultura maker para construir o autômato que irá interagir com os movimentos promovidos pelo came e pelos eixos que integram o projeto de autômato simples.
+• Aplicar um motor DC controlado pelo micro:bit conectado à shield para automatizar o funcionamento do autômato.",
+,Ensino Médio,1ª,2º,5,9 e 10,EF09CO03,• Usar autômatos para descrever comportamentos de forma abstrata automatizando-os através de uma linguagem de programação baseada em eventos.,Tecnologia dos autômatos no Brasil.,[Competição de Robótica] Autômato Maker: Desafio – Parte 1,"• Escolas de samba e Festival Folclórico de Parintins.
+• LED endereçável RGB.
+• Com LEDs RGB usando a extensão da shield.","• Entender como os princípios e mecanismos que regem o funcionamento dos autômatos foi utilizado no Carnaval aqui no Brasil.
+• Identificar as diferenças entre um LED comum e um LED endereçável.
+• Entender como controlar os LEDs da shield usando a extensão Robotbit – seção Neopixel.",
+,Ensino Médio,1ª,2º,6,11 e 12,EF09CO03,• Usar autômatos para descrever comportamentos de forma abstrata automatizando-os através de uma linguagem de programação baseada em eventos.,Transferência de aprendizagem.,[Competição de Robótica] Autômato Maker: Desafio – Parte 2,"• Diferentes cames, diferentes movimentos.
+• Transferência de aprendizagem – modificar o autômato.","• Prototipar e construir um segundo came para adicionar movimento a outra peças do autômato.
+• Prototipar e construir um segundo braço móvel para o autômato, remixando o projeto do braço anterior.
+• Aplicar os novos componentes no projeto anteriormente desenvolvido.
+• Personalizar o projeto para a competição",
+,Ensino Médio,1ª,2º,7,13 e 14,EF09CO03,• Usar autômatos para descrever comportamentos de forma abstrata automatizando-os através de uma linguagem de programação baseada em eventos.,Transferência de aprendizagem.,[Competição de Robótica] Autômato Maker: Desafio – Hora da competição,"• Diferentes cames, diferentes movimentos.
+• Transferência de aprendizagem – modificar o autômato.
+• Apresentação da competição","• Finalizar os protótipos, considerando os acabamentos e personalizações
+• Apresentar os protótipos da competição
+• Avaliar os protótipos de acordo com critérios preestabelecidos.",
+,Ensino Médio,2ª/3ª,1º,1,1 e 2,"EF09CO07
+EM13CO07","• Avaliar aplicações e implicações políticas, socioambientais e culturais das tecnologias digitais para propor alternativas aos desafios do mundo contemporâneo, incluindo aqueles relativos ao mundo do trabalho.
+• Compreender as diferentes tecnologias, bem como equipamentos, protocolos e serviços envolvidos no funcionamento de redes de computadores, identificando suas possibilidades de escala e confiabilidade.","Automação, comunicação e controle.",[Competição de Robótica] Robótica sustentável: Materializando ideias,"• Robótica sustentável.
+ • Objetivos de Desenvolvimento Sustentável (ODS) da ONU.
+ • Economia circular.
+ • Conexão com o cotidiano e com o projeto do carrinho.
+• Competição de robótica","• Compreender o papel da robótica sustentável na formação cidadã.
+ • Relacionar o ciclo de produção das revoluções industriais com ODS e economia circular.
+ • Estimular o protagonismo juvenil em ações de caráter ambiental.
+•  Conhecer as etapas e critérios da competição de robótica.",
+,Ensino Médio,2ª/3ª,1º,2,3 e 4,"EF06CO02
+EM13CO15","• Elaborar algoritmos que envolvam instruções sequenciais, de repetição e de seleção usando uma linguagem de programação.
+• Analisar a interação entre usuários e artefatos computacionais, abordando aspectos da experiência do usuário e promovendo reflexão sobre a qualidade do uso dos artefatos nas esferas do trabalho, do lazer e do estudo.",Prática de soluções com tecnologia.,[Competição de Robótica] Robótica sustentável: Direção diferencial,"• Ambiente de testes.
+ • Direção diferencial.
+ • Programação e teste de funcionamento.","• Compreender a importância da ambientes de testes na execução de projetos.
+ • Analisar o uso da direção diferencial em situações do mundo real e como este conceito vai ser aplicado ao projeto.
+ • Aplicar a direção diferencial na lógica de funcionamento dos motores.",
+,Ensino Médio,2ª/3ª,1º,3,5 e 6,"EF06CO02
+EM13CO15","• Elaborar algoritmos que envolvam instruções sequenciais, de repetição e de seleção usando uma linguagem de programação.
+• Analisar a interação entre usuários e artefatos computacionais, abordando aspectos da experiência do usuário e promovendo reflexão sobre a qualidade do uso dos artefatos nas esferas do trabalho, do lazer e do estudo.",Novos blocos.,[Competição de Robótica] Robótica sustentável: Indo a fundo no controle por rádio – Parte 1,"• Reaproveitamento de programas.
+ • Princípios de mapeamento lógico (emissor/receptor).","• Aplicar a lógica de controle pensado na última aula às funções para controle. 
+ • Entender como funciona o projeto de um sistema de rádio controle (emissor/ receptor) com micro:bits.",
+,Ensino Médio,2ª/3ª,1º,4,7 e 8,"EF06CO02
+EM13CO15
+EM13CO16","• Elaborar algoritmos que envolvam instruções sequenciais, de repetição e de seleção usando uma linguagem de programação.
+• Analisar a interação entre usuários e artefatos computacionais, abordando aspectos da experiência do usuário e promovendo reflexão sobre a qualidade do uso dos artefatos nas esferas do trabalho, do lazer e do estudo.
+• Desenvolver projetos com robótica, utilizando artefatos físicos ou simuladores.",Design e prototipagem.,[Competição de Robótica] Robótica sustentável: Indo a fundo no controle por rádio – Parte 2,"• Reaproveitamento de programas.
+ • Código do receptor.","• Entender como reaproveitar a estrutura do primeiro projeto no sistema de rádio controle (emissor/ receptor) com micro:bits.
+ • Testar os programas usando os componentes e fazer ajustes.",
+,Ensino Médio,2ª/3ª,1º,5,9 e 10,"EF09CO07
+EM13CO07","• Avaliar aplicações e implicações políticas, socioambientais e culturais das tecnologias digitais para propor alternativas aos desafios do mundo contemporâneo, incluindo aqueles relativos ao mundo do trabalho.
+• Compreender as diferentes tecnologias, bem como equipamentos, protocolos e serviços envolvidos no funcionamento de redes de computadores, identificando suas possibilidades de escala e confiabilidade.","Design, ferramentas e prototipagem.",[Competição de Robótica] Robótica sustentável: Do Design ao Protótipo – Parte 1,"• Carro conceito.
+ • Projetos feitos a mão e alternativas.","• Compreender o que é um carro conceito.
+ • Criar um chassi no estilo Tadpole.
+ • Projetar encaixes para componentes, com destaque para a importância da simetria.
+ • Testar encaixes e a funcionalidade do protótipo.",
+,Ensino Médio,2ª/3ª,1º,6,11 e 12,"EF09CO07
+EM13CO07","• Avaliar aplicações e implicações políticas, socioambientais e culturais das tecnologias digitais para propor alternativas aos desafios do mundo contemporâneo, incluindo aqueles relativos ao mundo do trabalho.
+• Compreender as diferentes tecnologias, bem como equipamentos, protocolos e serviços envolvidos no funcionamento de redes de computadores, identificando suas possibilidades de escala e confiabilidade.","Design, ferramentas e prototipagem.",[Competição de Robótica] Robótica sustentável: Do Design ao Protótipo – Parte 2,"• Recorte das peças.
+ • Montagem e fixação da shield, motores e eixos.
+ • Testar equilíbrio estrutural e funcionalidade.
+ • Testes finais e ajustes de código.","• Entender como estão estruturadas as principais competições estudantis de robótica no Brasil.
+ • Ajustar o código para melhorar precisão e resposta.
+ • Apresentar um protótipo funcional em situação real de uso.",
+,Ensino Médio,2ª/3ª,1º,7,13 e 14,"EF09CO07
+EM13CO07","• Avaliar aplicações e implicações políticas, socioambientais e culturais das tecnologias digitais para propor alternativas aos desafios do mundo contemporâneo, incluindo aqueles relativos ao mundo do trabalho.
+• Compreender as diferentes tecnologias, bem como equipamentos, protocolos e serviços envolvidos no funcionamento de redes de computadores, identificando suas possibilidades de escala e confiabilidade.",Teste e Validação.,[Competição de Robótica] Robótica sustentável: Corrida final: obstáculos e precisão!,"• Olimpíada Brasileira de Robótica (OBR) – Lego League & circuito de testes.
+ • Corrida de obstáculos com avaliação de desempenho."," •  Testar a funcionalidade do protótipo em uma situação real de competição.
+ •  Participar de uma competição de robótica.",
+,Ensino Médio,2ª/3ª,2º,1,1 e 2,"EM13CO15
+EM13CO16","• Analisar a interação entre usuários e artefatos computacionais, abordando aspectos da experiência do usuário e promovendo reflexão sobre a qualidade do uso dos artefatos nas esferas do trabalho, do lazer e do estudo.
+• Desenvolver projetos com robótica, utilizando artefatos físicos ou simuladores.",Robótica Artística.,[Competição de Robótica] Jurassic Maker: O que é Robótica Artística?,"• Robótica Artística e Sustentável – Criando com propósito
+ 
+ • Ideação e o processo criativo em projetos de robótica","• Compreender o conceito e o propósito da Robótica Artística.
+ 
+ • Explorar o conceito de ideação e suas etapas dentro do processo criativo.
+ 
+ • Aplicar princípios de Robótica Sustentável na concepção do protótipo.","Apresentação do projeto e da modalidade de Robótica Criativa. Introdução à ideia de Robótica Sustentável, exploração do protótipo do T-Rex e da competição baseada na Olimpíada de Robótica Artística (OBR). Mapeamento de posição de servos com potenciômetro."
+,Ensino Médio,2ª/3ª,2º,2,3 e 4,"EM13CO15
+EM13CO16","• Analisar a interação entre usuários e artefatos computacionais, abordando aspectos da experiência do usuário e promovendo reflexão sobre a qualidade do uso dos artefatos nas esferas do trabalho, do lazer e do estudo.
+• Desenvolver projetos com robótica, utilizando artefatos físicos ou simuladores.",Criando Funções Extras no Makecode.,[Competição de Robótica] Jurassic Maker – Como dar vida ao boneco (Parte 1),"• Estrutura de repetição FOR
+ • Movimento gradual do servo
+ • Criar novas funções no MakeCode","• Compreender o funcionamento e porque usar o loop FOR.
+ • Aplicar loops para suavizar movimentos com servos.
+ • Analisar as limitações do FOR padrão do MakeCode ecomo adaptar uma nova função de loop.","Exploração da ideia de que o boneco “ganha vida” por meio da programação. Introdução ao loop FOR, ao movimento gradual e à diferença entre controle físico e digital."
+,Ensino Médio,2ª/3ª,2º,3,5 e 6,"EM13CO15
+EM13CO16","• Analisar a interação entre usuários e artefatos computacionais, abordando aspectos da experiência do usuário e promovendo reflexão sobre a qualidade do uso dos artefatos nas esferas do trabalho, do lazer e do estudo.
+• Desenvolver projetos com robótica, utilizando artefatos físicos ou simuladores.",Criando Funções Extras no Makecode.,[Competição de Robótica] Jurassic Maker – Como dar vida ao boneco (Parte 2),"• Funções no MakeCode
+ • Organização de código
+ • Lógica de movimento dos servos","• Compreender o papel das funções na programação.
+ • Aplicar funções para modularizar movimentos.
+ • Construir o código completo do protótipo.",Criação de funções para organizar e simplificar o código. Estruturação da lógica de movimento e elaboração do programa completo do T-Rex.
+,Ensino Médio,2ª/3ª,2º,4,7 e 8,"EM13CO15
+EM13CO16","• Analisar a interação entre usuários e artefatos computacionais, abordando aspectos da experiência do usuário e promovendo reflexão sobre a qualidade do uso dos artefatos nas esferas do trabalho, do lazer e do estudo.
+• Desenvolver projetos com robótica, utilizando artefatos físicos ou simuladores.",Pan Tilt as juntas de um robô.,"[Competição de Robótica] Jurassic Maker: Improvisar, Criar e Resolver","• Conceito de improvisação técnica 
+ • Encaixes sem cola: durabilidade e reutilização.- Mecanismos pan-tilt
+ • Recorte e preparação das peças","• Compreender o funcionamento do pan-tilt.
+ • Montar suportes articulados com materiais alternativos.
+ • Avaliar a estabilidade dos mecanismos de articulação criados.",Apresentação do mecanismo pan-tilt e discussão sobre improviso e criatividade. Construção das articulações com papelão e palitos. Distribuição dos moldes do T-Rex para acelerar o recorte das peças.
+,Ensino Médio,2ª/3ª,2º,5,9 e 10,"EM13CO15
+EM13CO16","• Analisar a interação entre usuários e artefatos computacionais, abordando aspectos da experiência do usuário e promovendo reflexão sobre a qualidade do uso dos artefatos nas esferas do trabalho, do lazer e do estudo.
+• Desenvolver projetos com robótica, utilizando artefatos físicos ou simuladores.",Modelagem e prototipagem.,[Competição de Robótica] Jurassic Maker – Modelando o T-Rex,"• Montagem e fixação
+ • Ajustes mecânicos
+ • Relação forma-função","• Aplicar habilidades de montagem com precisão.
+ • Analisar ajustes necessários para melhor movimentação.
+ • Avaliar aspectos visuais e funcionais do modelo.","Montagem do corpo do T-Rex, colagem e integração dos pan-tilts improvisados. Discussão sobre ajustes mecânicos e estética do protótipo."
+,Ensino Médio,2ª/3ª,2º,6,11 e 12,"EM13CO15
+EM13CO16","• Analisar a interação entre usuários e artefatos computacionais, abordando aspectos da experiência do usuário e promovendo reflexão sobre a qualidade do uso dos artefatos nas esferas do trabalho, do lazer e do estudo.
+• Desenvolver projetos com robótica, utilizando artefatos físicos ou simuladores.",Teste e Validação.,"[Competição de Robótica] Jurassic Maker – ""Ele está vivo!!!""","• Testes, depuração e ajustes
+ • Customização estética Desafio","• Aplicar o programa no protótipo físico.
+ • Analisar e corrigir erros de programação e montagem.
+ • Criar customizações visuais e narrativas para a OBR.","Testes de funcionamento, carregamento do programa na micro:bit e ajustes na primeira metade da aula. 
+ Segunda metade dedicada à adaptação artística do protótipo para exibição no espírito de Robótica artística na próxima aula"
+,Ensino Médio,2ª/3ª,2º,7,13 e 14,"EM13CO15
+EM13CO16","• Analisar a interação entre usuários e artefatos computacionais, abordando aspectos da experiência do usuário e promovendo reflexão sobre a qualidade do uso dos artefatos nas esferas do trabalho, do lazer e do estudo.
+• Desenvolver projetos com robótica, utilizando artefatos físicos ou simuladores.",Teste e Validação.,[Competição de Robótica] Jurassic Maker – Prototipagem criativa e avaliação final,"• Avalição formativa dos protótipos modificados.
+ • Apresentação dos projetos","• Comunicar ideias e resultados.
+ • Avaliar o próprio processo e o do grupo.
+ • Propor melhorias e novas possibilidades de projeto.","Apresentação dos projetos, ajustes finais e reflexão coletiva. Avaliação da trajetória, do processo criativo e técnico."
