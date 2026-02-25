@@ -8,6 +8,7 @@ export interface PlanoAulaRequest {
   anoSerie: string;
   bimestre: string;
   semana: number;
+  instrucoes?: string;
   aulas: {
     aulaSala: string;
     titulo: string;
@@ -50,7 +51,8 @@ export class PlanoIaService {
     ciclo: string,
     anoSerie: string,
     bimestre: string,
-    semana: SemanaEscopo
+    semana: SemanaEscopo,
+    instrucoes?: string
   ): PlanoAulaRequest {
     return {
       disciplina,
@@ -58,6 +60,7 @@ export class PlanoIaService {
       anoSerie,
       bimestre,
       semana: semana.numero,
+      instrucoes: instrucoes || undefined,
       aulas: semana.aulas.map(a => ({
         aulaSala: a.aulaSala,
         titulo: a.titulo,

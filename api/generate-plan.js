@@ -18,7 +18,7 @@ module.exports = async (req, res) => {
   }
 
   try {
-    const { disciplina, ciclo, anoSerie, bimestre, semana, aulas } = req.body;
+    const { disciplina, ciclo, anoSerie, bimestre, semana, aulas, instrucoes } = req.body;
 
     if (!aulas || !Array.isArray(aulas) || aulas.length === 0) {
       return res.status(400).json({ error: 'Missing required fields' });
@@ -82,6 +82,10 @@ O plano de aula deve seguir o formato abaixo em Markdown:
 ---
 *Plano gerado por IA como sugestão. Adapte conforme a realidade da sua turma.*`;
 
+    const instrucaoExtra = instrucoes
+      ? `\n\n**INSTRUÇÕES ADICIONAIS DO PROFESSOR:** ${instrucoes}`
+      : '';
+
     const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
       method: 'POST',
       headers: {
@@ -97,7 +101,7 @@ O plano de aula deve seguir o formato abaixo em Markdown:
           },
           {
             role: 'user',
-            content: prompt
+            content: prompt + instrucaoExtra
           }
         ],
         temperature: 0.7,
