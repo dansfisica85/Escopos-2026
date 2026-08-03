@@ -17,6 +17,10 @@ import { PlanoIaService } from '../../services/plano-ia.service';
 export class RoboticaComponent {
   disciplinas: DisciplinaEscopo[] = [ROBOTICA_EF_DATA, ROBOTICA_EM_DATA];
   materiais = MATERIAIS_ROBOTICA;
+  readonly terceiroBimestre: BimestreEscopo = {
+    bimestre: '3º Bimestre',
+    semanas: []
+  };
 
   selectedDisciplina = signal<DisciplinaEscopo>(this.disciplinas[0]);
   selectedAno = signal<AnoSerieEscopo>(this.disciplinas[0].anos[0]);
@@ -38,10 +42,21 @@ export class RoboticaComponent {
   refinando = signal(false);
 
   anos = computed(() => this.selectedDisciplina().anos);
-  bimestres = computed(() => this.selectedAno().bimestres);
+  bimestres = computed(() => {
+    const bimestresDoAno = this.selectedAno().bimestres;
+    return bimestresDoAno.some(b => b.bimestre === this.terceiroBimestre.bimestre)
+      ? bimestresDoAno
+      : [...bimestresDoAno, this.terceiroBimestre];
+  });
   semanas = computed(() => this.selectedBimestre().semanas);
+  isTerceiroBimestreEmBreve = computed(
+    () =>
+      this.selectedBimestre().bimestre === this.terceiroBimestre.bimestre &&
+      this.selectedBimestre().semanas.length === 0
+  );
 
-  materiaisAtuais = computed(() => {
+  materiaisAtuais = computed<MaterialPorAno | undefined>(() => {
+    if (this.isTerceiroBimestreEmBreve()) return undefined;
     const ano = this.selectedAno().anoSerie.toLowerCase();
     return this.materiais.find(m => m.ano.toLowerCase() === ano);
   });
@@ -64,7 +79,7 @@ export class RoboticaComponent {
   }
 
   onBimestreChange(index: number) {
-    this.selectedBimestre.set(this.selectedAno().bimestres[index]);
+    this.selectedBimestre.set(this.bimestres()[index]);
     this.expandedSemana.set(null);
   }
 

@@ -36,103 +36,113 @@
     </div>
   </div>
 
-  @if (materiaisAtuais(); as mat) {
-    <div class="materiais-section">
-      <h3>📎 Materiais de Apoio — {{ mat.ano }}</h3>
-      <div class="materiais-grid">
-        @for (m of mat.materiais; track m.aula) {
-          <a [href]="m.link" target="_blank" class="material-link">
-            <span class="material-aula">Aula {{ m.aula }}</span>
-            <span class="material-titulo">{{ m.titulo }}</span>
-            <span class="material-icon">📄</span>
-          </a>
-        }
-      </div>
-    </div>
-  }
-
-  <h2 class="section-title">
-    {{ selectedDisciplina().nome }} — {{ selectedAno().anoSerie }} — {{ selectedBimestre().bimestre }}
-  </h2>
-
-  <div class="semanas-list">
-    @for (semana of semanas(); track semana.numero) {
-      <div class="semana-card" [class.expanded]="expandedSemana() === semana.numero" [class.especial]="!!semana.especial">
-        <div class="semana-header" (click)="toggleSemana(semana.numero)">
-          <div class="semana-info">
-            <span class="semana-numero">Semana {{ semana.numero }}</span>
-            @if (semana.data) {
-              <span class="semana-data">{{ semana.data }}</span>
-            }
-            @if (semana.especial) {
-              <span class="semana-especial-badge">{{ semana.especial }}</span>
-            }
-            @if (semana.unidade) {
-              <span class="semana-unidade">{{ semana.unidade }}</span>
-            }
-            @if (getMaterialLink(semana.numero)) {
-              <a [href]="getMaterialLink(semana.numero)" target="_blank" class="material-badge" (click)="$event.stopPropagation()">📄 Material</a>
-            }
-          </div>
-          <span class="expand-icon">{{ expandedSemana() === semana.numero ? '▲' : '▼' }}</span>
+  @if (isTerceiroBimestreEmBreve()) {
+    <h2 class="section-title">
+      {{ selectedDisciplina().nome }} — {{ selectedAno().anoSerie }} — {{ selectedBimestre().bimestre }}
+    </h2>
+    <section class="robotica-coming-soon" role="status" aria-live="polite">
+      <span class="robotica-coming-soon-icon" aria-hidden="true">🤖</span>
+      <p>Aguarde só mais um pouquinho, que eu já estou terminando a Robótica do 3° bimestre</p>
+    </section>
+  } @else {
+    @if (materiaisAtuais(); as mat) {
+      <div class="materiais-section">
+        <h3>📎 Materiais de Apoio — {{ mat.ano }}</h3>
+        <div class="materiais-grid">
+          @for (m of mat.materiais; track m.aula) {
+            <a [href]="m.link" target="_blank" class="material-link">
+              <span class="material-aula">Aula {{ m.aula }}</span>
+              <span class="material-titulo">{{ m.titulo }}</span>
+              <span class="material-icon">📄</span>
+            </a>
+          }
         </div>
-
-        @if (expandedSemana() === semana.numero) {
-          <div class="semana-content">
-            @if (getMaterialLink(semana.numero); as link) {
-              <a [href]="link" target="_blank" class="material-download-link" (click)="$event.stopPropagation()">
-                📄 Abrir Material Digital — Aula {{ semana.numero }}
-              </a>
-            }
-            @if (semana.especial && semana.aulas.length === 0) {
-              <div class="especial-message">
-                <span class="especial-icon">📋</span>
-                <p>{{ semana.especial }}</p>
-              </div>
-            }
-            @for (aula of semana.aulas; track aula.aulaSala) {
-              <div class="aula-card">
-                <div class="aula-header">
-                  <h4>{{ aula.aulaSala }} — {{ aula.titulo }}</h4>
-                  <div class="aula-badges">
-                    @if (aula.formato) {
-                      <span class="badge formato">{{ aula.formato }}</span>
-                    }
-                    @if (aula.entregaProjeto) {
-                      <span class="badge entrega">📦 Entrega</span>
-                    }
-                  </div>
-                </div>
-                @if (aula.materialLink) {
-                  <a [href]="aula.materialLink" target="_blank" class="material-download-link">
-                    📄 Abrir Material Digital — {{ aula.titulo }}
-                  </a>
-                }
-                <div class="aula-details">
-                  <div class="detail-section">
-                    <h5>🎯 Objetivos</h5>
-                    <p>{{ aula.objetivos }}</p>
-                  </div>
-                  <div class="detail-section">
-                    <h5>📖 Conteúdos</h5>
-                    <p>{{ aula.conteudos }}</p>
-                  </div>
-                </div>
-              </div>
-            }
-
-            <div class="ia-actions">
-              <button class="btn-ia-gerar"
-                (click)="abrirInstrucoes(semana)"
-                [disabled]="generatingPlan() !== null">
-                🤖 Gerar Plano de Aula com IA
-              </button>
-            </div>
-          </div>
-        }
       </div>
     }
-  </div>
+
+    <h2 class="section-title">
+      {{ selectedDisciplina().nome }} — {{ selectedAno().anoSerie }} — {{ selectedBimestre().bimestre }}
+    </h2>
+
+    <div class="semanas-list">
+      @for (semana of semanas(); track semana.numero) {
+        <div class="semana-card" [class.expanded]="expandedSemana() === semana.numero" [class.especial]="!!semana.especial">
+          <div class="semana-header" (click)="toggleSemana(semana.numero)">
+            <div class="semana-info">
+              <span class="semana-numero">Semana {{ semana.numero }}</span>
+              @if (semana.data) {
+                <span class="semana-data">{{ semana.data }}</span>
+              }
+              @if (semana.especial) {
+                <span class="semana-especial-badge">{{ semana.especial }}</span>
+              }
+              @if (semana.unidade) {
+                <span class="semana-unidade">{{ semana.unidade }}</span>
+              }
+              @if (getMaterialLink(semana.numero)) {
+                <a [href]="getMaterialLink(semana.numero)" target="_blank" class="material-badge" (click)="$event.stopPropagation()">📄 Material</a>
+              }
+            </div>
+            <span class="expand-icon">{{ expandedSemana() === semana.numero ? '▲' : '▼' }}</span>
+          </div>
+
+          @if (expandedSemana() === semana.numero) {
+            <div class="semana-content">
+              @if (getMaterialLink(semana.numero); as link) {
+                <a [href]="link" target="_blank" class="material-download-link" (click)="$event.stopPropagation()">
+                  📄 Abrir Material Digital — Aula {{ semana.numero }}
+                </a>
+              }
+              @if (semana.especial && semana.aulas.length === 0) {
+                <div class="especial-message">
+                  <span class="especial-icon">📋</span>
+                  <p>{{ semana.especial }}</p>
+                </div>
+              }
+              @for (aula of semana.aulas; track aula.aulaSala) {
+                <div class="aula-card">
+                  <div class="aula-header">
+                    <h4>{{ aula.aulaSala }} — {{ aula.titulo }}</h4>
+                    <div class="aula-badges">
+                      @if (aula.formato) {
+                        <span class="badge formato">{{ aula.formato }}</span>
+                      }
+                      @if (aula.entregaProjeto) {
+                        <span class="badge entrega">📦 Entrega</span>
+                      }
+                    </div>
+                  </div>
+                  @if (aula.materialLink) {
+                    <a [href]="aula.materialLink" target="_blank" class="material-download-link">
+                      📄 Abrir Material Digital — {{ aula.titulo }}
+                    </a>
+                  }
+                  <div class="aula-details">
+                    <div class="detail-section">
+                      <h5>🎯 Objetivos</h5>
+                      <p>{{ aula.objetivos }}</p>
+                    </div>
+                    <div class="detail-section">
+                      <h5>📖 Conteúdos</h5>
+                      <p>{{ aula.conteudos }}</p>
+                    </div>
+                  </div>
+                </div>
+              }
+
+              <div class="ia-actions">
+                <button class="btn-ia-gerar"
+                  (click)="abrirInstrucoes(semana)"
+                  [disabled]="generatingPlan() !== null">
+                  🤖 Gerar Plano de Aula com IA
+                </button>
+              </div>
+            </div>
+          }
+        </div>
+      }
+    </div>
+  }
 </div>
 
 @if (showInstrucoesDialog()) {
