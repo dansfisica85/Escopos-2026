@@ -327,6 +327,160 @@ export const PROG_EM_DATA: DisciplinaEscopo = {
               aulas: []
             }
           ]
+        },
+        {
+          bimestre: '3º Bimestre',
+          semanas: [
+            {
+              numero: 26,
+              data: '27/07 a 31/07',
+              unidade: 'Introdução a python: funções e loops',
+              aulas: [
+                {
+                  aulaSala: 'Aula 1',
+                  titulo: 'Aprofundando condicionais',
+                  formato: 'Vídeo',
+                  objetivos: 'Implementar condições encadeadas (if, elif, else) para validar múltiplos cenários em um programa. Controlar o fluxo lógico do programa com base em entradas fornecidas pelos usuários. Exibir os resultados baseados em regras condicionais utilizando mensagens claras.',
+                  conteudos: 'Uso de if, elif e else para decisões múltiplas. Entrada de dados (input). Modelagem e verificação de cenários complexos com múltiplas condições.'
+                },
+                {
+                  aulaSala: 'Aula 2',
+                  titulo: 'Funções e cálculos',
+                  formato: 'Vídeo',
+                  objetivos: 'Definir funções personalizadas em Python utilizando def para resolver problemas específicos. Calcular resultados baseados em dados fornecidos, aplicando operadores matemáticos e funções embutidas. Retornar valores de uma função e utilizá-los em outros contextos do programa.',
+                  conteudos: 'Estruturação de funções para cálculos específicos. Identificação do maior valor em um conjunto de números usando a função embutida max. Organização do código para garantir execução correta e legibilidade.'
+                }
+              ]
+            },
+            {
+              numero: 27,
+              data: '03/08 a 07/08',
+              unidade: 'Introdução a python: funções e loops',
+              aulas: [
+                {
+                  aulaSala: 'Aula 3',
+                  titulo: 'Cálculo iterativo',
+                  formato: 'Vídeo',
+                  objetivos: 'Implementar laços de repetição com a estrutura for para executar ações repetitivas. Utilizar a função range() para definir intervalos numéricos em Python. Exibir cálculos iterativos formatados de maneira clara e compreensível.',
+                  conteudos: 'Uso de for para iterar sobre intervalos definidos. Definição de intervalos de números para iterações usando range. Formatação de saída para apresentar cálculos.'
+                },
+                {
+                  aulaSala: 'Aula 4',
+                  titulo: 'Criando desafios',
+                  formato: 'Vídeo',
+                  objetivos: 'Desenvolver a habilidade de formular problemas computacionais claros e resolvíveis. Elaborar enunciados de desafios que utilizem as estruturas aprendidas em Python. Promover a troca de conhecimentos ao compartilhar e resolver desafios propostos por colegas.',
+                  conteudos: 'Formulação de problemas. Aplicação das ferramentas aprendidas (laços, funções e condicionais). Troca de desafios entre grupos ou indivíduos para prática e feedback.',
+                  entregaProjeto: true
+                }
+              ]
+            },
+            {
+              numero: 28,
+              data: '10/08 a 14/08',
+              unidade: 'Ciência de dados: construindo uma análise de dados com Python',
+              aulas: [
+                {
+                  aulaSala: 'Aula 5',
+                  titulo: 'Análise exploratória',
+                  formato: 'Material digital',
+                  materialLink: 'materiais/5679_Aula01_Aula05_ALUNO.pdf',
+                  objetivos: 'Identificar padrões em dados coletados a partir de temas escolhidos, utilizando conceitos básicos de análise de dados. Elaborar perguntas investigativas que direcionem a coleta de dados para uma análise exploratória. Relacionar diferentes tipos de dados coletados com o tema escolhido, propondo hipóteses iniciais.',
+                  conteudos: 'Introdução à análise exploratória de dados. Definição de temática e perguntas. Reflexão sobre coleta de dados.'
+                },
+                {
+                  aulaSala: 'Aula 6',
+                  titulo: 'Criando formulários',
+                  formato: 'Material digital',
+                  materialLink: 'materiais/5679_Aula02_Aula06_ALUNO.pdf',
+                  objetivos: 'Construir formulários digitais utilizando ferramentas online para coletar dados. Identificar formatos de perguntas adequados para análises de dados, considerando clareza e relevância. Compartilhar formulários com diferentes públicos, expandindo a amostra de respostas coletadas.',
+                  conteudos: 'Introdução ao Google Forms. Configuração de perguntas. Distribuição do formulário.'
+                }
+              ]
+            },
+            {
+              numero: 29,
+              data: '17/08 a 21/08',
+              unidade: 'Ciência de dados: construindo uma análise de dados com Python',
+              aulas: [
+                {
+                  aulaSala: 'Aula 7',
+                  titulo: 'Publicando dados',
+                  formato: 'Vídeo',
+                  objetivos: 'Transferir dados coletados em formulários online para o Google Planilhas, organizando-os para análise. Publicar e compartilhar dados no formato CSV, garantindo acessibilidade para análise em ferramentas externas. Refletir sobre a clareza e a organização dos dados publicados, visando facilitar a interpretação por terceiros.',
+                  conteudos: 'Navegação na aba de respostas e visualização dos dados preenchidos. Conversão de respostas em tabelas organizadas e adição de carimbo de data e hora. Compartilhamento do arquivo em CSV para análise no Google Colab e em outros softwares.'
+                },
+                {
+                  aulaSala: 'Aula 8',
+                  titulo: 'Introdução ao Google Colab',
+                  formato: 'Vídeo',
+                  objetivos: 'Configurar o Google Colab para leitura e manipulação de dados utilizando a biblioteca pandas. Criar e organizar células de texto e código no Google Colab para descrever e implementar análises. Ler arquivos CSV no Google Colab e visualizar tabelas de dados para análise inicial.',
+                  conteudos: 'Criação de notebooks e organização de células de texto e código. Uso do Pandas para manipulação de dados. Importação de arquivos CSV a partir de links publicados e visualização em formato tabular.',
+                  entregaProjeto: true
+                }
+              ]
+            },
+            {
+              numero: 30,
+              data: '24/08 a 28/08',
+              especial: 'Avaliação da unidade: Introdução a python: funções e loops',
+              aulas: []
+            },
+            {
+              numero: 31,
+              data: '31/08 a 04/09',
+              unidade: 'Ciência de dados: construindo uma análise de dados com Python',
+              aulas: [
+                {
+                  aulaSala: 'Aula 11',
+                  titulo: 'Gráficos e insights',
+                  formato: 'Vídeo',
+                  objetivos: 'Gerar histogramas a partir de dados tabulares usando a biblioteca Pandas. Identificar valores atípicos (outliers) em histogramas e interpretar o significado deles nos dados analisados. Elaborar resumos descritivos das informações extraídas dos gráficos, conectando-os aos objetivos da pesquisa.',
+                  conteudos: 'Uso do método .hist para visualização gráfica de colunas específicas. Identificação de padrões, tendências e outliers nos histogramas gerados. Inserção de resumos em células de texto no Google Colab.'
+                },
+                {
+                  aulaSala: 'Aula 12',
+                  titulo: 'Explorando frequências',
+                  formato: 'Vídeo',
+                  objetivos: 'Utilizar o método value_counts do Pandas para agrupar e contar ocorrências em colunas de dados. Identificar e interpretar padrões e valores discrepantes (outliers) nos dados analisados. Comparar a distribuição dos dados coletados para levantar hipóteses sobre o comportamento das amostras.',
+                  conteudos: 'Uso do Pandas para agrupar e contar valores únicos em colunas específicas. Interpretação de frequências predominantes e valores atípicos. Introdução ao método describe para sumarizar estatísticas.'
+                }
+              ]
+            },
+            {
+              numero: 32,
+              data: '07/09 a 11/09',
+              unidade: 'Ciência de dados: construindo uma análise de dados com Python',
+              aulas: [
+                {
+                  aulaSala: 'Aula 13',
+                  titulo: 'Analisando médias',
+                  formato: 'Vídeo',
+                  objetivos: 'Aplicar o método describe do Pandas para obter uma visão estatística dos dados, incluindo contagens, médias e percentis. Comparar média e mediana para identificar a influência de outliers nos dados analisados. Resumir os insights obtidos a partir das estatísticas descritivas para interpretar tendências e padrões nos dados.',
+                  conteudos: 'Extração de estatísticas básicas como média, desvio padrão, mínimos, máximos e percentis. Comparação de média e mediana para avaliar outliers. Documentação das descobertas em células de texto.'
+                },
+                {
+                  aulaSala: 'Aula 14',
+                  titulo: 'Revisão do notebook',
+                  formato: 'Vídeo',
+                  objetivos: 'Revisar e organizar o notebook do Google Colab, adicionando descrições claras e detalhadas em todas as etapas da análise. Inserir resumos e destaques em pontos-chave do código e dos resultados para facilitar o entendimento por terceiros. Refletir sobre os resultados obtidos e propor novas perguntas ou melhorias para futuras análises de dados.',
+                  conteudos: 'Inclusão de informações contextuais e descrição das etapas e resultados. Documentação dos principais insights. Reflexão sobre lacunas, melhorias e possibilidades para futuras coletas e análises.',
+                  entregaProjeto: true
+                }
+              ]
+            },
+            {
+              numero: 33,
+              data: '14/09 a 18/09',
+              especial: 'Semana para nivelamento',
+              aulas: []
+            },
+            {
+              numero: 34,
+              data: '21/09 a 25/09',
+              especial: 'Avaliação da unidade: Ciência de dados: construindo uma análise de dados com Python',
+              aulas: []
+            }
+          ]
         }
       ]
     },
@@ -636,6 +790,160 @@ export const PROG_EM_DATA: DisciplinaEscopo = {
               numero: 21,
               data: '29/06 a 03/07',
               especial: 'Recuperação do bimestre',
+              aulas: []
+            }
+          ]
+        },
+        {
+          bimestre: '3º Bimestre',
+          semanas: [
+            {
+              numero: 26,
+              data: '27/07 a 31/07',
+              unidade: 'Ciência de dados: prevendo padrões de qualidade de vida da turma',
+              aulas: [
+                {
+                  aulaSala: 'Aula 1',
+                  titulo: 'Antes de programar',
+                  formato: 'Vídeo',
+                  objetivos: 'Definir um tema de pesquisa relacionado à qualidade de vida. Formular perguntas mensuráveis para coleta de dados quantitativos. Utilizar inteligência artificial para refinar perguntas de pesquisa.',
+                  conteudos: 'Pesquisa quantitativa. Definição de tema, pergunta e hipótese. Registro da investigação no Google Colab e refinamento de perguntas com inteligência artificial.'
+                },
+                {
+                  aulaSala: 'Aula 2',
+                  titulo: 'Primeiro gráfico com dados',
+                  formato: 'Vídeo',
+                  objetivos: 'Registrar dados em listas Python. Importar e utilizar a biblioteca Matplotlib para criar histogramas. Personalizar gráficos com cores, rótulos e títulos.',
+                  conteudos: 'Listas em Python. Biblioteca Matplotlib. Criação e personalização de histogramas com cores, bordas, rótulos e títulos.'
+                }
+              ]
+            },
+            {
+              numero: 27,
+              data: '03/08 a 07/08',
+              unidade: 'Ciência de dados: prevendo padrões de qualidade de vida da turma',
+              aulas: [
+                {
+                  aulaSala: 'Aula 3',
+                  titulo: 'Dois números no centro',
+                  formato: 'Vídeo',
+                  objetivos: 'Calcular a média de uma lista de dados manualmente em Python. Calcular a mediana de uma lista de dados manualmente em Python. Visualizar média e mediana em um histograma com axvline.',
+                  conteudos: 'Média e mediana. Laços for, função len(), ordenação com sort() e estruturas condicionais. Representação de medidas centrais em histogramas.'
+                },
+                {
+                  aulaSala: 'Aula 4',
+                  titulo: 'Desvio padrão',
+                  formato: 'Vídeo',
+                  objetivos: 'Importar e utilizar a biblioteca NumPy para cálculos estatísticos. Calcular o desvio padrão de uma amostra. Visualizar o intervalo de um desvio padrão em um histograma.',
+                  conteudos: 'Biblioteca NumPy. Cálculos de média, mediana e desvio padrão. Representação do intervalo entre média menos desvio e média mais desvio no histograma.',
+                  entregaProjeto: true
+                }
+              ]
+            },
+            {
+              numero: 28,
+              data: '10/08 a 14/08',
+              unidade: 'Ciência de dados: prevendo padrões de qualidade de vida da turma',
+              aulas: [
+                {
+                  aulaSala: 'Aula 5',
+                  titulo: 'Gaussiana em python',
+                  formato: 'Vídeo',
+                  objetivos: 'Simular grandes volumes de dados utilizando a distribuição gaussiana. Aplicar parâmetros de média e desvio padrão em simulações. Visualizar distribuições de dados simulados em histogramas.',
+                  conteudos: 'Distribuição normal gaussiana. Geração de dados com random e np.random.normal(). Simulações com média e desvio padrão e visualização em histogramas.'
+                },
+                {
+                  aulaSala: 'Aula 6',
+                  titulo: 'Aprendeu ou decorou?',
+                  formato: 'Vídeo',
+                  objetivos: 'Diferenciar dados de treino e dados de validação. Compreender a importância da validação para modelos preditivos. Coletar uma segunda amostra de dados para validação.',
+                  conteudos: 'Dados de treinamento e validação. Coleta e organização de uma segunda amostra. Comparação de médias e desvios padrão para avaliar o modelo.'
+                }
+              ]
+            },
+            {
+              numero: 29,
+              data: '17/08 a 21/08',
+              unidade: 'Ciência de dados: prevendo padrões de qualidade de vida da turma',
+              aulas: [
+                {
+                  aulaSala: 'Aula 7',
+                  titulo: 'Análise da curva',
+                  formato: 'Vídeo',
+                  objetivos: 'Normalizar histogramas para comparação de distribuições. Comparar a distribuição de uma amostra real com o modelo simulado. Calcular a porcentagem de dados que se encaixam no intervalo de confiança.',
+                  conteudos: 'Histogramas normalizados. Comparação entre amostra real e modelo simulado. Intervalo de confiança, filtros em Python e validação da distribuição.'
+                },
+                {
+                  aulaSala: 'Aula 8',
+                  titulo: 'Limites do modelo',
+                  formato: 'Vídeo',
+                  objetivos: 'Compreender que todo modelo é uma aproximação da realidade. Identificar fatores que tornam a modelagem de fenômenos fácil ou difícil. Analisar a volatilidade de dados e seu impacto na imprevisibilidade.',
+                  conteudos: 'Limitações dos modelos computacionais. Estabilidade e volatilidade de fenômenos. Imprevisibilidade e análise crítica de simulações e previsões.',
+                  entregaProjeto: true
+                }
+              ]
+            },
+            {
+              numero: 30,
+              data: '24/08 a 28/08',
+              especial: 'Avaliação da unidade: Ciência de dados: prevendo padrões de qualidade de vida da turma',
+              aulas: []
+            },
+            {
+              numero: 31,
+              data: '31/08 a 04/09',
+              unidade: 'Página web: meu primeiro flashcard',
+              aulas: [
+                {
+                  aulaSala: 'Aula 11',
+                  titulo: 'Combatendo a desinformação',
+                  formato: 'Material digital',
+                  materialLink: 'materiais/5686_Aula01_Aula11_ALUNO.pdf',
+                  objetivos: 'Compreender o fenômeno das notícias falsas e seu impacto social. Analisar a importância da verificação de informações online. Elaborar flashcards manuais para diferenciar informações verdadeiras e falsas.',
+                  conteudos: 'Notícias falsas (fake news). Verificação de informações. Flashcards como técnica de estudo.'
+                },
+                {
+                  aulaSala: 'Aula 12',
+                  titulo: 'HTML: o esqueleto da Web',
+                  formato: 'Material digital',
+                  materialLink: 'materiais/5686_Aula02_Aula12_ALUNO.pdf',
+                  objetivos: 'Configurar o ambiente de desenvolvimento utilizando o Visual Studio Code Web. Criar a estrutura básica de um documento HTML (head, body, header, main e footer). Compreender a função das principais tags HTML para a organização de conteúdo.',
+                  conteudos: 'Visual Studio Code Web. Estrutura HTML com as tags head, body, header, main e footer. Organização de documentos web.'
+                }
+              ]
+            },
+            {
+              numero: 32,
+              data: '07/09 a 11/09',
+              unidade: 'Página web: meu primeiro flashcard',
+              aulas: [
+                {
+                  aulaSala: 'Aula 13',
+                  titulo: 'Hierarquia de informação',
+                  formato: 'Vídeo',
+                  objetivos: 'Inserir títulos, links e navegação em um documento HTML. Estruturar o conteúdo principal utilizando tags semânticas como article e div. Incorporar imagens e parágrafos para compor o flashcard.',
+                  conteudos: 'Tags HTML semânticas (h1, h2, nav e article). Links e imagens em HTML. Estruturação de conteúdo com div e p.'
+                },
+                {
+                  aulaSala: 'Aula 14',
+                  titulo: 'Hora de estilizar a página',
+                  formato: 'Vídeo',
+                  objetivos: 'Criar e conectar um arquivo CSS a um documento HTML. Utilizar classes para identificar e estilizar elementos específicos. Aplicar propriedades CSS para controlar margens, preenchimentos, largura e altura.',
+                  conteudos: 'CSS (Cascading Style Sheets). Seletores de classe CSS. Propriedades de layout como margin, padding, width e height.',
+                  entregaProjeto: true
+                }
+              ]
+            },
+            {
+              numero: 33,
+              data: '14/09 a 18/09',
+              especial: 'Semana para nivelamento',
+              aulas: []
+            },
+            {
+              numero: 34,
+              data: '21/09 a 25/09',
+              especial: 'Avaliação da unidade: Página web: meu primeiro flashcard',
               aulas: []
             }
           ]
