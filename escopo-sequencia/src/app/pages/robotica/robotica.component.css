@@ -100,6 +100,41 @@
   border-color: #e65100;
   box-shadow: 0 0 0 3px rgba(230,81,0,0.1);
 }
+.robotica-coming-soon {
+  min-height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, #fff8e1 0%, #ffffff 55%, #fff3e0 100%);
+  border: 1px solid #ffcc80;
+  border-left: 6px solid #e65100;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(191, 54, 12, 0.12);
+  text-align: left;
+}
+.robotica-coming-soon-icon {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background: linear-gradient(135deg, #bf360c, #e65100);
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 1.8rem;
+  box-shadow: 0 5px 16px rgba(191, 54, 12, 0.25);
+}
+.robotica-coming-soon p {
+  max-width: 720px;
+  margin: 0;
+  color: #7f2b0a;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.55;
+}
 .materiais-section {
   background: white;
   border-radius: 12px;
@@ -334,6 +369,18 @@
   .aula-details { grid-template-columns: 1fr; }
   .aula-header { flex-direction: column; }
   .materiais-grid { grid-template-columns: 1fr; }
+  .robotica-coming-soon {
+    min-height: 150px;
+    flex-direction: column;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  .robotica-coming-soon-icon {
+    width: 54px;
+    height: 54px;
+    font-size: 1.5rem;
+  }
+  .robotica-coming-soon p { font-size: 1.05rem; }
 }
 
 /* IA Plan Generation */

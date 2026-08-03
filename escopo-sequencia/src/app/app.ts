@@ -188,6 +188,18 @@ npm run build</pre>
       </aside>
     }
 
+    <section class="support-banner" aria-labelledby="support-banner-title">
+      <div class="support-banner-icon" aria-hidden="true">💚</div>
+      <div class="support-banner-content">
+        <h2 id="support-banner-title">Apoie a continuidade do PEC Tecnologia</h2>
+        <p>Nos últimos meses, minha vida mudou completamente. Enfrentei um infarto, um acidente, tratamentos e medicamentos de alto custo. Também perdi minhas funções como PEC de Tecnologia e PAEET do curso Técnico em Desenvolvimento de Sistemas, além de passar por situações difíceis de pressão e perseguição profissional.</p>
+        <p>Mesmo diante de tudo isso, continuo trabalhando como professor e desenvolvedor, mantendo gratuitamente o site PEC Tecnologia, com materiais, projetos e recursos educacionais.</p>
+        <p>Caso você conheça e valorize meu trabalho e possa contribuir, qualquer valor será muito bem-vindo para ajudar na manutenção e continuidade do projeto.</p>
+        <p class="support-banner-pix"><strong>💚 PIX:</strong> <span class="support-banner-pix-key">professordavi85&#64;gmail.com</span></p>
+        <p class="support-banner-thanks">Muito obrigado pelo apoio, pela confiança e por acreditar no meu trabalho.</p>
+      </div>
+    </section>
+
     <main class="main-content">
       <router-outlet />
     </main>
