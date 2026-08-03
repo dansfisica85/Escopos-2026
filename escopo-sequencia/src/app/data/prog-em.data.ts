@@ -807,14 +807,14 @@ export const PROG_EM_DATA: DisciplinaEscopo = {
                   titulo: 'Antes de programar',
                   formato: 'Vídeo',
                   objetivos: 'Definir um tema de pesquisa relacionado à qualidade de vida. Formular perguntas mensuráveis para coleta de dados quantitativos. Utilizar inteligência artificial para refinar perguntas de pesquisa.',
-                  conteudos: 'Pesquisa quantitativa. Definição de tema, pergunta e hipótese. Registro da investigação no Google Colab e refinamento de perguntas com inteligência artificial.'
+                  conteudos: 'Análise quantitativa. Formulação de hipóteses. Coleta de dados mensuráveis.'
                 },
                 {
                   aulaSala: 'Aula 2',
                   titulo: 'Primeiro gráfico com dados',
                   formato: 'Vídeo',
                   objetivos: 'Registrar dados em listas Python. Importar e utilizar a biblioteca Matplotlib para criar histogramas. Personalizar gráficos com cores, rótulos e títulos.',
-                  conteudos: 'Listas em Python. Biblioteca Matplotlib. Criação e personalização de histogramas com cores, bordas, rótulos e títulos.'
+                  conteudos: 'Listas em Python. Biblioteca Matplotlib (pyplot). Histogramas e personalização de gráficos.'
                 }
               ]
             },
@@ -827,15 +827,15 @@ export const PROG_EM_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 3',
                   titulo: 'Dois números no centro',
                   formato: 'Vídeo',
-                  objetivos: 'Calcular a média de uma lista de dados manualmente em Python. Calcular a mediana de uma lista de dados manualmente em Python. Visualizar média e mediana em um histograma com axvline.',
-                  conteudos: 'Média e mediana. Laços for, função len(), ordenação com sort() e estruturas condicionais. Representação de medidas centrais em histogramas.'
+                  objetivos: 'Calcular a média de uma lista de dados manualmente em Python. Calcular a mediana de uma lista de dados manualmente em Python. Visualizar média e mediana em um histograma usando axvline.',
+                  conteudos: 'Cálculo de média. Cálculo de mediana. Estruturas condicionais (if/else) e loops (for).'
                 },
                 {
                   aulaSala: 'Aula 4',
                   titulo: 'Desvio padrão',
                   formato: 'Vídeo',
                   objetivos: 'Importar e utilizar a biblioteca NumPy para cálculos estatísticos. Calcular o desvio padrão de uma amostra. Visualizar o intervalo de um desvio padrão em um histograma.',
-                  conteudos: 'Biblioteca NumPy. Cálculos de média, mediana e desvio padrão. Representação do intervalo entre média menos desvio e média mais desvio no histograma.',
+                  conteudos: 'Biblioteca NumPy. Desvio padrão. Reutilização de código e bibliotecas.',
                   entregaProjeto: true
                 }
               ]
@@ -849,15 +849,15 @@ export const PROG_EM_DATA: DisciplinaEscopo = {
                   aulaSala: 'Aula 5',
                   titulo: 'Gaussiana em python',
                   formato: 'Vídeo',
-                  objetivos: 'Simular grandes volumes de dados utilizando a distribuição gaussiana. Aplicar parâmetros de média e desvio padrão em simulações. Visualizar distribuições de dados simulados em histogramas.',
-                  conteudos: 'Distribuição normal gaussiana. Geração de dados com random e np.random.normal(). Simulações com média e desvio padrão e visualização em histogramas.'
+                  objetivos: 'Simular grandes volumes de dados utilizando a distribuição Gaussiana. Aplicar parâmetros de média e desvio padrão em simulações. Visualizar distribuições de dados simulados em histogramas.',
+                  conteudos: 'Distribuição Gaussiana (Normal). Geração de números aleatórios (random). Simulação de dados em larga escala.'
                 },
                 {
                   aulaSala: 'Aula 6',
                   titulo: 'Aprendeu ou decorou?',
                   formato: 'Vídeo',
                   objetivos: 'Diferenciar dados de treino e dados de validação. Compreender a importância da validação para modelos preditivos. Coletar uma segunda amostra de dados para validação.',
-                  conteudos: 'Dados de treinamento e validação. Coleta e organização de uma segunda amostra. Comparação de médias e desvios padrão para avaliar o modelo.'
+                  conteudos: 'Dados de treino e validação. Conceito de aprendizado vs. memorização em modelos. Coleta de amostras adicionais.'
                 }
               ]
             },
@@ -871,14 +871,14 @@ export const PROG_EM_DATA: DisciplinaEscopo = {
                   titulo: 'Análise da curva',
                   formato: 'Vídeo',
                   objetivos: 'Normalizar histogramas para comparação de distribuições. Comparar a distribuição de uma amostra real com o modelo simulado. Calcular a porcentagem de dados que se encaixam no intervalo de confiança.',
-                  conteudos: 'Histogramas normalizados. Comparação entre amostra real e modelo simulado. Intervalo de confiança, filtros em Python e validação da distribuição.'
+                  conteudos: 'Normalização de histogramas (density=True). Intervalos de confiança (desvio padrão). Comparação de distribuições de dados.'
                 },
                 {
                   aulaSala: 'Aula 8',
                   titulo: 'Limites do modelo',
                   formato: 'Vídeo',
                   objetivos: 'Compreender que todo modelo é uma aproximação da realidade. Identificar fatores que tornam a modelagem de fenômenos fácil ou difícil. Analisar a volatilidade de dados e seu impacto na imprevisibilidade.',
-                  conteudos: 'Limitações dos modelos computacionais. Estabilidade e volatilidade de fenômenos. Imprevisibilidade e análise crítica de simulações e previsões.',
+                  conteudos: 'Limitações de modelos matemáticos. Volatilidade de dados. Fenômenos lentos vs. rápidos na modelagem.',
                   entregaProjeto: true
                 }
               ]
