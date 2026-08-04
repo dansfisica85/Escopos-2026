@@ -1,32 +1,31 @@
-<header class="site-header">
+<header class="header">
   <div class="header-content">
-    <div class="brand-block">
-      <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+    <div class="header-top">
       <div>
-        <h1 class="logo">Escopo Sequência <span>2026</span></h1>
-        <p class="subtitle">Educação pública, tecnologia e aprendizagem</p>
+        <h1 class="logo">📚 Escopo Sequência 2026</h1>
+        <p class="subtitle">Secretaria da Educação do Estado de São Paulo</p>
       </div>
+      <button
+        class="about-btn"
+        type="button"
+        (click)="toggleAbout()"
+        [attr.aria-expanded]="showAbout()"
+        aria-controls="about-panel"
+        title="Sobre o Projeto"
+      >
+        <span aria-hidden="true">ℹ️</span>
+        <span class="about-btn-text">Sobre o Projeto</span>
+      </button>
     </div>
-
-    <button
-      class="about-btn"
-      type="button"
-      (click)="toggleAbout()"
-      [attr.aria-expanded]="showAbout()"
-      aria-controls="about-panel"
-    >
-      <span aria-hidden="true">ⓘ</span>
-      <span class="about-btn-text">Sobre o projeto</span>
-    </button>
   </div>
 
   <nav class="nav-tabs" aria-label="Disciplinas">
     <a routerLink="/programacao" routerLinkActive="active" class="nav-tab">
-      <span class="tab-icon" aria-hidden="true">⌨</span>
+      <span class="tab-icon" aria-hidden="true">💻</span>
       <span>Programação e Tecnologia</span>
     </a>
     <a routerLink="/robotica" routerLinkActive="active" class="nav-tab">
-      <span class="tab-icon" aria-hidden="true">⚙</span>
+      <span class="tab-icon" aria-hidden="true">🤖</span>
       <span>Robótica</span>
     </a>
   </nav>
