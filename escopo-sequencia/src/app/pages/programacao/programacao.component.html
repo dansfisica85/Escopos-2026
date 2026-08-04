@@ -43,6 +43,12 @@
     {{ selectedDisciplina().nome }} — {{ selectedAno().anoSerie }} — {{ selectedBimestre().bimestre }}
   </h2>
 
+  @if (selectedDisciplina().id === 'prog-em' && selectedAno().anoSerie === '3ª série' && selectedBimestre().bimestre === '3º Bimestre') {
+    <p class="source-note">
+      <strong>Fonte dos materiais:</strong> o escopo abaixo segue a planilha oficial mais recente. Os PDFs vinculados são os arquivos oficiais atualmente publicados no PPT mestre de materiais didáticos.
+    </p>
+  }
+
   <div class="semanas-list">
     @for (semana of semanas(); track semana.numero) {
       @let materiaisSemana = getMateriaisSemana(semana);
@@ -68,8 +74,11 @@
             }
             @if (quantidadeMateriais > 0) {
               <span class="material-badge">
-                📎 {{ quantidadeMateriais }} {{ quantidadeMateriais === 1 ? 'material' : 'materiais' }}
+                📎 Abrir {{ quantidadeMateriais }} {{ quantidadeMateriais === 1 ? 'material' : 'materiais' }}
               </span>
+            }
+            @if (semana.aulas.length > 0) {
+              <span class="ia-available-badge">🤖 IA disponível</span>
             }
             @if (semana.materialPendente) {
               <span class="material-badge">⏳ Em preparação</span>
@@ -84,6 +93,16 @@
             role="region"
             [id]="'semana-content-prog-' + semana.numero"
             [attr.aria-labelledby]="'semana-header-prog-' + semana.numero">
+            @if (semana.aulas.length > 0) {
+              <div class="ia-actions ia-actions-top">
+                <button class="btn-ia-gerar"
+                  type="button"
+                  (click)="abrirInstrucoes(semana)"
+                  [disabled]="generatingPlan() !== null">
+                  🤖 Gerar Plano de Aula com IA
+                </button>
+              </div>
+            }
             @if (materiaisSemana.length > 0) {
               <div class="aula-materiais" role="group" aria-label="Materiais da semana">
                 @for (material of materiaisSemana; track material.link) {
@@ -167,14 +186,6 @@
               </div>
             }
 
-            <div class="ia-actions">
-              <button class="btn-ia-gerar"
-                type="button"
-                (click)="abrirInstrucoes(semana)"
-                [disabled]="generatingPlan() !== null">
-                🤖 Gerar Plano de Aula com IA
-              </button>
-            </div>
           </div>
         }
       </div>

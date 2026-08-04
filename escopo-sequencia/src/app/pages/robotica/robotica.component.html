@@ -66,36 +66,52 @@
       @for (semana of semanas(); track semana.numero) {
         @let materiaisSemana = getMateriaisSemana(semana);
         @let quantidadeMateriais = getQuantidadeMateriaisSemana(semana);
+        @let materialDireto = getPrimeiroMaterialSemana(semana);
         <div class="semana-card" [class.expanded]="expandedSemana() === semana.numero" [class.especial]="!!semana.especial">
-          <button
-            type="button"
-            class="semana-header"
-            [id]="'semana-header-rob-' + semana.numero"
-            [attr.aria-expanded]="expandedSemana() === semana.numero"
-            [attr.aria-controls]="'semana-content-rob-' + semana.numero"
-            (click)="toggleSemana(semana.numero)">
-            <span class="semana-info">
-              <span class="semana-numero">Semana {{ semana.numero }}</span>
-              @if (semana.data) {
-                <span class="semana-data">{{ semana.data }}</span>
-              }
-              @if (semana.especial) {
-                <span class="semana-especial-badge">{{ semana.especial }}</span>
-              }
-              @if (semana.unidade) {
-                <span class="semana-unidade">{{ semana.unidade }}</span>
-              }
-              @if (quantidadeMateriais > 0) {
-                <span class="material-badge">
-                  📎 {{ quantidadeMateriais }} {{ quantidadeMateriais === 1 ? 'material' : 'materiais' }}
-                </span>
-              }
-              @if (temMaterialPendente(semana)) {
-                <span class="material-badge">⏳ Em preparação</span>
-              }
-            </span>
-            <span class="expand-icon" aria-hidden="true">{{ expandedSemana() === semana.numero ? '▲' : '▼' }}</span>
-          </button>
+          <div class="semana-header-row">
+            <button
+              type="button"
+              class="semana-header"
+              [id]="'semana-header-rob-' + semana.numero"
+              [attr.aria-expanded]="expandedSemana() === semana.numero"
+              [attr.aria-controls]="'semana-content-rob-' + semana.numero"
+              (click)="toggleSemana(semana.numero)">
+              <span class="semana-info">
+                <span class="semana-numero">Semana {{ semana.numero }}</span>
+                @if (semana.data) {
+                  <span class="semana-data">{{ semana.data }}</span>
+                }
+                @if (semana.especial) {
+                  <span class="semana-especial-badge">{{ semana.especial }}</span>
+                }
+                @if (semana.unidade) {
+                  <span class="semana-unidade">{{ semana.unidade }}</span>
+                }
+                @if (quantidadeMateriais > 0) {
+                  <span class="material-badge">
+                    📎 {{ quantidadeMateriais }} {{ quantidadeMateriais === 1 ? 'material' : 'materiais' }}
+                  </span>
+                }
+                @if (semana.aulas.length > 0) {
+                  <span class="ia-available-badge">🤖 IA disponível</span>
+                }
+                @if (temMaterialPendente(semana)) {
+                  <span class="material-badge">⏳ Em preparação</span>
+                }
+              </span>
+              <span class="expand-icon" aria-hidden="true">{{ expandedSemana() === semana.numero ? '▲' : '▼' }}</span>
+            </button>
+            @if (materialDireto) {
+              <a
+                class="semana-material-direto"
+                [href]="materialDireto.link"
+                target="_blank"
+                rel="noopener"
+                [attr.aria-label]="'Abrir ' + materialDireto.titulo + ' em nova guia'">
+                {{ iconeMaterial(materialDireto) }} Abrir {{ rotuloFormatoMaterial(materialDireto) || 'material' }}
+              </a>
+            }
+          </div>
 
           @if (expandedSemana() === semana.numero) {
             <div
@@ -103,6 +119,16 @@
               role="region"
               [id]="'semana-content-rob-' + semana.numero"
               [attr.aria-labelledby]="'semana-header-rob-' + semana.numero">
+              @if (semana.aulas.length > 0) {
+                <div class="ia-actions ia-actions-top">
+                  <button class="btn-ia-gerar"
+                    type="button"
+                    (click)="abrirInstrucoes(semana)"
+                    [disabled]="generatingPlan() !== null">
+                    🤖 Gerar Plano de Aula com IA
+                  </button>
+                </div>
+              }
               @if (materiaisSemana.length > 0) {
                 <div class="aula-materiais" role="group" aria-label="Materiais da semana">
                   @for (material of materiaisSemana; track material.link) {
@@ -186,14 +212,6 @@
                 </div>
               }
 
-              <div class="ia-actions">
-                <button class="btn-ia-gerar"
-                  type="button"
-                  (click)="abrirInstrucoes(semana)"
-                  [disabled]="generatingPlan() !== null">
-                  🤖 Gerar Plano de Aula com IA
-                </button>
-              </div>
             </div>
           }
         </div>

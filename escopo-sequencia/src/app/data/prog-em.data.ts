@@ -341,14 +341,14 @@ export const PROG_EM_DATA: DisciplinaEscopo = {
                   titulo: 'Aprofundando condicionais',
                   formato: 'Vídeo',
                   objetivos: 'Implementar condições encadeadas (if, elif, else) para validar múltiplos cenários em um programa. Controlar o fluxo lógico do programa com base em entradas fornecidas pelos usuários. Exibir os resultados baseados em regras condicionais utilizando mensagens claras.',
-                  conteudos: 'Uso de if, elif e else para decisões múltiplas. Entrada de dados (input). Modelagem e verificação de cenários complexos com múltiplas condições.'
+                  conteudos: 'Uso de if, elif e else para decisões múltiplas. Entrada de dados (input) Modelagem e verificação de cenários complexos com múltiplas condições.'
                 },
                 {
                   aulaSala: 'Aula 2',
                   titulo: 'Funções e cálculos',
                   formato: 'Vídeo',
                   objetivos: 'Definir funções personalizadas em Python utilizando def para resolver problemas específicos. Calcular resultados baseados em dados fornecidos, aplicando operadores matemáticos e funções embutidas. Retornar valores de uma função e utilizá-los em outros contextos do programa.',
-                  conteudos: 'Estruturação de funções para cálculos específicos. Identificação do maior valor em um conjunto de números usando a função embutida max. Organização do código para garantir execução correta e legibilidade.'
+                  conteudos: 'Estruturação de funções para cálculos específicos. Identificação do maior valor em um conjunto de números usando função embutida max. Organização do código para garantir execução correta e legibilidade.'
                 }
               ]
             },
@@ -369,7 +369,7 @@ export const PROG_EM_DATA: DisciplinaEscopo = {
                   titulo: 'Criando desafios',
                   formato: 'Vídeo',
                   objetivos: 'Desenvolver a habilidade de formular problemas computacionais claros e resolvíveis. Elaborar enunciados de desafios que utilizem as estruturas aprendidas em Python. Promover a troca de conhecimentos ao compartilhar e resolver desafios propostos por colegas.',
-                  conteudos: 'Formulação de problemas. Aplicação das ferramentas aprendidas (laços, funções e condicionais). Troca de desafios entre grupos ou indivíduos para prática e feedback.',
+                  conteudos: 'Formulação de problemas. Aplicação das ferramentas aprendidas (laços, funções, condicionais). Troca de desafios entre grupos ou indivíduos para prática e feedback.',
                   entregaProjeto: true
                 }
               ]
@@ -385,7 +385,7 @@ export const PROG_EM_DATA: DisciplinaEscopo = {
                   formato: 'Material digital',
                   materialLink: 'materiais/5679_Aula01_Aula05_ALUNO.pdf',
                   objetivos: 'Identificar padrões em dados coletados a partir de temas escolhidos, utilizando conceitos básicos de análise de dados. Elaborar perguntas investigativas que direcionem a coleta de dados para uma análise exploratória. Relacionar diferentes tipos de dados coletados com o tema escolhido, propondo hipóteses iniciais.',
-                  conteudos: 'Introdução à análise exploratória de dados. Definição de temática e perguntas. Reflexão sobre coleta de dados.'
+                  conteudos: 'Introdução à análise exploratória de dados Definição de temática e perguntas Reflexão sobre coleta de dados'
                 },
                 {
                   aulaSala: 'Aula 6',
@@ -393,7 +393,7 @@ export const PROG_EM_DATA: DisciplinaEscopo = {
                   formato: 'Material digital',
                   materialLink: 'materiais/5679_Aula02_Aula06_ALUNO.pdf',
                   objetivos: 'Construir formulários digitais utilizando ferramentas online para coletar dados. Identificar formatos de perguntas adequados para análises de dados, considerando clareza e relevância. Compartilhar formulários com diferentes públicos, expandindo a amostra de respostas coletadas.',
-                  conteudos: 'Introdução ao Google Forms. Configuração de perguntas. Distribuição do formulário.'
+                  conteudos: 'Introdução ao Google Forms Configuração de perguntas Distribuição do formulário'
                 }
               ]
             },
@@ -407,14 +407,14 @@ export const PROG_EM_DATA: DisciplinaEscopo = {
                   titulo: 'Publicando dados',
                   formato: 'Vídeo',
                   objetivos: 'Transferir dados coletados em formulários online para o Google Planilhas, organizando-os para análise. Publicar e compartilhar dados no formato CSV, garantindo acessibilidade para análise em ferramentas externas. Refletir sobre a clareza e a organização dos dados publicados, visando facilitar a interpretação por terceiros.',
-                  conteudos: 'Navegação na aba de respostas e visualização dos dados preenchidos. Conversão de respostas em tabelas organizadas e adição de carimbo de data e hora. Compartilhamento do arquivo em CSV para análise no Google Colab e em outros softwares.'
+                  conteudos: 'Navegação na aba de respostas e visualização dos dados preenchidos. Conversão de respostas em tabelas organizadas e adição de carimbo de data/hora. Procedimento para compartilhar o link do arquivo com valores separados por vírgulas, destacando sua utilidade para análises no Google Colab e outros softwares.'
                 },
                 {
                   aulaSala: 'Aula 8',
                   titulo: 'Introdução ao Google Colab',
                   formato: 'Vídeo',
                   objetivos: 'Configurar o Google Colab para leitura e manipulação de dados utilizando a biblioteca pandas. Criar e organizar células de texto e código no Google Colab para descrever e implementar análises. Ler arquivos CSV no Google Colab e visualizar tabelas de dados para análise inicial.',
-                  conteudos: 'Criação de notebooks e organização de células de texto e código. Uso do Pandas para manipulação de dados. Importação de arquivos CSV a partir de links publicados e visualização em formato tabular.',
+                  conteudos: 'Criação de notebooks, organização de células de texto e código, e formatação de títulos e descrições. Uso do Pandas para manipulação de dados, configurando o ambiente de programação. Importação de arquivos CSV a partir de links publicados e visualização em formato tabular.',
                   entregaProjeto: true
                 }
               ]
@@ -435,14 +435,14 @@ export const PROG_EM_DATA: DisciplinaEscopo = {
                   titulo: 'Gráficos e insights',
                   formato: 'Vídeo',
                   objetivos: 'Gerar histogramas a partir de dados tabulares usando a biblioteca Pandas. Identificar valores atípicos (outliers) em histogramas e interpretar o significado deles nos dados analisados. Elaborar resumos descritivos das informações extraídas dos gráficos, conectando-os aos objetivos da pesquisa.',
-                  conteudos: 'Uso do método .hist para visualização gráfica de colunas específicas. Identificação de padrões, tendências e outliers nos histogramas gerados. Inserção de resumos em células de texto no Google Colab.'
+                  conteudos: 'Uso do método .hist para visualização gráfica de colunas específicas. Identificação de padrões, tendências e outliers nos histogramas gerados. Inserção de resumos em células de texto no Google Colab, conectando os dados gráficos às inferências iniciais.'
                 },
                 {
                   aulaSala: 'Aula 12',
                   titulo: 'Explorando frequências',
                   formato: 'Vídeo',
                   objetivos: 'Utilizar o método value_counts do Pandas para agrupar e contar ocorrências em colunas de dados. Identificar e interpretar padrões e valores discrepantes (outliers) nos dados analisados. Comparar a distribuição dos dados coletados para levantar hipóteses sobre o comportamento das amostras.',
-                  conteudos: 'Uso do Pandas para agrupar e contar valores únicos em colunas específicas. Interpretação de frequências predominantes e valores atípicos. Introdução ao método describe para sumarizar estatísticas.'
+                  conteudos: 'Uso do Pandas para agrupar e contar valores únicos em colunas específicas de uma tabela de dados. Interpretação dos resultados agrupados, identificando comportamentos atípicos e frequências predominantes. Introdução ao método para sumarizar estatísticas dos dados (describe), incentivando a exploração individual para aprofundamento.'
                 }
               ]
             },
@@ -456,14 +456,14 @@ export const PROG_EM_DATA: DisciplinaEscopo = {
                   titulo: 'Analisando médias',
                   formato: 'Vídeo',
                   objetivos: 'Aplicar o método describe do Pandas para obter uma visão estatística dos dados, incluindo contagens, médias e percentis. Comparar média e mediana para identificar a influência de outliers nos dados analisados. Resumir os insights obtidos a partir das estatísticas descritivas para interpretar tendências e padrões nos dados.',
-                  conteudos: 'Extração de estatísticas básicas como média, desvio padrão, mínimos, máximos e percentis. Comparação de média e mediana para avaliar outliers. Documentação das descobertas em células de texto.'
+                  conteudos: 'Extração de estatísticas básicas como média, desvio padrão, mínimos, máximos e percentis. Cálculo e comparação para avaliar a presença de outliers e compreender a distribuição dos dados. Organização e documentação das descobertas em células de texto para facilitar a interpretação e análise subsequente.'
                 },
                 {
                   aulaSala: 'Aula 14',
                   titulo: 'Revisão do notebook',
                   formato: 'Vídeo',
                   objetivos: 'Revisar e organizar o notebook do Google Colab, adicionando descrições claras e detalhadas em todas as etapas da análise. Inserir resumos e destaques em pontos-chave do código e dos resultados para facilitar o entendimento por terceiros. Refletir sobre os resultados obtidos e propor novas perguntas ou melhorias para futuras análises de dados.',
-                  conteudos: 'Inclusão de informações contextuais e descrição das etapas e resultados. Documentação dos principais insights. Reflexão sobre lacunas, melhorias e possibilidades para futuras coletas e análises.',
+                  conteudos: 'Inclusão de informações contextuais, como data da coleta de dados, e descrição detalhada de etapas e resultados. Documentação dos principais insights e aspectos mais relevantes da análise de dados. Reflexão sobre lacunas, melhorias e possibilidades de segmentação para futuras coletas e interpretações de dados.',
                   entregaProjeto: true
                 }
               ]
@@ -804,17 +804,17 @@ export const PROG_EM_DATA: DisciplinaEscopo = {
               aulas: [
                 {
                   aulaSala: 'Aula 1',
-                  titulo: 'Antes de programar',
+                  titulo: 'Planejando a investigação',
                   formato: 'Vídeo',
-                  objetivos: 'Definir um tema de pesquisa relacionado à qualidade de vida. Formular perguntas mensuráveis para coleta de dados quantitativos. Utilizar inteligência artificial para refinar perguntas de pesquisa.',
-                  conteudos: 'Análise quantitativa. Formulação de hipóteses. Coleta de dados mensuráveis.'
+                  objetivos: 'Compreender o ciclo de ciência de dados e a importância da ordenação e aleatoriedade para a organização de informações. Implementar algoritmos clássicos (Bubble Sort e Fisher-Yates) e estruturas de repetição para manipular listas dinâmicas. Construir sistemas de decisão lógica e pontuação utilizando variáveis acumuladoras e operadores condicionais encadeados.',
+                  conteudos: 'Estruturas de Controle e Repetição: Laços for e while, condicionais if/elif/else e funções de intervalo range(). Manipulação de Listas: Métodos append, pop, remove, fatiamento (slicing), ordenação (sort) e embaralhamento (shuffle). Lógica e Abstração: Ciclo de Ciência de Dados, algoritmos de troca (swapping), importação de bibliotecas e depuração de índices.'
                 },
                 {
                   aulaSala: 'Aula 2',
-                  titulo: 'Primeiro gráfico com dados',
+                  titulo: 'Primeiros gráficos',
                   formato: 'Vídeo',
-                  objetivos: 'Registrar dados em listas Python. Importar e utilizar a biblioteca Matplotlib para criar histogramas. Personalizar gráficos com cores, rótulos e títulos.',
-                  conteudos: 'Listas em Python. Biblioteca Matplotlib (pyplot). Histogramas e personalização de gráficos.'
+                  objetivos: 'Identificar o histograma como uma ferramenta visual para representar a distribuição de frequências de um conjunto de dados. Empregar a biblioteca matplotlib.',
+                  conteudos: 'Visualização de Dados: Importação da biblioteca matplotlib.pyplot e funções de plotagem (hist, show). Customização de Gráficos: Parâmetros de barras (bins), cores, rótulos de eixos (xlabel, ylabel) e títulos. Exploração de Ferramentas: Uso de IA para descoberta de novos tipos de gráficos e sistemas de cores (nomes e hexadecimais).'
                 }
               ]
             },
@@ -825,17 +825,17 @@ export const PROG_EM_DATA: DisciplinaEscopo = {
               aulas: [
                 {
                   aulaSala: 'Aula 3',
-                  titulo: 'Dois números no centro',
+                  titulo: 'Resumindo dados em poucos números',
                   formato: 'Vídeo',
-                  objetivos: 'Calcular a média de uma lista de dados manualmente em Python. Calcular a mediana de uma lista de dados manualmente em Python. Visualizar média e mediana em um histograma usando axvline.',
-                  conteudos: 'Cálculo de média. Cálculo de mediana. Estruturas condicionais (if/else) e loops (for).'
+                  objetivos: 'Diferenciar as medidas de tendência central (média e mediana) e de dispersão (desvio padrão) para interpretar conjuntos de dados. Calcular estatísticas descritivas básicas utilizando a biblioteca numpy e aplicá-las em contextos reais. Avaliar criticamente situações em que a média pode não representar fielmente a realidade de um grupo, utilizando a mediana como alternativa.',
+                  conteudos: 'Estatística Descritiva: Conceitos de média, mediana e desvio padrão aplicados à análise de dados. Biblioteca Numpy: Uso das funções np.mean, np.median e np.std para processamento numérico. Visualização Estatística: Plotagem de linhas de tendência (axvline) e áreas de variação (axvspan) em histogramas.'
                 },
                 {
                   aulaSala: 'Aula 4',
-                  titulo: 'Desvio padrão',
+                  titulo: 'Modelos: simulando para entender',
                   formato: 'Vídeo',
-                  objetivos: 'Importar e utilizar a biblioteca NumPy para cálculos estatísticos. Calcular o desvio padrão de uma amostra. Visualizar o intervalo de um desvio padrão em um histograma.',
-                  conteudos: 'Biblioteca NumPy. Desvio padrão. Reutilização de código e bibliotecas.',
+                  objetivos: 'Compreender o conceito de modelo computacional como uma representação simplificada da realidade para fins de estudo e previsão. Simular grandes conjuntos de dados utilizando a distribuição normal e parâmetros estatísticos (média e desvio padrão). Analisar a influência do tamanho da amostra (parâmetro size) na formação da curva de distribuição de um fenômeno natural.',
+                  conteudos: 'Modelagem Computacional: Definição de modelos, parâmetros (loc, scale) e utilidade das simulações na ciência. Distribuição Normal: Geração de dados aleatórios com np.random.normal e visualização de densidade populacional. Exploração de Fenômenos: Uso de distribuições alternativas (uniforme, exponencial, poisson) para simular diferentes contextos reais.',
                   entregaProjeto: true
                 }
               ]
@@ -847,17 +847,17 @@ export const PROG_EM_DATA: DisciplinaEscopo = {
               aulas: [
                 {
                   aulaSala: 'Aula 5',
-                  titulo: 'Gaussiana em python',
+                  titulo: 'A regra 68-95-99,7 e por que amostras pequenas mentem',
                   formato: 'Vídeo',
-                  objetivos: 'Simular grandes volumes de dados utilizando a distribuição Gaussiana. Aplicar parâmetros de média e desvio padrão em simulações. Visualizar distribuições de dados simulados em histogramas.',
-                  conteudos: 'Distribuição Gaussiana (Normal). Geração de números aleatórios (random). Simulação de dados em larga escala.'
+                  objetivos: 'Demonstrar a regra empírica da distribuição normal (68-95-99,7) através de testes computacionais com grandes volumes de dados. Avaliar o impacto da variabilidade amostral, reconhecendo que amostras pequenas podem gerar estimativas imprecisas da realidade. Empregar ferramentas de IA para a depuração de erros de execução e interpretação de mensagens do sistema em Python.',
+                  conteudos: 'Regra Empírica: Concentração de dados em torno da média dentro de 1, 2 e 3 desvios padrões. Variabilidade Amostral: Diferença entre a média populacional e as médias estimadas por amostras de diferentes tamanhos (np.random.choice). Depuração de Erros: Identificação e correção de falhas de lógica e sintaxe, como o acesso a índices fora do intervalo ou tamanhos de amostra inválidos.'
                 },
                 {
                   aulaSala: 'Aula 6',
-                  titulo: 'Aprendeu ou decorou?',
+                  titulo: 'Intervalo de confiança',
                   formato: 'Vídeo',
-                  objetivos: 'Diferenciar dados de treino e dados de validação. Compreender a importância da validação para modelos preditivos. Coletar uma segunda amostra de dados para validação.',
-                  conteudos: 'Dados de treino e validação. Conceito de aprendizado vs. memorização em modelos. Coleta de amostras adicionais.'
+                  objetivos: 'Calcular o intervalo de confiança utilizando o erro padrão para quantificar a incerteza estatística de uma amostra. Interpretar o intervalo de confiança como uma faixa de probabilidade que contém o valor real da média populacional. Empregar analogias e explicações conceituais assistidas por IA para traduzir termos técnicos abstratos em linguagem acessível.',
+                  conteudos: 'Incerteza Amostral: Conceitos de erro padrão e a relação entre desvio padrão e tamanho da amostra (np.sqrt). Intervalos de Confiança (IC): Aplicação prática das margens de 95% (2 sigma) e 99% (3 sigma) em Python. Estratégias de Estudo: Uso de analogias para compreensão de conceitos estatísticos e desenvolvimento de funções reutilizáveis.'
                 }
               ]
             },
@@ -868,17 +868,17 @@ export const PROG_EM_DATA: DisciplinaEscopo = {
               aulas: [
                 {
                   aulaSala: 'Aula 7',
-                  titulo: 'Análise da curva',
+                  titulo: 'Quando o IC funciona... e quando ele falha',
                   formato: 'Vídeo',
-                  objetivos: 'Normalizar histogramas para comparação de distribuições. Comparar a distribuição de uma amostra real com o modelo simulado. Calcular a porcentagem de dados que se encaixam no intervalo de confiança.',
-                  conteudos: 'Normalização de histogramas (density=True). Intervalos de confiança (desvio padrão). Comparação de distribuições de dados.'
+                  objetivos: 'Demonstrar a eficácia do intervalo de confiança (IC) através de experimentos repetidos de simulação (Monte Carlo). Analisar criticamente as limitações dos modelos estatísticos em cenários do mundo real, como pesquisas eleitorais e fenômenos voláteis. Distinguir entre incerteza estatística (tamanho da amostra) e incerteza temporal ou metodológica (viés e mudanças rápidas).',
+                  conteudos: 'Validação de Modelos: Teste de cobertura de múltiplos intervalos de confiança e taxa de acerto em relação à média verdadeira. Dinâmicas de Dados: Diferenciação entre fenômenos estáveis (lentos) e fenômenos voláteis (rápidos) e o impacto na validade da pesquisa. Pensamento Crítico e IA: Investigação de casos reais de erro em pesquisas e uso de ferramentas de IA para verificação de afirmações históricas.'
                 },
                 {
                   aulaSala: 'Aula 8',
-                  titulo: 'Limites do modelo',
+                  titulo: 'Coleta real, análise e compartilhamento',
                   formato: 'Vídeo',
-                  objetivos: 'Compreender que todo modelo é uma aproximação da realidade. Identificar fatores que tornam a modelagem de fenômenos fácil ou difícil. Analisar a volatilidade de dados e seu impacto na imprevisibilidade.',
-                  conteudos: 'Limitações de modelos matemáticos. Volatilidade de dados. Fenômenos lentos vs. rápidos na modelagem.',
+                  objetivos: 'Executar o ciclo completo de uma pesquisa de ciência de dados, desde a coleta de dados reais até a comunicação dos resultados obtidos. Comparar dados reais da turma com os modelos teóricos simulados, identificando discrepâncias e padrões específicos do grupo. Sintetizar descobertas complexas em conclusões acessíveis, utilizando suporte de IA para refinar a linguagem e identificar limitações metodológicas.',
+                  conteudos: 'Integração de Dados: Importação e manipulação de arquivos CSV utilizando a biblioteca pandas e integração de funções personalizadas. Análise Comparativa: Confronto entre estatísticas amostrais reais (média, desvio e IC) e parâmetros de modelos simulados. Comunicação Científica: Elaboração de relatórios, interpretação de intervalos de confiança sem jargão técnico e reconhecimento de vieses de pesquisa.',
                   entregaProjeto: true
                 }
               ]
@@ -900,7 +900,7 @@ export const PROG_EM_DATA: DisciplinaEscopo = {
                   formato: 'Material digital',
                   materialLink: 'materiais/5686_Aula01_Aula11_ALUNO.pdf',
                   objetivos: 'Compreender o fenômeno das notícias falsas e seu impacto social. Analisar a importância da verificação de informações online. Elaborar flashcards manuais para diferenciar informações verdadeiras e falsas.',
-                  conteudos: 'Notícias falsas (fake news). Verificação de informações. Flashcards como técnica de estudo.'
+                  conteudos: 'Notícias Falsas (Fake News). Verificação de Informações. Flashcards (Técnica de Estudo).'
                 },
                 {
                   aulaSala: 'Aula 12',
@@ -908,7 +908,7 @@ export const PROG_EM_DATA: DisciplinaEscopo = {
                   formato: 'Material digital',
                   materialLink: 'materiais/5686_Aula02_Aula12_ALUNO.pdf',
                   objetivos: 'Configurar o ambiente de desenvolvimento utilizando o Visual Studio Code Web. Criar a estrutura básica de um documento HTML (head, body, header, main e footer). Compreender a função das principais tags HTML para a organização de conteúdo.',
-                  conteudos: 'Visual Studio Code Web. Estrutura HTML com as tags head, body, header, main e footer. Organização de documentos web.'
+                  conteudos: 'Visual Studio Code Web. Estrutura HTML (Tags head, body, header, main, footer). Organização de Documentos Web.'
                 }
               ]
             },
@@ -922,14 +922,14 @@ export const PROG_EM_DATA: DisciplinaEscopo = {
                   titulo: 'Hierarquia de informação',
                   formato: 'Vídeo',
                   objetivos: 'Inserir títulos, links e navegação em um documento HTML. Estruturar o conteúdo principal utilizando tags semânticas como article e div. Incorporar imagens e parágrafos para compor o flashcard.',
-                  conteudos: 'Tags HTML semânticas (h1, h2, nav e article). Links e imagens em HTML. Estruturação de conteúdo com div e p.'
+                  conteudos: 'Tags HTML Semânticas (H1, H2, nav, article). Links e Imagens em HTML (a href, img src alt). Estruturação de Conteúdo com div e p.'
                 },
                 {
                   aulaSala: 'Aula 14',
                   titulo: 'Hora de estilizar a página',
                   formato: 'Vídeo',
                   objetivos: 'Criar e conectar um arquivo CSS a um documento HTML. Utilizar classes para identificar e estilizar elementos específicos. Aplicar propriedades CSS para controlar margens, preenchimentos, largura e altura.',
-                  conteudos: 'CSS (Cascading Style Sheets). Seletores de classe CSS. Propriedades de layout como margin, padding, width e height.',
+                  conteudos: 'CSS (Cascading Style Sheets). Seletores de Classe CSS. Propriedades de Layout (margin, padding, width, height).',
                   entregaProjeto: true
                 }
               ]

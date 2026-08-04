@@ -46,6 +46,10 @@ function integrarTerceiroBimestre(
   };
 }
 
+function selecionarBimestrePreferencial(ano: AnoSerieEscopo): BimestreEscopo {
+  return ano.bimestres.find(bimestre => bimestre.bimestre === '3º Bimestre') ?? ano.bimestres[0];
+}
+
 @Component({
   selector: 'app-robotica',
   standalone: true,
@@ -66,7 +70,7 @@ export class RoboticaComponent {
 
   selectedDisciplina = signal<DisciplinaEscopo>(this.disciplinas[0]);
   selectedAno = signal<AnoSerieEscopo>(this.disciplinas[0].anos[0]);
-  selectedBimestre = signal<BimestreEscopo>(this.disciplinas[0].anos[0].bimestres[0]);
+  selectedBimestre = signal<BimestreEscopo>(selecionarBimestrePreferencial(this.disciplinas[0].anos[0]));
   expandedSemana = signal<number | null>(null);
 
   generatingPlan = signal<number | null>(null);
@@ -101,14 +105,14 @@ export class RoboticaComponent {
     const d = this.disciplinas[index];
     this.selectedDisciplina.set(d);
     this.selectedAno.set(d.anos[0]);
-    this.selectedBimestre.set(d.anos[0].bimestres[0]);
+    this.selectedBimestre.set(selecionarBimestrePreferencial(d.anos[0]));
     this.expandedSemana.set(null);
   }
 
   onAnoChange(index: number) {
     const a = this.selectedDisciplina().anos[index];
     this.selectedAno.set(a);
-    this.selectedBimestre.set(a.bimestres[0]);
+    this.selectedBimestre.set(selecionarBimestrePreferencial(a));
     this.expandedSemana.set(null);
   }
 
@@ -137,6 +141,13 @@ export class RoboticaComponent {
       ...semana.aulas.flatMap(aula => this.getMateriaisAula(aula)),
     ].map(material => material.link);
     return new Set(links).size;
+  }
+
+  getPrimeiroMaterialSemana(semana: SemanaEscopo): MaterialEscopo | undefined {
+    return [
+      ...this.getMateriaisSemana(semana),
+      ...semana.aulas.flatMap(aula => this.getMateriaisAula(aula)),
+    ].find(material => !!material.link);
   }
 
   temMaterialPendente(semana: SemanaEscopo): boolean {
