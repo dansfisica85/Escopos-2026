@@ -1,4 +1,13 @@
+export interface MaterialEscopo {
+  titulo: string;
+  link: string;
+  tipo?: string;
+  formato?: string;
+  publico?: 'estudante' | 'professor' | 'todos';
+}
+
 export interface AulaEscopo {
+  numero?: number;
   aulaSala: string;
   titulo: string;
   formato?: string;
@@ -6,6 +15,8 @@ export interface AulaEscopo {
   conteudos: string;
   entregaProjeto?: boolean;
   materialLink?: string;
+  materiais?: MaterialEscopo[];
+  materialPendente?: boolean;
 }
 
 export interface SemanaEscopo {
@@ -14,6 +25,8 @@ export interface SemanaEscopo {
   unidade?: string;
   aulas: AulaEscopo[];
   especial?: string;
+  materiais?: MaterialEscopo[];
+  materialPendente?: boolean;
 }
 
 export interface BimestreEscopo {

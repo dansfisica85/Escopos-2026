@@ -36,24 +36,22 @@
     </div>
   </div>
 
-  @if (isTerceiroBimestreEmBreve()) {
-    <h2 class="section-title">
-      {{ selectedDisciplina().nome }} — {{ selectedAno().anoSerie }} — {{ selectedBimestre().bimestre }}
-    </h2>
-    <section class="robotica-coming-soon" role="status" aria-live="polite">
-      <span class="robotica-coming-soon-icon" aria-hidden="true">🤖</span>
-      <p>Aguarde só mais um pouquinho, que eu já estou terminando a Robótica do 3° bimestre</p>
-    </section>
-  } @else {
     @if (materiaisAtuais(); as mat) {
       <div class="materiais-section">
         <h3>📎 Materiais de Apoio — {{ mat.ano }}</h3>
         <div class="materiais-grid">
-          @for (m of mat.materiais; track m.aula) {
-            <a [href]="m.link" target="_blank" class="material-link">
+          @for (m of mat.materiais; track m.link) {
+            <a [href]="m.link" target="_blank" rel="noopener" class="material-link">
               <span class="material-aula">Aula {{ m.aula }}</span>
-              <span class="material-titulo">{{ m.titulo }}</span>
-              <span class="material-icon">📄</span>
+              <span class="material-link-main">
+                <span class="material-titulo">{{ m.titulo }}</span>
+                <span class="material-link-meta">
+                  @if (rotuloTipoMaterial(m.tipo); as tipo) { <span>{{ tipo }}</span> }
+                  @if (rotuloFormatoMaterial(m); as formato) { <span>{{ formato }}</span> }
+                  @if (rotuloPublicoMaterial(m.publico); as publico) { <span>{{ publico }}</span> }
+                </span>
+              </span>
+              <span class="material-icon" aria-hidden="true">{{ iconeMaterial(m) }}</span>
             </a>
           }
         </div>
@@ -66,9 +64,17 @@
 
     <div class="semanas-list">
       @for (semana of semanas(); track semana.numero) {
+        @let materiaisSemana = getMateriaisSemana(semana);
+        @let quantidadeMateriais = getQuantidadeMateriaisSemana(semana);
         <div class="semana-card" [class.expanded]="expandedSemana() === semana.numero" [class.especial]="!!semana.especial">
-          <div class="semana-header" (click)="toggleSemana(semana.numero)">
-            <div class="semana-info">
+          <button
+            type="button"
+            class="semana-header"
+            [id]="'semana-header-rob-' + semana.numero"
+            [attr.aria-expanded]="expandedSemana() === semana.numero"
+            [attr.aria-controls]="'semana-content-rob-' + semana.numero"
+            (click)="toggleSemana(semana.numero)">
+            <span class="semana-info">
               <span class="semana-numero">Semana {{ semana.numero }}</span>
               @if (semana.data) {
                 <span class="semana-data">{{ semana.data }}</span>
@@ -79,19 +85,48 @@
               @if (semana.unidade) {
                 <span class="semana-unidade">{{ semana.unidade }}</span>
               }
-              @if (getMaterialLink(semana.numero)) {
-                <a [href]="getMaterialLink(semana.numero)" target="_blank" class="material-badge" (click)="$event.stopPropagation()">📄 Material</a>
+              @if (quantidadeMateriais > 0) {
+                <span class="material-badge">
+                  📎 {{ quantidadeMateriais }} {{ quantidadeMateriais === 1 ? 'material' : 'materiais' }}
+                </span>
               }
-            </div>
-            <span class="expand-icon">{{ expandedSemana() === semana.numero ? '▲' : '▼' }}</span>
-          </div>
+              @if (temMaterialPendente(semana)) {
+                <span class="material-badge">⏳ Em preparação</span>
+              }
+            </span>
+            <span class="expand-icon" aria-hidden="true">{{ expandedSemana() === semana.numero ? '▲' : '▼' }}</span>
+          </button>
 
           @if (expandedSemana() === semana.numero) {
-            <div class="semana-content">
-              @if (getMaterialLink(semana.numero); as link) {
-                <a [href]="link" target="_blank" class="material-download-link" (click)="$event.stopPropagation()">
-                  📄 Abrir Material Digital — Aula {{ semana.numero }}
-                </a>
+            <div
+              class="semana-content"
+              role="region"
+              [id]="'semana-content-rob-' + semana.numero"
+              [attr.aria-labelledby]="'semana-header-rob-' + semana.numero">
+              @if (materiaisSemana.length > 0) {
+                <div class="aula-materiais" role="group" aria-label="Materiais da semana">
+                  @for (material of materiaisSemana; track material.link) {
+                    <a
+                      [href]="material.link"
+                      target="_blank"
+                      rel="noopener"
+                      class="material-download-link"
+                      [attr.aria-label]="material.titulo + ' (abre em nova guia)'">
+                      <span aria-hidden="true">{{ iconeMaterial(material) }}</span>
+                      <span class="material-link-main">
+                        <span>{{ material.titulo }}</span>
+                        <span class="material-link-meta">
+                          @if (rotuloTipoMaterial(material.tipo); as tipo) { <span>{{ tipo }}</span> }
+                          @if (rotuloFormatoMaterial(material); as formato) { <span>{{ formato }}</span> }
+                          @if (rotuloPublicoMaterial(material.publico); as publico) { <span>{{ publico }}</span> }
+                        </span>
+                      </span>
+                    </a>
+                  }
+                </div>
+              }
+              @if (semana.materialPendente) {
+                <p class="material-pendente" role="status">⏳ Materiais desta semana em preparação.</p>
               }
               @if (semana.especial && semana.aulas.length === 0) {
                 <div class="especial-message">
@@ -100,6 +135,7 @@
                 </div>
               }
               @for (aula of semana.aulas; track aula.aulaSala) {
+                @let materiaisAula = getMateriaisAula(aula);
                 <div class="aula-card">
                   <div class="aula-header">
                     <h4>{{ aula.aulaSala }} — {{ aula.titulo }}</h4>
@@ -112,10 +148,30 @@
                       }
                     </div>
                   </div>
-                  @if (aula.materialLink) {
-                    <a [href]="aula.materialLink" target="_blank" class="material-download-link">
-                      📄 Abrir Material Digital — {{ aula.titulo }}
-                    </a>
+                  @if (materiaisAula.length > 0) {
+                    <div class="aula-materiais" role="group" [attr.aria-label]="'Materiais de ' + aula.aulaSala">
+                      @for (material of materiaisAula; track material.link) {
+                        <a
+                          [href]="material.link"
+                          target="_blank"
+                          rel="noopener"
+                          class="material-download-link"
+                          [attr.aria-label]="material.titulo + ' (abre em nova guia)'">
+                          <span aria-hidden="true">{{ iconeMaterial(material) }}</span>
+                          <span class="material-link-main">
+                            <span>{{ material.titulo }}</span>
+                            <span class="material-link-meta">
+                              @if (rotuloTipoMaterial(material.tipo); as tipo) { <span>{{ tipo }}</span> }
+                              @if (rotuloFormatoMaterial(material); as formato) { <span>{{ formato }}</span> }
+                              @if (rotuloPublicoMaterial(material.publico); as publico) { <span>{{ publico }}</span> }
+                            </span>
+                          </span>
+                        </a>
+                      }
+                    </div>
+                  }
+                  @if (aula.materialPendente) {
+                    <p class="material-pendente" role="status">⏳ A apresentação “{{ aula.titulo }}” ainda não foi localizada na pasta fornecida.</p>
                   }
                   <div class="aula-details">
                     <div class="detail-section">
@@ -132,6 +188,7 @@
 
               <div class="ia-actions">
                 <button class="btn-ia-gerar"
+                  type="button"
                   (click)="abrirInstrucoes(semana)"
                   [disabled]="generatingPlan() !== null">
                   🤖 Gerar Plano de Aula com IA
@@ -142,15 +199,14 @@
         </div>
       }
     </div>
-  }
 </div>
 
 @if (showInstrucoesDialog()) {
   <div class="modal-overlay" (click)="fecharDialogInstrucoes()">
-    <div class="modal-box" (click)="$event.stopPropagation()">
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="instrucoes-rob-title" (click)="$event.stopPropagation()">
       <div class="modal-header">
-        <h3>🤖 Gerar Plano de Aula com IA</h3>
-        <button class="btn-fechar" (click)="fecharDialogInstrucoes()">&times;</button>
+        <h3 id="instrucoes-rob-title">🤖 Gerar Plano de Aula com IA</h3>
+        <button class="btn-fechar" type="button" aria-label="Fechar instruções" (click)="fecharDialogInstrucoes()">&times;</button>
       </div>
       <p class="modal-subtitle">Semana {{ semanaParaGerar()?.numero }} — {{ selectedAno().anoSerie }}</p>
       <div class="form-group">
@@ -164,8 +220,8 @@
         ></textarea>
       </div>
       <div class="modal-actions">
-        <button class="btn-cancelar" (click)="fecharDialogInstrucoes()">Cancelar</button>
-        <button class="btn-confirmar" (click)="confirmarGeracao()" [disabled]="generatingPlan() !== null">
+        <button class="btn-cancelar" type="button" (click)="fecharDialogInstrucoes()">Cancelar</button>
+        <button class="btn-confirmar" type="button" (click)="confirmarGeracao()" [disabled]="generatingPlan() !== null">
           @if (generatingPlan() !== null) {
             <span class="spinner"></span> Gerando...
           } @else {
@@ -179,10 +235,10 @@
 
 @if (showPlanoModal()) {
   <div class="modal-overlay" (click)="fecharPlanoModal()">
-    <div class="modal-box modal-plano" (click)="$event.stopPropagation()">
+    <div class="modal-box modal-plano" role="dialog" aria-modal="true" aria-labelledby="plano-rob-title" (click)="$event.stopPropagation()">
       <div class="modal-header">
-        <h3>Plano de Aula Gerado</h3>
-        <button class="btn-fechar" (click)="fecharPlanoModal()">&times;</button>
+        <h3 id="plano-rob-title">Plano de Aula Gerado</h3>
+        <button class="btn-fechar" type="button" aria-label="Fechar plano de aula" (click)="fecharPlanoModal()">&times;</button>
       </div>
       <div class="plano-preview">
         <pre>{{ generatedMarkdown()?.markdown }}</pre>
@@ -200,12 +256,13 @@
         }
         <div class="chat-input-row">
           <input type="text"
+            aria-label="Pedido de alteração no plano"
             placeholder="Peça alterações ao plano..."
             [value]="chatInput()"
             (input)="chatInput.set($any($event.target).value)"
             (keydown.enter)="enviarMensagemChat()"
             [disabled]="refinando()">
-          <button class="btn-chat-send" (click)="enviarMensagemChat()" [disabled]="refinando() || !chatInput()">
+          <button class="btn-chat-send" type="button" (click)="enviarMensagemChat()" [disabled]="refinando() || !chatInput()">
             @if (refinando()) {
               <span class="spinner"></span>
             } @else {
@@ -215,8 +272,8 @@
         </div>
       </div>
       <div class="modal-actions">
-        <button class="btn-cancelar" (click)="fecharPlanoModal()">Fechar</button>
-        <button class="btn-download" (click)="baixarPlanoModal()">Baixar Plano (.md)</button>
+        <button class="btn-cancelar" type="button" (click)="fecharPlanoModal()">Fechar</button>
+        <button class="btn-download" type="button" (click)="baixarPlanoModal()">Baixar Plano (.md)</button>
       </div>
     </div>
   </div>

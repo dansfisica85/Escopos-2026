@@ -1,7 +1,7 @@
-export interface MaterialLink {
+import { MaterialEscopo } from './models';
+
+export interface MaterialLink extends MaterialEscopo {
   aula: number;
-  titulo: string;
-  link: string;
 }
 
 export interface MaterialPorAno {
