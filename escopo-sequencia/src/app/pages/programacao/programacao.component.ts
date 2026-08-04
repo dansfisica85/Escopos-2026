@@ -1,10 +1,26 @@
 import { Component, signal, computed } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { DisciplinaEscopo, AnoSerieEscopo, BimestreEscopo, SemanaEscopo } from '../../data/models';
+import {
+  AulaEscopo,
+  DisciplinaEscopo,
+  AnoSerieEscopo,
+  BimestreEscopo,
+  MaterialEscopo,
+  SemanaEscopo,
+} from '../../data/models';
 import { PROG_EM_DATA } from '../../data/prog-em.data';
+import { PROGRAMACAO_3B_MATERIAIS } from '../../data/programacao-3b-materiais.data';
 import { TEC_INOV_DATA } from '../../data/tec-inov.data';
 import { PlanoIaService } from '../../services/plano-ia.service';
+import {
+  extrairNumeroAula,
+  iconeMaterial,
+  normalizarMateriais,
+  rotuloFormatoMaterial,
+  rotuloPublicoMaterial,
+  rotuloTipoMaterial,
+} from '../../utils/materiais.utils';
 
 @Component({
   selector: 'app-programacao',
@@ -15,6 +31,10 @@ import { PlanoIaService } from '../../services/plano-ia.service';
 })
 export class ProgramacaoComponent {
   disciplinas: DisciplinaEscopo[] = [PROG_EM_DATA, TEC_INOV_DATA];
+  readonly iconeMaterial = iconeMaterial;
+  readonly rotuloFormatoMaterial = rotuloFormatoMaterial;
+  readonly rotuloPublicoMaterial = rotuloPublicoMaterial;
+  readonly rotuloTipoMaterial = rotuloTipoMaterial;
 
   selectedDisciplina = signal<DisciplinaEscopo>(this.disciplinas[0]);
   selectedAno = signal<AnoSerieEscopo>(this.disciplinas[0].anos[0]);
@@ -63,6 +83,40 @@ export class ProgramacaoComponent {
 
   toggleSemana(numero: number) {
     this.expandedSemana.set(this.expandedSemana() === numero ? null : numero);
+  }
+
+  getMateriaisSemana(semana: SemanaEscopo): MaterialEscopo[] {
+    return normalizarMateriais(semana);
+  }
+
+  getMateriaisAula(aula: AulaEscopo): MaterialEscopo[] {
+    return normalizarMateriais(
+      aula,
+      this.getMateriaisProgramacao3b(aula),
+      `Material digital — ${aula.titulo}`,
+    );
+  }
+
+  getQuantidadeMateriaisSemana(semana: SemanaEscopo): number {
+    const links = [
+      ...this.getMateriaisSemana(semana),
+      ...semana.aulas.flatMap(aula => this.getMateriaisAula(aula)),
+    ].map(material => material.link);
+    return new Set(links).size;
+  }
+
+  private getMateriaisProgramacao3b(aula: AulaEscopo): MaterialEscopo[] {
+    if (
+      this.selectedDisciplina().id !== PROG_EM_DATA.id ||
+      this.selectedBimestre().bimestre !== '3º Bimestre'
+    ) {
+      return [];
+    }
+
+    const numeroAula = aula.numero ?? extrairNumeroAula(aula.aulaSala);
+    if (!numeroAula) return [];
+
+    return PROGRAMACAO_3B_MATERIAIS[this.selectedAno().anoSerie]?.[numeroAula] ?? [];
   }
 
   abrirInstrucoes(semana: SemanaEscopo) {

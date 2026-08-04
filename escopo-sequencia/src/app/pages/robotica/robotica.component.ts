@@ -1,11 +1,50 @@
 import { Component, signal, computed } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { DisciplinaEscopo, AnoSerieEscopo, BimestreEscopo, SemanaEscopo } from '../../data/models';
+import {
+  AulaEscopo,
+  DisciplinaEscopo,
+  AnoSerieEscopo,
+  BimestreEscopo,
+  MaterialEscopo,
+  SemanaEscopo,
+} from '../../data/models';
 import { ROBOTICA_EF_DATA } from '../../data/robotica-ef.data';
 import { ROBOTICA_EM_DATA } from '../../data/robotica-em.data';
+import { ROBOTICA_3B_DATA } from '../../data/robotica-3b.data';
 import { MATERIAIS_ROBOTICA, MaterialPorAno } from '../../data/materiais-robotica';
 import { PlanoIaService } from '../../services/plano-ia.service';
+import {
+  iconeMaterial,
+  normalizarMateriais,
+  rotuloFormatoMaterial,
+  rotuloPublicoMaterial,
+  rotuloTipoMaterial,
+} from '../../utils/materiais.utils';
+
+function integrarTerceiroBimestre(
+  disciplina: DisciplinaEscopo,
+  prefixoSerie: 'ef-' | 'em-'
+): DisciplinaEscopo {
+  return {
+    ...disciplina,
+    anos: disciplina.anos.map(ano => {
+      const dadosTerceiroBimestre = ROBOTICA_3B_DATA.find(
+        item => item.id.startsWith(prefixoSerie) && item.anoSerie === ano.anoSerie
+      );
+
+      if (!dadosTerceiroBimestre) return ano;
+
+      return {
+        ...ano,
+        bimestres: [
+          ...ano.bimestres.filter(bimestre => bimestre.bimestre !== '3º Bimestre'),
+          dadosTerceiroBimestre.bimestre,
+        ],
+      };
+    }),
+  };
+}
 
 @Component({
   selector: 'app-robotica',
@@ -15,12 +54,15 @@ import { PlanoIaService } from '../../services/plano-ia.service';
   styleUrl: './robotica.component.css'
 })
 export class RoboticaComponent {
-  disciplinas: DisciplinaEscopo[] = [ROBOTICA_EF_DATA, ROBOTICA_EM_DATA];
+  disciplinas: DisciplinaEscopo[] = [
+    integrarTerceiroBimestre(ROBOTICA_EF_DATA, 'ef-'),
+    integrarTerceiroBimestre(ROBOTICA_EM_DATA, 'em-'),
+  ];
   materiais = MATERIAIS_ROBOTICA;
-  readonly terceiroBimestre: BimestreEscopo = {
-    bimestre: '3º Bimestre',
-    semanas: []
-  };
+  readonly iconeMaterial = iconeMaterial;
+  readonly rotuloFormatoMaterial = rotuloFormatoMaterial;
+  readonly rotuloPublicoMaterial = rotuloPublicoMaterial;
+  readonly rotuloTipoMaterial = rotuloTipoMaterial;
 
   selectedDisciplina = signal<DisciplinaEscopo>(this.disciplinas[0]);
   selectedAno = signal<AnoSerieEscopo>(this.disciplinas[0].anos[0]);
@@ -42,23 +84,15 @@ export class RoboticaComponent {
   refinando = signal(false);
 
   anos = computed(() => this.selectedDisciplina().anos);
-  bimestres = computed(() => {
-    const bimestresDoAno = this.selectedAno().bimestres;
-    return bimestresDoAno.some(b => b.bimestre === this.terceiroBimestre.bimestre)
-      ? bimestresDoAno
-      : [...bimestresDoAno, this.terceiroBimestre];
-  });
+  bimestres = computed(() => this.selectedAno().bimestres);
   semanas = computed(() => this.selectedBimestre().semanas);
-  isTerceiroBimestreEmBreve = computed(
-    () =>
-      this.selectedBimestre().bimestre === this.terceiroBimestre.bimestre &&
-      this.selectedBimestre().semanas.length === 0
-  );
 
   materiaisAtuais = computed<MaterialPorAno | undefined>(() => {
-    if (this.isTerceiroBimestreEmBreve()) return undefined;
     const ano = this.selectedAno().anoSerie.toLowerCase();
-    return this.materiais.find(m => m.ano.toLowerCase() === ano);
+    const bimestre = this.selectedBimestre().bimestre.toLowerCase();
+    return this.materiais.find(
+      m => m.ano.toLowerCase() === ano && m.bimestre.toLowerCase() === bimestre
+    );
   });
 
   constructor(private planoIaService: PlanoIaService) {}
@@ -87,11 +121,26 @@ export class RoboticaComponent {
     this.expandedSemana.set(this.expandedSemana() === numero ? null : numero);
   }
 
-  getMaterialLink(semanaNumero: number): string | null {
+  getMateriaisSemana(semana: SemanaEscopo): MaterialEscopo[] {
     const mat = this.materiaisAtuais();
-    if (!mat) return null;
-    const found = mat.materiais.find((m: { aula: number; link: string }) => m.aula === semanaNumero);
-    return found ? found.link : null;
+    const materiaisCatalogo = mat?.materiais.filter(m => m.aula === semana.numero) ?? [];
+    return normalizarMateriais(semana, materiaisCatalogo);
+  }
+
+  getMateriaisAula(aula: AulaEscopo): MaterialEscopo[] {
+    return normalizarMateriais(aula, [], `Apresentação — ${aula.titulo}`);
+  }
+
+  getQuantidadeMateriaisSemana(semana: SemanaEscopo): number {
+    const links = [
+      ...this.getMateriaisSemana(semana),
+      ...semana.aulas.flatMap(aula => this.getMateriaisAula(aula)),
+    ].map(material => material.link);
+    return new Set(links).size;
+  }
+
+  temMaterialPendente(semana: SemanaEscopo): boolean {
+    return !!semana.materialPendente || semana.aulas.some(aula => !!aula.materialPendente);
   }
 
   abrirInstrucoes(semana: SemanaEscopo) {
