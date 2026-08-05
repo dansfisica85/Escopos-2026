@@ -1,10 +1,11 @@
 :host {
+  --site-brand-gradient: linear-gradient(135deg, #3448cc 0%, #5265e5 60%, #7452e8 100%);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 .header {
-  background: linear-gradient(135deg, #1a237e 0%, #283593 50%, #3949ab 100%);
+  background: var(--site-brand-gradient);
   color: white;
   padding: 1.5rem 2rem 0;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
@@ -295,6 +296,17 @@ code {
 .tab-icon {
   font-size: 1.2rem;
 }
+.tab-logo {
+  width: 46px;
+  height: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 4px;
+  flex: 0 0 auto;
+}
+.tab-logo-alura { background-image: url('/logo-alura.jpg'); }
+.tab-logo-microbit { background-image: url('/logo-microbit.jpg'); }
 .support-banner {
   box-sizing: border-box;
   width: calc(100% - 4rem);
@@ -477,7 +489,8 @@ code {
 @media (max-width: 600px) {
   .header { padding: 1rem 1rem 0; }
   .logo { font-size: 1.2rem; }
-  .nav-tab { padding: 0.6rem 1rem; font-size: 0.85rem; }
+  .nav-tab { gap: 0.35rem; padding: 0.6rem 0.7rem; font-size: 0.85rem; white-space: nowrap; }
+  .tab-logo { width: 26px; height: 18px; }
   .main-content { padding: 1rem; }
   .about-btn-text { display: none; }
   .about-btn { padding: 0.4rem 0.6rem; }
@@ -519,7 +532,7 @@ code {
 
 /* Footer */
 .footer {
-  background: linear-gradient(135deg, #1a237e 0%, #283593 50%, #3949ab 100%);
+  background: var(--site-brand-gradient);
   color: rgba(255, 255, 255, 0.9);
   padding: 1.5rem 2rem;
   text-align: center;
