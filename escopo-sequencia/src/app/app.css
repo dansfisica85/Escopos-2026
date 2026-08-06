@@ -376,6 +376,41 @@ code {
   width: calc(100% - 4rem);
   max-width: 1200px;
   margin: 1.5rem auto 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 240px;
+  gap: 1rem;
+  align-items: start;
+}
+
+.feedback-button {
+  box-sizing: border-box;
+  min-height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1.2rem;
+  color: #fff;
+  background: var(--site-brand-gradient);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(57, 73, 171, 0.22);
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.98rem;
+  font-weight: 800;
+  line-height: 1.3;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.feedback-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(57, 73, 171, 0.3);
+  filter: brightness(1.06);
+}
+
+.feedback-button:focus-visible {
+  outline: 3px solid #b388ff;
+  outline-offset: 3px;
 }
 
 .support-disclosure {
@@ -515,7 +550,10 @@ code {
   .support-region {
     width: calc(100% - 2rem);
     margin-top: 1rem;
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
   }
+  .feedback-button { min-height: auto; padding: 0.9rem 1rem; }
   .support-disclosure summary {
     grid-template-columns: 44px minmax(0, 1fr) 20px;
     gap: 0.75rem;
